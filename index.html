@@ -144,7 +144,7 @@ function row(x, repo){
     <td class="topic"><a href="${escapeHtml(x.url)}" target="_blank" rel="noopener">${escapeHtml(x.title)}</a>
       <span class="issue-id">${escapeHtml(repo)} · Issue #${x.number}</span></td>
     <td class="desc">${escapeHtml(x.description || "Keine Beschreibung hinterlegt.")}</td>
-    <td><span class="badge ${typeClass(x.type)}">${escapeHtml(x.type || "Aufgabe")}</span></td>
+    <td><span class="badge ${typeClass(x.type)}">${escapeHtml(x.type || "Nicht zugeordnet")}</span></td>
     <td><span class="badge ${priorityClass(x.priority_raw)}">${escapeHtml(x.priority || "Nicht gesetzt")} · ${stars(x.priority_raw)}</span></td>
     <td><span class="badge ${statusClass(x.status)}">${escapeHtml(x.status || "Nicht zugeordnet")}</span></td>
   </tr>`;
@@ -155,7 +155,7 @@ function card(x, repo){
     <span class="issue-id">${escapeHtml(repo)} · Issue #${x.number}</span>
     <div class="desc">${escapeHtml(x.description || "Keine Beschreibung hinterlegt.")}</div>
     <div class="card-meta">
-      <span class="badge ${typeClass(x.type)}">${escapeHtml(x.type || "Aufgabe")}</span>
+      <td><span class="badge ${typeClass(x.type)}">${escapeHtml(x.type || "Nicht zugeordnet")}</span></td>
       <span class="badge ${priorityClass(x.priority_raw)}">${escapeHtml(x.priority || "Nicht gesetzt")} · ${stars(x.priority_raw)}</span>
       <span class="badge ${statusClass(x.status)}">${escapeHtml(x.status || "Nicht zugeordnet")}</span>
     </div>
