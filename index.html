@@ -274,6 +274,9 @@ function render(){
     </section>`;
   }).join("");
 
+  activateSorting();
+}
+
 function activateSorting(){
   document.querySelectorAll("th[data-sort]").forEach(th=>{
     const column = th.dataset.sort;
