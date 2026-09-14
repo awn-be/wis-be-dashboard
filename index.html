@@ -274,13 +274,20 @@ function render(){
     </section>`;
   }).join("");
 
-  activateSorting();
-}
 function activateSorting(){
   document.querySelectorAll("th[data-sort]").forEach(th=>{
-    th.addEventListener("click", ()=>{
-      const column = th.dataset.sort;
+    const column = th.dataset.sort;
+    const arrow = th.querySelector(".sort-arrow");
 
+    if(sortColumn === column){
+      th.classList.add("sorted");
+      arrow.textContent = sortDirection === "asc" ? "↑" : "↓";
+    }else{
+      th.classList.remove("sorted");
+      arrow.textContent = "↕";
+    }
+
+    th.addEventListener("click", ()=>{
       if(sortColumn === column){
         sortDirection = sortDirection === "asc" ? "desc" : "asc";
       }else{
