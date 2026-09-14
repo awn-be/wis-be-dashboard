@@ -1,0 +1,36 @@
+{
+  "organization": "awn-be",
+  "repositories": [
+    {
+      "repo": "vertigis_admin",
+      "title": "Allgemeine Verbesserungen",
+      "project_number": 6,
+      "project_title": "Sprintplanung Admin"
+    },
+    {
+      "repo": "vertigis_waldschutz",
+      "title": "Waldschadenmeldung",
+      "project_number": 7,
+      "project_title": "Sprintplanung Waldschutz"
+    }
+  ],
+  "translations": {
+    "type": {
+      "Bug": "Fehler",
+      "Feature": "Funktion",
+      "Task": "Aufgabe"
+    },
+    "priority": {
+      "Urgent": "Sehr hoch",
+      "High": "Hoch",
+      "Medium": "Mittel",
+      "Low": "Niedrig"
+    },
+    "status": {
+      "Todo": "Geplant",
+      "In progress": "In Arbeit",
+      "Ready to test": "Bereit zum Test",
+      "Done": "Erledigt"
+    }
+  }
+}

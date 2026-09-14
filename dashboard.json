@@ -1,0 +1,19 @@
+{
+  "generated_at": null,
+  "source": "GitHub",
+  "prototype": true,
+  "sections": [
+    {
+      "id": "vertigis_admin",
+      "title": "Allgemeine Verbesserungen",
+      "project_number": 6,
+      "items": []
+    },
+    {
+      "id": "vertigis_waldschutz",
+      "title": "Waldschadenmeldung",
+      "project_number": 7,
+      "items": []
+    }
+  ]
+}
