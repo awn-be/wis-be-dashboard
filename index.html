@@ -228,7 +228,13 @@ function render(){
     return `<section class="section">
       <div class="section-head"><h2>${escapeHtml(section.title)}</h2><span class="section-count">${list.length} Einträge</span></div>
       <div class="table-shell desktop-table"><table>
-        <thead><tr><th style="width:23%">Thema</th><th>Beschreibung</th><th style="width:10%">Typ</th><th style="width:15%">Priorität</th><th style="width:13%">Status</th></tr></thead>
+        <thead><tr>
+          <th style="width:23%" data-sort="title">Thema</th>
+          <th data-sort="description">Beschreibung</th>
+          <th style="width:10%" data-sort="type">Typ</th>
+          <th style="width:15%" data-sort="priority">Priorität</th>
+          <th style="width:13%" data-sort="status">Status</th>
+        </tr></thead>
         <tbody>${list.length ? list.map(x=>row(x,section.id)).join("") : `<tr><td colspan="5">Keine Einträge für diesen Filter.</td></tr>`}</tbody>
       </table></div>
       <div class="mobile-cards">${list.length ? list.map(x=>card(x,section.id)).join("") : `<div class="card">Keine Einträge für diesen Filter.</div>`}</div>
