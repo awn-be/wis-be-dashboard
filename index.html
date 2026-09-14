@@ -34,6 +34,29 @@
     .table-shell{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);background:#fff}
     table{width:100%;border-collapse:collapse}
     thead th{text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.03em;color:#475467;background:var(--soft);padding:12px 14px;border-bottom:1px solid var(--border)}
+    thead th[data-sort]{
+    cursor:pointer;
+    user-select:none;
+    }
+    
+    thead th[data-sort]:hover{
+      color:var(--wis-blue);
+    }
+    
+    .sort-arrow{
+      display:inline-block;
+      margin-left:5px;
+      color:#98a2b3;
+      font-size:12px;
+    }
+    
+    thead th[data-sort].sorted{
+      color:var(--wis-blue-dark);
+    }
+    
+    thead th[data-sort].sorted .sort-arrow{
+      color:var(--wis-blue);
+    }
     tbody td{padding:14px;border-bottom:1px solid #edf0f3;vertical-align:top;font-size:14px}
     tbody tr:last-child td{border-bottom:none}
     tbody tr:hover{background:#fbfdff}
