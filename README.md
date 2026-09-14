@@ -1,4 +1,4 @@
-# WIS-BE Dashboard – Version 2
+# WIS-BE Dashboard
 
 Diese Version trennt **Datenbeschaffung** und **öffentliche Anzeige**:
 
