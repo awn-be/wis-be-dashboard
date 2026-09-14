@@ -16,7 +16,7 @@ GitHub Issues + GitHub Projects
       ArcGIS Portal iframe
 ```
 
-Dadurch ruft der Browser der Portal-Besucher **nicht mehr direkt die GitHub API** auf. Das vermeidet den 403-Fehler aus dem ersten Prototyp und ist für eine öffentliche Seite deutlich robuster.
+Dadurch ruft der Browser der Portal-Besucher **nicht mehr direkt die GitHub API** auf.
 
 ## Konfigurierte Zuordnung
 
@@ -86,7 +86,7 @@ Im Repository:
 
 Wenn alles passt, wird danach `dashboard.json` automatisch mit euren echten Issues, Prioritäten und Project-Statuswerten gefüllt.
 
-Anschließend läuft die Action automatisch etwa alle 15 Minuten.
+Anschliessend läuft die Action automatisch einmal pro Tag um 05:00 Uhr.
 
 ## 4. GitHub Pages aktivieren
 
