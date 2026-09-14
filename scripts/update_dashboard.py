@@ -196,7 +196,7 @@ def main():
                 "type_raw": raw_type,
                 "type": tr["type"].get(raw_type, raw_type),
                 "priority_raw": raw_priority,
-                "priority": tr["priority"].get(raw_priority, "Nicht gesetzt"),
+                "priority": tr["priority"].get(raw_priority, "Nicht zugeordnet"),
                 "status_raw": raw_status,
                 "status": status_de,
                 "issue_state": issue.get("state"),
