@@ -5,7 +5,7 @@ Diese Version trennt **Datenbeschaffung** und **öffentliche Anzeige**:
 ```text
 GitHub Issues + GitHub Projects
              │
-             │ GitHub Action (alle 15 Minuten)
+             │ GitHub Action (1x pro Tag um 05:00 Uhr)
              ▼
        dashboard.json
              │
