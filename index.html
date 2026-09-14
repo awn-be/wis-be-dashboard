@@ -130,6 +130,58 @@ function statusClass(status){
   if(status==="Geplant") return "status-todo";
   return "status-other";
 }
+function sortItems(list){
+  if(!sortColumn) return list;
+
+  const typeOrder = {
+    "Fehler": 0,
+    "Funktion": 1,
+    "Aufgabe": 2,
+    "Nicht zugeordnet": 3
+  };
+
+  const priorityOrder = {
+    "Urgent": 0,
+    "High": 1,
+    "Medium": 2,
+    "Low": 3,
+    null: 4
+  };
+
+  const statusOrder = {
+    "In Arbeit": 0,
+    "Bereit zum Test": 1,
+    "Geplant": 2,
+    "Erledigt": 3,
+    "Nicht zugeordnet": 4
+  };
+
+  return [...list].sort((a, b) => {
+    let result = 0;
+
+    if(sortColumn === "title"){
+      result = (a.title || "").localeCompare(b.title || "", "de");
+    }
+
+    if(sortColumn === "description"){
+      result = (a.description || "").localeCompare(b.description || "", "de");
+    }
+
+    if(sortColumn === "type"){
+      result = (typeOrder[a.type] ?? 99) - (typeOrder[b.type] ?? 99);
+    }
+
+    if(sortColumn === "priority"){
+      result = (priorityOrder[a.priority_raw] ?? 99) - (priorityOrder[b.priority_raw] ?? 99);
+    }
+
+    if(sortColumn === "status"){
+      result = (statusOrder[a.status] ?? 99) - (statusOrder[b.status] ?? 99);
+    }
+
+    return sortDirection === "asc" ? result : -result;
+  });
+}
 function items(){
   return dashboard.sections.flatMap(s => s.items.map(x => ({...x, sectionTitle:s.title, repo:s.id})));
 }
