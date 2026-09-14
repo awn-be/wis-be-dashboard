@@ -240,6 +240,24 @@ function render(){
       <div class="mobile-cards">${list.length ? list.map(x=>card(x,section.id)).join("") : `<div class="card">Keine Einträge für diesen Filter.</div>`}</div>
     </section>`;
   }).join("");
+
+  activateSorting();
+}
+function activateSorting(){
+  document.querySelectorAll("th[data-sort]").forEach(th=>{
+    th.addEventListener("click", ()=>{
+      const column = th.dataset.sort;
+
+      if(sortColumn === column){
+        sortDirection = sortDirection === "asc" ? "desc" : "asc";
+      }else{
+        sortColumn = column;
+        sortDirection = "asc";
+      }
+
+      render();
+    });
+  });
 }
 async function load(){
   const r=await fetch("./dashboard.json",{cache:"no-store"});
