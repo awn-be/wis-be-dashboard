@@ -155,7 +155,7 @@ function card(x, repo){
     <span class="issue-id">${escapeHtml(repo)} · Issue #${x.number}</span>
     <div class="desc">${escapeHtml(x.description || "Keine Beschreibung hinterlegt.")}</div>
     <div class="card-meta">
-      <td><span class="badge ${typeClass(x.type)}">${escapeHtml(x.type || "Nicht zugeordnet")}</span></td>
+      <span class="badge ${typeClass(x.type)}">${escapeHtml(x.type || "Nicht zugeordnet")}</span>
       <span class="badge ${priorityClass(x.priority_raw)}">${escapeHtml(x.priority || "Nicht zugeordnet")} · ${stars(x.priority_raw)}</span>
       <span class="badge ${statusClass(x.status)}">${escapeHtml(x.status || "Nicht zugeordnet")}</span>
     </div>
