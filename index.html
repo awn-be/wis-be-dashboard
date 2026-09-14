@@ -106,7 +106,7 @@ function priorityClass(raw){
   return {"Urgent":"priority-urgent","High":"priority-high","Medium":"priority-medium","Low":"priority-low"}[raw] || "priority-none";
 }
 function stars(raw){
-  return {"Urgent":"★★★★★","High":"★★★★☆","Medium":"★★★☆☆","Low":"★★☆☆☆"}[raw] || "—";
+  return {"Urgent":"★★★★","High":"★★★☆","Medium":"★★☆☆","Low":"★☆☆☆"}[raw] || "—";
 }
 function statusClass(status){
   if(status==="Erledigt") return "status-done";
