@@ -52,6 +52,7 @@ def graphql(query: str, variables: dict):
 
 def strip_markdown(text: str) -> str:
     text = re.sub(r"```[\s\S]*?```", " ", text or "")
+    text = re.sub(r"<img\b[^>]*>", " ", text, flags=re.I)
     text = re.sub(r"`([^`]+)`", r"\1", text)
     text = re.sub(r"!\[[^\]]*\]\([^)]+\)", " ", text)
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
