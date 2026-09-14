@@ -158,19 +158,14 @@ def project_statuses(org: str, project_number: int):
 
 def issue_type(issue):
     raw = issue.get("type")
+
     if isinstance(raw, dict):
         raw = raw.get("name")
+
     if isinstance(raw, str) and raw:
         return raw
-    labels = [
-        (x if isinstance(x, str) else x.get("name", "")).lower()
-        for x in issue.get("labels", [])
-    ]
-    if "bug" in labels:
-        return "Bug"
-    if "enhancement" in labels or "feature" in labels:
-        return "Feature"
-    return "Task"
+
+    return "Nicht zugeordnet"
 
 def main():
     org = CONFIG["organization"]
