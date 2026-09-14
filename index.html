@@ -108,6 +108,12 @@ function escapeHtml(s){
 function priorityClass(raw){
   return {"Urgent":"priority-urgent","High":"priority-high","Medium":"priority-medium","Low":"priority-low"}[raw] || "priority-none";
 }
+function typeClass(type){
+  if(type==="Fehler") return "type-error";
+  if(type==="Funktion") return "type-feature";
+  if(type==="Aufgabe") return "type-task";
+  return "type-none";
+}
 function stars(raw){
   return {"Urgent":"★★★★","High":"★★★☆","Medium":"★★☆☆","Low":"★☆☆☆"}[raw] || "—";
 }
