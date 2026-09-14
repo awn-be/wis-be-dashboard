@@ -117,6 +117,10 @@ function typeClass(type){
 function stars(raw){
   return {"Urgent":"★★★★","High":"★★★☆","Medium":"★★☆☆","Low":"★☆☆☆"}[raw] || "—";
 }
+function priorityLabel(x){
+  if(!x.priority_raw) return "Nicht zugeordnet";
+  return `${x.priority} · ${stars(x.priority_raw)}`;
+}
 function statusClass(status){
   if(status==="Erledigt") return "status-done";
   if(status==="In Arbeit") return "status-progress";
