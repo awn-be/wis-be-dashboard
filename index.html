@@ -186,7 +186,9 @@ function items(){
   return dashboard.sections.flatMap(s => s.items.map(x => ({...x, sectionTitle:s.title, repo:s.id})));
 }
 function visible(section){
-  return section.items.filter(x => currentFilter==="all" || x.type===currentFilter);
+  return sortItems(
+    section.items.filter(x => currentFilter==="all" || x.type===currentFilter)
+  );
 }
 function countStatus(status){
   return items().filter(x => x.status===status && (currentFilter==="all" || x.type===currentFilter)).length;
