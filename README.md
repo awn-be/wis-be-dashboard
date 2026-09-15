@@ -17,7 +17,7 @@ GitHub Issues + GitHub Projects
        ArcGIS Portal iFrame
 ```
 
-Die GitHub-Daten werden automatisch in `dashboard.json` aufbereitet.
+Die GitHub-Daten werden automatisch in `dashboard.json` aufbereitet und von der öffentlichen Seite ausschliesslich aus dieser Datei geladen.
 Dadurch greift die öffentliche Anzeige **nicht direkt auf die GitHub API** zu.
 
 ## Dateien
