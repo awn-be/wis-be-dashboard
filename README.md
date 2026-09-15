@@ -31,7 +31,7 @@ Dadurch ruft der Browser der Portal-Besucher **nicht mehr direkt die GitHub API*
 
 - `Todo` → Geplant
 - `In progress` → In Arbeit
-- `Ready to test` → Bereit zum Test
+- `Ready to test` → Bereit zum Testen
 - `Done` → Erledigt
 
 **Priority**
