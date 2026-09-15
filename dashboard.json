@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T08:09:02.928328+00:00",
+  "generated_at": "2026-09-15T08:24:06.923068+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -42,14 +42,14 @@
           "title": "vg_loadable",
           "url": "https://github.com/awn-be/vertigis_admin/issues/16",
           "description": "Nur Dienste mit Tag \"vg loadable\" sollen angeboten und importiert werden können.",
-          "type_raw": "Nicht zugeordnet",
-          "type": "Nicht zugeordnet",
+          "type_raw": "Feature",
+          "type": "Funktion",
           "priority_raw": "High",
           "priority": "Hoch",
           "status_raw": "In progress",
           "status": "In Arbeit",
           "issue_state": "open",
-          "updated_at": "2026-08-19T14:15:10Z"
+          "updated_at": "2026-09-15T08:11:31Z"
         },
         {
           "number": 6,
@@ -61,7 +61,7 @@
           "priority_raw": "High",
           "priority": "Hoch",
           "status_raw": "Ready to test",
-          "status": "Bereit zum Test",
+          "status": "Bereit zum Testen",
           "issue_state": "open",
           "updated_at": "2026-09-15T07:42:10Z"
         },
