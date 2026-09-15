@@ -135,7 +135,7 @@ def extract_description(body: str) -> str:
     # Fallback für Issues ohne diese beiden Abschnitte
     text = " ".join(parts) if parts else strip_markdown(body)
 
-    return text[:317].rstrip() + "…" if len(text) > 320 else text
+    return text
 
 def list_issues(org: str, repo: str):
     # Aktuell reichen <100 Issues pro Repo. Pagination ist trotzdem eingebaut.
