@@ -102,7 +102,7 @@
   <section class="summary" aria-label="Zusammenfassung">
     <div class="stat"><span>Geplant</span><strong id="count-todo">–</strong></div>
     <div class="stat"><span>In Arbeit</span><strong id="count-progress">–</strong></div>
-    <div class="stat"><span>Bereit zum Test</span><strong id="count-test">–</strong></div>
+    <div class="stat"><span>Bereit zum Testen</span><strong id="count-test">–</strong></div>
     <div class="stat"><span>Erledigt</span><strong id="count-done">–</strong></div>
   </section>
 
@@ -149,7 +149,7 @@ function priorityLabel(x){
 function statusClass(status){
   if(status==="Erledigt") return "status-done";
   if(status==="In Arbeit") return "status-progress";
-  if(status==="Bereit zum Test") return "status-test";
+  if(status==="Bereit zum Testen") return "status-test";
   if(status==="Geplant") return "status-todo";
   return "status-other";
 }
@@ -175,7 +175,7 @@ function sortItems(list){
 
   const statusOrder = {
     "In Arbeit": 0,
-    "Bereit zum Test": 1,
+    "Bereit zum Testen": 1,
     "Geplant": 2,
     "Erledigt": 3,
     "Nicht zugeordnet": 4
@@ -221,7 +221,7 @@ function countStatus(status){
 function renderSummary(){
   document.getElementById("count-todo").textContent=countStatus("Geplant");
   document.getElementById("count-progress").textContent=countStatus("In Arbeit");
-  document.getElementById("count-test").textContent=countStatus("Bereit zum Test");
+  document.getElementById("count-test").textContent=countStatus("Bereit zum Testen");
   document.getElementById("count-done").textContent=countStatus("Erledigt");
 }
 function row(x, repo){
