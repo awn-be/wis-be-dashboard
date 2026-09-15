@@ -63,27 +63,47 @@ def strip_markdown(text: str) -> str:
 
 def extract_section(body: str, headings: list[str]) -> str:
     """
-    Extrahiert den Inhalt eines bestimmten Abschnitts aus dem Issue-Body.
-    Unterstützt sowohl fett formatierte Abschnittstitel (**Titel**)
-    als auch Markdown-Überschriften (## Titel).
+    Extrahiert einen Abschnitt aus dem Issue-Body.
+    Unterstützt fett formatierte Abschnittstitel (**Titel**)
+    sowie Markdown-Überschriften (## Titel).
     """
     if not body:
         return ""
 
-    heading_pattern = "|".join(re.escape(h) for h in headings)
+    lines = body.splitlines()
+    start = None
 
-    m = re.search(
-        rf"(?:^|\n)\s*(?:#{1,6}\s*)?\**(?:{heading_pattern})\**\s*\n+"
-        rf"([\s\S]*?)"
-        rf"(?=\n\s*(?:#{1,6}\s*)?\**(?:"
-        rf"Momentanes Verhalten|Aktuelles Verhalten|Erwartetes Verhalten|"
-        rf"Weitere Hinweise|Schritte|Zusätzliche Informationen"
-        rf")\**\s*(?:\n|\Z)|\Z)",
-        body,
-        flags=re.I,
-    )
+    for i, line in enumerate(lines):
+        clean = line.strip()
 
-    return strip_markdown(m.group(1)) if m else ""
+        # Markdown-Formatierung des Titels entfernen
+        clean = re.sub(r"^#{1,6}\s*", "", clean)
+        clean = re.sub(r"^\*\*(.*?)\*\*$", r"\1", clean)
+        clean = clean.strip()
+
+        if clean.lower() in [h.lower() for h in headings]:
+            start = i + 1
+            break
+
+    if start is None:
+        return ""
+
+    content = []
+
+    for line in lines[start:]:
+        clean = line.strip()
+
+        # Nächster fett formatierter Abschnittstitel
+        if re.match(r"^\*\*.+\*\*$", clean):
+            break
+
+        # Oder nächste Markdown-Überschrift
+        if re.match(r"^#{1,6}\s+", clean):
+            break
+
+        content.append(line)
+
+    return strip_markdown("\n".join(content))
 
 def extract_behaviors(body: str):
     current_behavior = extract_section(
