@@ -32,15 +32,10 @@ direkt die GitHub API** auf.
 
 ## Konfigurierte Zuordnung
 
-  ---------------------------------------------------------------------------------
-  Repository                     Anzeige                             GitHub Project
-  ------------------------------ --------------------- ----------------------------
-  `awn-be/vertigis_admin`        Allgemeine               #6 -- Sprintplanung Admin
-                                 Verbesserungen        
-
-  `awn-be/vertigis_waldschutz`   Waldschadenmeldung             #7 -- Sprintplanung
-                                                                         Waldschutz
-  ---------------------------------------------------------------------------------
+| Repository | Anzeige | GitHub Project |
+| --- | --- | --- |
+| `awn-be/vertigis_admin` | Allgemeine Verbesserungen | #6 – Sprintplanung Admin |
+| `awn-be/vertigis_waldschutz` | Waldschadenmeldung | #7 – Sprintplanung Waldschutz |
 
 ## Übersetzungen
 
