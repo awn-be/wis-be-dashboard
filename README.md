@@ -17,8 +17,8 @@ GitHub Issues + GitHub Projects
        ArcGIS Portal iFrame
 ```
 
-Durch diesen Workflow ruft der Browser der Portal-Besucher **nicht
-direkt die GitHub API** auf.
+Die GitHub-Daten werden automatisch in `dashboard.json` aufbereitet.
+Dadurch greift die öffentliche Anzeige **nicht direkt auf die GitHub API** zu.
 
 ## Dateien
 
