@@ -223,11 +223,38 @@ function renderSummary(){
   document.getElementById("count-test").textContent=countStatus("Bereit zum Testen");
   document.getElementById("count-done").textContent=countStatus("Erledigt");
 }
+function descriptionHtml(x){
+  const parts = [];
+
+  if(x.current_behavior){
+    parts.push(
+      `<div class="behavior-block">
+        <strong>Momentanes Verhalten:</strong>
+        ${escapeHtml(x.current_behavior)}
+      </div>`
+    );
+  }
+
+  if(x.expected_behavior){
+    parts.push(
+      `<div class="behavior-block">
+        <strong>Erwartetes Verhalten:</strong>
+        ${escapeHtml(x.expected_behavior)}
+      </div>`
+    );
+  }
+
+  if(parts.length){
+    return parts.join("");
+  }
+
+  return escapeHtml(x.description || "Keine Beschreibung hinterlegt.");
+}
 function row(x, repo){
   return `<tr>
     <td class="topic"><a href="${escapeHtml(x.url)}" target="_blank" rel="noopener">${escapeHtml(x.title)}</a>
       <span class="issue-id">${escapeHtml(repo)} · Issue #${x.number}</span></td>
-    <td class="desc">${escapeHtml(x.description || "Keine Beschreibung hinterlegt.")}</td>
+    <td class="desc">${descriptionHtml(x)}</td>
     <td><span class="badge ${typeClass(x.type)}">${escapeHtml(x.type || "Nicht zugeordnet")}</span></td>
     <td><span class="badge ${priorityClass(x.priority_raw)}">${escapeHtml(priorityLabel(x))}</span></td>
     <td><span class="badge ${statusClass(x.status)}">${escapeHtml(x.status || "Nicht zugeordnet")}</span></td>
@@ -237,7 +264,7 @@ function card(x, repo){
   return `<article class="card">
     <a href="${escapeHtml(x.url)}" target="_blank" rel="noopener">${escapeHtml(x.title)}</a>
     <span class="issue-id">${escapeHtml(repo)} · Issue #${x.number}</span>
-    <div class="desc">${escapeHtml(x.description || "Keine Beschreibung hinterlegt.")}</div>
+    <div class="desc">${descriptionHtml(x)}</div>
     <div class="card-meta">
       <span class="badge ${typeClass(x.type)}">${escapeHtml(x.type || "Nicht zugeordnet")}</span>
       <span class="badge ${priorityClass(x.priority_raw)}">${escapeHtml(priorityLabel(x))}</span>
