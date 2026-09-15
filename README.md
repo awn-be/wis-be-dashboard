@@ -1,6 +1,6 @@
 # WIS-BE Dashboard
 
-Diese Version trennt **Datenbeschaffung** und **öffentliche Anzeige**:
+Saubere Trennung von **interner Issue-Pflege** und **öffentliche Anzeige**:
 
 ```text
 GitHub Issues + GitHub Projects
