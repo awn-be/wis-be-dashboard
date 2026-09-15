@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T13:45:20.854422+00:00",
+  "generated_at": "2026-09-15T07:32:42.400649+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -134,6 +134,20 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-08-19T14:15:18Z"
+        },
+        {
+          "number": 52,
+          "title": "wf_admin_set_field_values: Parameter emptyFields",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/52",
+          "description": "Der Parameter emptyFields:true (wf admin set field values) funktioniert nicht konsistent. Bei DropDown-Formularelementen bleiben die Werte der vorherigen Erfassung im Formular, bei anderen Formular-Elementen werden die Werte geleert. Ich hatte ein ähnliches Problem und konnte es lösen, indem ich bei DropDowns 2x Set…",
+          "type_raw": "Nicht zugeordnet",
+          "type": "Nicht zugeordnet",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": null,
+          "status": "Nicht zugeordnet",
+          "issue_state": "open",
+          "updated_at": "2026-09-15T07:30:52Z"
         },
         {
           "number": 27,
