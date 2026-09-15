@@ -1,6 +1,6 @@
 # WIS-BE Dashboard
 
-Saubere Trennung von **interner Issue-Pflege** und **öffentlicher Anzeige**:
+Saubere Trennung von **interner Issue-Pflege** (GitHub) und **öffentlicher Anzeige** (WIS-BE Homepage):
 
 ```text
 GitHub Issues + GitHub Projects
@@ -13,10 +13,10 @@ GitHub Issues + GitHub Projects
         GitHub Pages
              │
              ▼
-      ArcGIS Portal iFrame (WIS-BE Homepage)
+      ArcGIS Portal iFrame
 ```
 
-Dadurch ruft der Browser der Portal-Besucher **nicht mehr direkt die GitHub API** auf.
+Durch diesen Workflow ruft der Browser der Portal-Besucher **nicht direkt die GitHub API** auf.
 
 ## Konfigurierte Zuordnung
 
@@ -47,9 +47,9 @@ Dadurch ruft der Browser der Portal-Besucher **nicht mehr direkt die GitHub API*
 - `Feature` → Funktion
 - `Task` → Aufgabe
 
-## 1. Neues öffentliches Repository anlegen
+# Vorgehen
 
-Zum Beispiel:
+## 1. Neues öffentliches Repository anlegen
 
 `awn-be/wis-be-dashboard`
 
@@ -84,9 +84,9 @@ Im Repository:
 
 **Actions → Dashboard aktualisieren → Run workflow**
 
-Wenn alles passt, wird danach `dashboard.json` automatisch mit euren echten Issues, Prioritäten und Project-Statuswerten gefüllt.
+Wenn alles passt, wird danach `dashboard.json` automatisch mit den Issues, Prioritäten und Project-Statuswerten gefüllt.
 
-Anschliessend läuft die Action automatisch einmal pro Tag um 05:00 Uhr.
+Anschliessend läuft die Action automatisch einmal pro Tag um 05:10 Uhr. --> Geplante Workflows zur vollen Stunde können wegen hoher Last verzögert oder sogar ganz verworfen werden.
 
 ## 4. GitHub Pages aktivieren
 
@@ -102,11 +102,11 @@ Unter **Build and deployment**:
 
 Speichern.
 
-Danach erhältst du eine URL in dieser Art:
+Danach wird die folgende URL erzeugt:
 
 `https://awn-be.github.io/wis-be-dashboard/`
 
-Diese URL kannst du anschliessend als iframe in ArcGIS Portal verwenden.
+Diese URL kann anschliessend in ein iFrame in ArcGIS Portal eingebunden werden.
 
 ## Lokal testen
 
