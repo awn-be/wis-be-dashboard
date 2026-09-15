@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T08:34:40.780928+00:00",
+  "generated_at": "2026-09-15T08:43:07.553853+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -472,6 +472,20 @@
           "updated_at": "2026-09-15T07:37:46Z"
         },
         {
+          "number": 53,
+          "title": "Transparenz Orthofoto (Hintergrundkarten)",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/53",
+          "description": "Momentanes Verhalten Es ist nicht möglich, die Transparenz des Orthophotos anzupassen (Layer-Transparenz). Bei Layern aus dem Themenbaum funktioniert dies, bei Orthophoto oder Landeskarte jedoch nicht. Es wäre sehr hilfreich, das Orthophoto mit einer einstellbaren Transparenz über der Landeskarte anzeigen zu können.…",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "updated_at": "2026-09-15T08:41:42Z"
+        },
+        {
           "number": 36,
           "title": "Waldbesitzerabfrage: alle Eigentümerinnen/Eigentümer pro Grundstück",
           "url": "https://github.com/awn-be/vertigis_admin/issues/36",
@@ -788,6 +802,20 @@
           "updated_at": "2026-09-08T06:50:28Z"
         },
         {
+          "number": 13,
+          "title": "Editieren in geladenem Projekt nicht möglich",
+          "url": "https://github.com/awn-be/vertigis_waldschutz/issues/13",
+          "description": "Momentanes Verhalten Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen. Screenshots",
+          "type_raw": "Nicht zugeordnet",
+          "type": "Nicht zugeordnet",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": null,
+          "status": "Nicht zugeordnet",
+          "issue_state": "open",
+          "updated_at": "2026-09-15T08:39:44Z"
+        },
+        {
           "number": 2,
           "title": "Erfassen von Punkten über Eingabe von Koordinaten",
           "url": "https://github.com/awn-be/vertigis_waldschutz/issues/2",
@@ -800,6 +828,20 @@
           "status": "Nicht zugeordnet",
           "issue_state": "open",
           "updated_at": "2026-09-08T06:46:38Z"
+        },
+        {
+          "number": 12,
+          "title": "Erfasste Punkte verschieben",
+          "url": "https://github.com/awn-be/vertigis_waldschutz/issues/12",
+          "description": "Momentanes Verhalten Bereits gesetzte Punkte (Geometrie / Standort) können nicht verschoben werden. Screenshots",
+          "type_raw": "Nicht zugeordnet",
+          "type": "Nicht zugeordnet",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": null,
+          "status": "Nicht zugeordnet",
+          "issue_state": "open",
+          "updated_at": "2026-09-15T08:38:06Z"
         },
         {
           "number": 3,
