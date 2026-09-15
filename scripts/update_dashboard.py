@@ -140,14 +140,36 @@ def extract_description(body: str) -> str:
 def list_issues(org: str, repo: str):
     # Aktuell reichen <100 Issues pro Repo. Pagination ist trotzdem eingebaut.
     items, page = [], 1
+
     while True:
-        url = f"https://api.github.com/repos/{org}/{repo}/issues?state=all&per_page=100&page={page}&sort=updated&direction=desc"
+        url = (
+            f"https://api.github.com/repos/{org}/{repo}/issues"
+            f"?state=all&per_page=100&page={page}&sort=updated&direction=desc"
+        )
+
         batch = request_json(url, auth=bool(TOKEN))
-        batch = [x for x in batch if "pull_request" not in x]
-        items.extend(batch)
+
+        print(
+            f"{org}/{repo}: API-Seite {page} -> "
+            f"{len(batch)} Einträge vor PR-Filter"
+        )
+
+        issues = [x for x in batch if "pull_request" not in x]
+
+        print(
+            f"{org}/{repo}: API-Seite {page} -> "
+            f"{len(issues)} Issues nach PR-Filter"
+        )
+
+        items.extend(issues)
+
+        # Pagination anhand der ungefilterten API-Antwort beurteilen.
         if len(batch) < 100:
             break
+
         page += 1
+
+    print(f"{org}/{repo}: insgesamt {len(items)} Issues")
     return items
 
 def issue_priority(org: str, repo: str, number: int):
