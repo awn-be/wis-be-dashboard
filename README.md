@@ -1,11 +1,11 @@
 # WIS-BE Dashboard
 
-Saubere Trennung von **interner Issue-Pflege** und **öffentliche Anzeige**:
+Saubere Trennung von **interner Issue-Pflege** und **öffentlicher Anzeige**:
 
 ```text
 GitHub Issues + GitHub Projects
              │
-             │ GitHub Action (1x pro Tag um 05:00 Uhr)
+             │ GitHub Action (1x pro Tag um 05:10 Uhr)
              ▼
        dashboard.json
              │
@@ -13,7 +13,7 @@ GitHub Issues + GitHub Projects
         GitHub Pages
              │
              ▼
-      ArcGIS Portal iframe
+      ArcGIS Portal iFrame (WIS-BE Homepage)
 ```
 
 Dadurch ruft der Browser der Portal-Besucher **nicht mehr direkt die GitHub API** auf.
