@@ -64,7 +64,8 @@ def strip_markdown(text: str) -> str:
 def extract_section(body: str, headings: list[str]) -> str:
     """
     Extrahiert den Inhalt eines bestimmten Abschnitts aus dem Issue-Body.
-    Der Abschnitt endet bei der nächsten Markdown-Überschrift.
+    Unterstützt sowohl fett formatierte Abschnittstitel (**Titel**)
+    als auch Markdown-Überschriften (## Titel).
     """
     if not body:
         return ""
@@ -72,8 +73,12 @@ def extract_section(body: str, headings: list[str]) -> str:
     heading_pattern = "|".join(re.escape(h) for h in headings)
 
     m = re.search(
-        rf"(?:^|\n)#{1,6}\s*\**(?:{heading_pattern})\**\s*\n+"
-        rf"([\s\S]*?)(?=\n#{1,6}\s+|\Z)",
+        rf"(?:^|\n)\s*(?:#{1,6}\s*)?\**(?:{heading_pattern})\**\s*\n+"
+        rf"([\s\S]*?)"
+        rf"(?=\n\s*(?:#{1,6}\s*)?\**(?:"
+        rf"Momentanes Verhalten|Aktuelles Verhalten|Erwartetes Verhalten|"
+        rf"Weitere Hinweise|Schritte|Zusätzliche Informationen"
+        rf")\**\s*(?:\n|\Z)|\Z)",
         body,
         flags=re.I,
     )
