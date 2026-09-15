@@ -1,132 +1,75 @@
 # WIS-BE Dashboard
 
-Saubere Trennung von **interner Issue-Pflege** (GitHub) und **öffentlicher Anzeige** (WIS-BE Homepage):
+Saubere Trennung von **interner Issue-Pflege** (GitHub) und
+**öffentlicher Anzeige** (WIS-BE Homepage):
 
-```text
+``` text
 GitHub Issues + GitHub Projects
              │
              │ GitHub Action (1x pro Tag um 05:10 Uhr)
              ▼
-       dashboard.json
+        dashboard.json
              │
              ▼
-        GitHub Pages
+         GitHub Pages
              │
              ▼
-      ArcGIS Portal iFrame
+       ArcGIS Portal iFrame
 ```
 
-Durch diesen Workflow ruft der Browser der Portal-Besucher **nicht direkt die GitHub API** auf.
+Durch diesen Workflow ruft der Browser der Portal-Besucher **nicht
+direkt die GitHub API** auf.
+
+## Dateien
+
+-   `index.html` -- öffentliche, responsive Anzeige
+-   `dashboard.json` -- automatisch erzeugte Dashboard-Daten
+-   `config.json` -- Repository-/Project-Zuordnung und Übersetzungen
+-   `scripts/update_dashboard.py` -- liest GitHub aus und erzeugt
+    `dashboard.json`
+-   `.github/workflows/update-dashboard.yml` -- automatische tägliche
+    Aktualisierung
 
 ## Konfigurierte Zuordnung
 
-| Repository | Anzeige | GitHub Project |
-|---|---|---:|
-| `awn-be/vertigis_admin` | Allgemeine Verbesserungen | #6 – Sprintplanung Admin |
-| `awn-be/vertigis_waldschutz` | Waldschadenmeldung | #7 – Sprintplanung Waldschutz |
+  ---------------------------------------------------------------------------------
+  Repository                     Anzeige                             GitHub Project
+  ------------------------------ --------------------- ----------------------------
+  `awn-be/vertigis_admin`        Allgemeine               #6 -- Sprintplanung Admin
+                                 Verbesserungen        
+
+  `awn-be/vertigis_waldschutz`   Waldschadenmeldung             #7 -- Sprintplanung
+                                                                         Waldschutz
+  ---------------------------------------------------------------------------------
 
 ## Übersetzungen
 
 **Status**
 
-- `Todo` → Geplant
-- `In progress` → In Arbeit
-- `Ready to test` → Bereit zum Testen
-- `Done` → Erledigt
+-   `Todo` → Geplant
+-   `In progress` → In Arbeit
+-   `Ready to test` → Bereit zum Testen
+-   `Done` → Erledigt
 
 **Priority**
 
-- `Urgent` → Sehr hoch
-- `High` → Hoch
-- `Medium` → Mittel
-- `Low` → Niedrig
+-   `Urgent` → Sehr hoch
+-   `High` → Hoch
+-   `Medium` → Mittel
+-   `Low` → Niedrig
 
 **Type**
 
-- `Bug` → Fehler
-- `Feature` → Funktion
-- `Task` → Aufgabe
-
-# Vorgehen
-
-## 1. Neues öffentliches Repository anlegen
-
-`awn-be/wis-be-dashboard`
-
-Danach den **gesamten Inhalt dieses ZIPs** in das Repository laden. Wichtig: Der Ordner `.github/workflows` muss ebenfalls vorhanden sein.
-
-## 2. Token für die Sprintplanungs-Projects hinterlegen
-
-Die Action benötigt Zugriff auf die GitHub Projects der Organisation.
-
-Empfohlen ist ein **Fine-grained Personal Access Token** mit Leserechten für die benötigten Ressourcen, insbesondere:
-
-- Organization permission: **Projects – Read-only**
-- Repository access auf `vertigis_admin` und `vertigis_waldschutz` (für Issues/Metadaten, soweit durch eure Org-Einstellungen erforderlich)
-
-Danach im Dashboard-Repository:
-
-**Settings → Secrets and variables → Actions → New repository secret**
-
-Name:
-
-`DASHBOARD_TOKEN`
-
-Wert:
-
-den erzeugten Token einfügen.
-
-> Der Token landet nie in `index.html` oder `dashboard.json`. Er steht nur der GitHub Action als Secret zur Verfügung.
-
-## 3. Action einmal manuell starten
-
-Im Repository:
-
-**Actions → Dashboard aktualisieren → Run workflow**
-
-Wenn alles passt, wird danach `dashboard.json` automatisch mit den Issues, Prioritäten und Project-Statuswerten gefüllt.
-
-Anschliessend läuft die Action automatisch einmal pro Tag um 05:10 Uhr. --> Geplante Workflows zur vollen Stunde können wegen hoher Last verzögert oder sogar ganz verworfen werden.
-
-## 4. GitHub Pages aktivieren
-
-Im Repository:
-
-**Settings → Pages**
-
-Unter **Build and deployment**:
-
-- Source: `Deploy from a branch`
-- Branch: `main`
-- Folder: `/ (root)`
-
-Speichern.
-
-Danach wird die folgende URL erzeugt:
-
-`https://awn-be.github.io/wis-be-dashboard/`
-
-Diese URL kann anschliessend in ein iFrame in ArcGIS Portal eingebunden werden.
-
-## Lokal testen
-
-`index.html` verwendet jetzt nur noch `dashboard.json` aus demselben Ordner. Für einen realistischen lokalen Test am besten einen kleinen Webserver verwenden:
-
-```bash
-python -m http.server 8000
-```
-
-Dann:
-
-`http://localhost:8000`
-
-Ein direktes Doppelklicken auf `index.html` kann je nach Browser bei lokalen `file://`-Zugriffen auf `dashboard.json` blockiert werden. Das ist kein Problem auf GitHub Pages.
+-   `Bug` → Fehler
+-   `Feature` → Funktion
+-   `Task` → Aufgabe
 
 ## Neue Repository-Sektion ergänzen
 
-Nur `config.json` erweitern, z. B.:
+Für eine zusätzliche Dashboard-Sektion muss lediglich `config.json` um
+das entsprechende Repository und GitHub Project erweitert werden, z. B.:
 
-```json
+``` json
 {
   "repo": "vertigis_planungsgrundlagen",
   "title": "Planungsgrundlagen",
@@ -135,12 +78,84 @@ Nur `config.json` erweitern, z. B.:
 }
 ```
 
-Beim nächsten Lauf der Action wird die neue Sektion automatisch in `dashboard.json` aufgenommen.
+Beim nächsten Lauf der Action wird die neue Sektion automatisch in
+`dashboard.json` aufgenommen.
 
-## Dateien
+------------------------------------------------------------------------
 
-- `index.html` – öffentliche, responsive Anzeige
-- `dashboard.json` – automatisch erzeugte Daten
-- `config.json` – Repository-/Project-Zuordnung und Übersetzungen
-- `scripts/update_dashboard.py` – liest GitHub aus und erzeugt JSON
-- `.github/workflows/update-dashboard.yml` – automatische Aktualisierung
+# Dokumentation der Einrichtung
+
+Die folgenden Abschnitte dokumentieren die ursprüngliche Einrichtung des
+WIS-BE Dashboards. Sie dienen als technische Retrospektive und sind für
+den laufenden Betrieb nicht erforderlich.
+
+## 1. Öffentliches Repository
+
+Für das Dashboard wurde das öffentliche Repository
+`awn-be/wis-be-dashboard` angelegt. Darin wurden die Dateien für die
+öffentliche Anzeige, die Konfiguration sowie die automatische
+Aktualisierung abgelegt.
+
+Der GitHub-Workflow befindet sich unter
+`.github/workflows/update-dashboard.yml`.
+
+## 2. Zugriff auf GitHub Projects
+
+Damit die GitHub Action neben den öffentlichen Issues auch die
+Statuswerte aus den GitHub Projects auslesen kann, wurde ein
+**Fine-grained Personal Access Token** eingerichtet.
+
+Der Token erhielt Leserechte auf die benötigten Ressourcen,
+insbesondere:
+
+-   Organization permission: **Projects -- Read-only**
+-   Repository access auf `vertigis_admin` und `vertigis_waldschutz`
+    (für Issues/Metadaten, soweit durch die Org-Einstellungen
+    erforderlich)
+
+Im Dashboard-Repository wurde der Token anschliessend als Actions Secret
+hinterlegt:
+
+**Settings → Secrets and variables → Actions**
+
+Name: `DASHBOARD_TOKEN`
+
+> Der Token ist weder Bestandteil von `index.html` noch von
+> `dashboard.json`. Er steht ausschliesslich der GitHub Action als
+> Secret zur Verfügung.
+
+## 3. GitHub Action
+
+Für die Erzeugung von `dashboard.json` wurde der Workflow **Dashboard
+aktualisieren** eingerichtet.
+
+Bei der Einrichtung wurde der Workflow zunächst manuell über **Actions →
+Dashboard aktualisieren → Run workflow** ausgeführt. Dadurch konnte
+geprüft werden, ob Issues, Prioritäten und Project-Statuswerte korrekt
+in `dashboard.json` übernommen werden.
+
+Anschliessend wurde die automatische Aktualisierung auf **einmal pro Tag
+um 05:10 Uhr (`Europe/Zurich`)** eingestellt. Die Ausführung erfolgt
+bewusst nicht exakt zur vollen Stunde.
+
+Die Action führt `scripts/update_dashboard.py` aus und schreibt
+Änderungen an `dashboard.json` zurück in das Repository.
+
+## 4. GitHub Pages
+
+Nach erfolgreicher Datenübernahme wurde GitHub Pages für das Dashboard
+aktiviert.
+
+Unter **Settings → Pages → Build and deployment** wurden folgende
+Einstellungen verwendet:
+
+-   Source: `Deploy from a branch`
+-   Branch: `main`
+-   Folder: `/ (root)`
+
+Das Dashboard ist dadurch unter folgender Adresse erreichbar:
+
+`https://awn-be.github.io/wis-be-dashboard/`
+
+Diese GitHub-Pages-Seite kann anschliessend per iFrame in ArcGIS Portal
+eingebunden werden.
