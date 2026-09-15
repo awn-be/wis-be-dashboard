@@ -228,11 +228,16 @@ def main():
             # Falls ein Issue noch nicht im Project liegt, transparent anzeigen.
             status_de = tr["status"].get(raw_status, "Nicht zugeordnet") if raw_status else "Nicht zugeordnet"
 
+            body = issue.get("body") or ""
+            current_behavior, expected_behavior = extract_behaviors(body)
+
             rows.append({
                 "number": number,
                 "title": issue["title"],
                 "url": issue["html_url"],
-                "description": extract_description(issue.get("body") or ""),
+                "description": extract_description(body),
+                "current_behavior": current_behavior,
+                "expected_behavior": expected_behavior,
                 "type_raw": raw_type,
                 "type": tr["type"].get(raw_type, raw_type),
                 "priority_raw": raw_priority,
