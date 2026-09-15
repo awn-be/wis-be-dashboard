@@ -248,7 +248,7 @@ def main():
                 "updated_at": issue.get("updated_at"),
             })
 
-        # Sinnvolle Reihenfolge: Status, Priorität, zuletzt aktualisiert.
+        # Sinnvolle Reihenfolge: Status, Priorität, Titel.
         status_order = {"In progress":0, "Ready to test":1, "Todo":2, None:3, "Done":4}
         priority_order = {"Urgent":0, "High":1, "Medium":2, "Low":3, None:4}
         rows.sort(key=lambda x: (
