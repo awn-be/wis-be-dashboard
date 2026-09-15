@@ -154,7 +154,9 @@ function statusClass(status){
   return "status-other";
 }
 function sortItems(list){
-  if(!sortColumn) return list;
+  if(!sortColumn){
+    return [...list].sort((a, b) => b.number - a.number);
+  }
 
   const typeOrder = {
     "Fehler": 0,
