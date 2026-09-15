@@ -29,7 +29,7 @@
     "status": {
       "Todo": "Geplant",
       "In progress": "In Arbeit",
-      "Ready to test": "Bereit zum Test",
+      "Ready to test": "Bereit zum Testen",
       "Done": "Erledigt"
     }
   }
