@@ -61,16 +61,55 @@ def strip_markdown(text: str) -> str:
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
+def extract_section(body: str, headings: list[str]) -> str:
+    """
+    Extrahiert den Inhalt eines bestimmten Abschnitts aus dem Issue-Body.
+    Der Abschnitt endet bei der nächsten Markdown-Überschrift.
+    """
+    if not body:
+        return ""
+
+    heading_pattern = "|".join(re.escape(h) for h in headings)
+
+    m = re.search(
+        rf"(?:^|\n)#{1,6}\s*\**(?:{heading_pattern})\**\s*\n+"
+        rf"([\s\S]*?)(?=\n#{1,6}\s+|\Z)",
+        body,
+        flags=re.I,
+    )
+
+    return strip_markdown(m.group(1)) if m else ""
+
+def extract_behaviors(body: str):
+    current_behavior = extract_section(
+        body,
+        ["Momentanes Verhalten", "Aktuelles Verhalten"]
+    )
+
+    expected_behavior = extract_section(
+        body,
+        ["Erwartetes Verhalten"]
+    )
+
+    return current_behavior, expected_behavior
+
 def extract_description(body: str) -> str:
     if not body:
         return "Keine Beschreibung hinterlegt."
-    # Bevorzugt "Erwartetes Verhalten", passend zu eurer aktuellen Issue-Vorlage.
-    m = re.search(
-        r"(?:^|\n)#{0,6}\s*\**Erwartetes Verhalten\**\s*\n+([\s\S]*?)"
-        r"(?=\n#{0,6}\s*\**(?:Weitere Hinweise|Momentanes Verhalten|Aktuelles Verhalten|Schritte|Zusätzliche Informationen)\**|\Z)",
-        body, flags=re.I
-    )
-    text = strip_markdown(m.group(1) if m else body)
+
+    current_behavior, expected_behavior = extract_behaviors(body)
+
+    parts = []
+
+    if current_behavior:
+        parts.append(f"Momentanes Verhalten: {current_behavior}")
+
+    if expected_behavior:
+        parts.append(f"Erwartetes Verhalten: {expected_behavior}")
+
+    # Fallback für Issues ohne diese beiden Abschnitte
+    text = " ".join(parts) if parts else strip_markdown(body)
+
     return text[:317].rstrip() + "…" if len(text) > 320 else text
 
 def list_issues(org: str, repo: str):
