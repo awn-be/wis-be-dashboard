@@ -154,3 +154,16 @@ Das Dashboard ist dadurch unter folgender Adresse erreichbar:
 
 Diese GitHub-Pages-Seite kann anschliessend per iFrame in ArcGIS Portal
 eingebunden werden.
+
+## KI-Unterstützung
+
+Dieses Repository und das WIS-BE Dashboard wurden mit Unterstützung von
+**ChatGPT (OpenAI; bei der aktuellen Umsetzung: GPT-5.6 Sol)** konzipiert
+und umgesetzt.
+
+Die KI-Unterstützung wurde insbesondere bei der Konzeption der Architektur,
+der Entwicklung und Überarbeitung von Python-, HTML-, CSS- und
+JavaScript-Code sowie bei der technischen Dokumentation eingesetzt.
+
+Die fachlichen Anforderungen, Entscheidungen, Tests und die Freigabe der
+Umsetzung erfolgten durch die Projektverantwortlichen.
