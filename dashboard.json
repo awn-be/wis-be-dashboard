@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:43:53.632462+00:00",
+  "generated_at": "2026-09-16T12:50:16.169669+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -155,7 +155,7 @@
         },
         {
           "number": 26,
-          "title": "Drehung der Karte bleibt auch nach Druck bestehen",
+          "title": "Drucken: Drehung der Karte bleibt auch nach Druck bestehen",
           "url": "https://github.com/awn-be/vertigis_admin/issues/26",
           "description": "Momentanes Verhalten: Beim Drucken kann eine Drehung der Karte eingestellt werden. Nach dem \"Schliessen\" des Druckfensters bleibt die Drehung der Karte bestehen. Erwartetes Verhalten: Nach dem Verlassen des Druckfensters soll die Karte wieder automatisch auf 0° zurückrotiert werden.",
           "current_behavior": "Beim Drucken kann eine Drehung der Karte eingestellt werden. Nach dem \"Schliessen\" des Druckfensters bleibt die Drehung der Karte bestehen.",
@@ -167,7 +167,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-15T07:39:45Z"
+          "updated_at": "2026-09-16T09:50:45Z"
         },
         {
           "number": 12,
@@ -347,7 +347,7 @@
         },
         {
           "number": 38,
-          "title": "Grenzpunkte",
+          "title": "Grenzpunkte / Marksteine",
           "url": "https://github.com/awn-be/vertigis_admin/issues/38",
           "description": "Momentanes Verhalten: Der Punktdatensatz mit den Grenzpunkten fehlt. Erwartetes Verhalten: Der Punkdatensatz soll künftig wieder verfügbar sein (analog der heutigen Lösung).",
           "current_behavior": "Der Punktdatensatz mit den Grenzpunkten fehlt.",
@@ -359,7 +359,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-15T07:38:15Z"
+          "updated_at": "2026-09-15T14:53:08Z"
         },
         {
           "number": 43,
