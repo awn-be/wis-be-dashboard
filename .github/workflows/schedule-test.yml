@@ -1,0 +1,16 @@
+name: Schedule Test
+
+on:
+  schedule:
+    - cron: "43 15 * * *"
+      timezone: "Europe/Zurich"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Schedule testen
+        run: |
+          echo "Schedule funktioniert"
+          date
