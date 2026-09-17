@@ -3,7 +3,8 @@ name: Dashboard aktualisieren
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "10 5 * * *"
+      timezone: "Europe/Zurich"
 
 permissions:
   contents: write
