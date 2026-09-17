@@ -133,6 +133,13 @@ Anschliessend wurde die automatische Aktualisierung auf **einmal pro Tag
 um 05:10 Uhr (`Europe/Zurich`)** eingestellt. Die Ausführung erfolgt
 bewusst nicht exakt zur vollen Stunde.
 
+> **Hinweis zur automatischen Aktualisierung:**  
+> Geplante GitHub-Actions-Workflows werden nicht zwingend exakt zum
+> konfigurierten Zeitpunkt ausgeführt. Der tatsächliche Start kann sich
+> verzögern. Bei der Einrichtung und beim Test des Dashboards wurden
+> teilweise deutliche Verzögerungen beobachtet. Für die tägliche
+> Aktualisierung des Dashboards ist dies unkritisch.
+
 Die Action führt `scripts/update_dashboard.py` aus und schreibt
 Änderungen an `dashboard.json` zurück in das Repository.
 
