@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T06:13:43.779499+00:00",
+  "generated_at": "2026-09-17T12:24:57.252526+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -976,6 +976,22 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-15T08:54:24Z"
+        },
+        {
+          "number": 14,
+          "title": "Filter Waldabteilung",
+          "url": "https://github.com/awn-be/vertigis_waldschutz/issues/14",
+          "description": "Erwartetes Verhalten: Könntet ihr beim WIS Waldschäden bei «Stand Erfassung Waldschadenmeldung» einen Filter «Waldabteilung» [DFJB, WAA, WAV, WAM] erstellen ?",
+          "current_behavior": "",
+          "expected_behavior": "Könntet ihr beim WIS Waldschäden bei «Stand Erfassung Waldschadenmeldung» einen Filter «Waldabteilung» [DFJB, WAA, WAV, WAM] erstellen ?",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "updated_at": "2026-09-17T12:23:51Z"
         },
         {
           "number": 9,
