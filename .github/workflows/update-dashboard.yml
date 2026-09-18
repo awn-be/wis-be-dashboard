@@ -1,14 +1,26 @@
-name: Dashboard aktualisieren
+name: Update dashboard
 
 on:
   workflow_dispatch:
+  # GitHub often fires scheduled workflows several hours late or drops
+  # individual triggers entirely. We therefore schedule several attempts
+  # per night. The first one that fires updates the dashboard; all later
+  # ones are stopped by the "Watchdog" step and exit immediately.
   schedule:
-    - cron: "10 5 * * *"
+    - cron: "17 0 * * *"
+      timezone: "Europe/Zurich"
+    - cron: "41 1 * * *"
+      timezone: "Europe/Zurich"
+    - cron: "23 3 * * *"
+      timezone: "Europe/Zurich"
+    - cron: "47 4 * * *"
       timezone: "Europe/Zurich"
 
 permissions:
   contents: write
 
+# Runs are queued one after another, so a later attempt always sees the
+# dashboard.json pushed by an earlier one.
 concurrency:
   group: wis-be-dashboard-update
   cancel-in-progress: false
@@ -18,27 +30,59 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repository auschecken
+      - name: Check out repository
         uses: actions/checkout@v7
 
-      - name: Python einrichten
+      # Scheduled runs only: if dashboard.json was already generated today
+      # (Europe/Zurich), the watchdog barks and all following steps are skipped.
+      # Manual runs (workflow_dispatch) always execute fully.
+      # When in doubt (file missing, unreadable timestamp) we do not skip.
+      - name: Watchdog 🐶
+        id: watchdog
+        if: github.event_name == 'schedule'
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json
+          import sys
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          skip = False
+          try:
+              tz = ZoneInfo("Europe/Zurich")
+              with open("dashboard.json", encoding="utf-8") as f:
+                  generated = datetime.fromisoformat(json.load(f)["generated_at"])
+              skip = generated.astimezone(tz).date() == datetime.now(tz).date()
+          except Exception as exc:
+              print(f"Watchdog check failed, running anyway: {exc}", file=sys.stderr)
+
+          # stderr goes to the job log, stdout goes to GITHUB_OUTPUT
+          print("Woof! Already updated today - skipping." if skip
+                else "All quiet. No update yet today - running.", file=sys.stderr)
+          print(f"skip={'true' if skip else 'false'}")
+          EOF
+
+      - name: Set up Python
+        if: steps.watchdog.outputs.skip != 'true'
         uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
-      - name: dashboard.json aus GitHub erzeugen
+      - name: Generate dashboard.json from GitHub
+        if: steps.watchdog.outputs.skip != 'true'
         env:
           DASHBOARD_TOKEN: ${{ secrets.DASHBOARD_TOKEN }}
         run: python scripts/update_dashboard.py
 
-      - name: Änderungen speichern
+      - name: Commit and push changes
+        if: steps.watchdog.outputs.skip != 'true'
         run: |
           if git diff --quiet -- dashboard.json; then
-            echo "Keine Änderungen."
+            echo "No changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dashboard.json
-          git commit -m "Dashboard-Daten aktualisieren"
+          git commit -m "Update dashboard data"
           git push
