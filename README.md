@@ -6,7 +6,7 @@ Saubere Trennung von **interner Issue-Pflege** (GitHub) und
 ``` text
 GitHub Issues + GitHub Projects
              │
-             │ GitHub Action (1x pro Tag um 05:10 Uhr)
+             │ GitHub Action (1x pro Tag, nachts)
              ▼
         dashboard.json
              │
@@ -121,27 +121,27 @@ Name: `DASHBOARD_TOKEN`
 
 ## 3. GitHub Action
 
-Für die Erzeugung von `dashboard.json` wurde der Workflow **Dashboard
-aktualisieren** eingerichtet.
+Der Workflow **Update dashboard** erzeugt `dashboard.json`. Er führt
+`scripts/update_dashboard.py` aus und schreibt Änderungen an
+`dashboard.json` zurück in das Repository.
 
-Bei der Einrichtung wurde der Workflow zunächst manuell über **Actions →
-Dashboard aktualisieren → Run workflow** ausgeführt. Dadurch konnte
-geprüft werden, ob Issues, Prioritäten und Project-Statuswerte korrekt
-in `dashboard.json` übernommen werden.
+Der Workflow kann auf zwei Arten starten:
 
-Anschliessend wurde die automatische Aktualisierung auf **einmal pro Tag
-um 05:10 Uhr (`Europe/Zurich`)** eingestellt. Die Ausführung erfolgt
-bewusst nicht exakt zur vollen Stunde.
+**Automatisch, einmal pro Nacht.** GitHub führt geplante Workflows ohne
+Zeitgarantie aus. Beobachtet wurden Verzögerungen von bis zu 5 Stunden
+sowie ganz ausgefallene Auslöser. Der Workflow enthält deshalb vier
+Auslöser pro Nacht (00:17, 01:41, 03:23 und 04:47 Uhr, `Europe/Zurich`).
+Der erste, der startet, aktualisiert das Dashboard. Die übrigen erkennen
+im Schritt «Watchdog», dass `dashboard.json` bereits vom selben Tag
+stammt, und beenden sich nach wenigen Sekunden ohne Commit. Unter
+**Actions** erscheinen daher bis zu vier Läufe pro Nacht, davon drei
+sehr kurze.
 
-> **Hinweis zur automatischen Aktualisierung:**  
-> Geplante GitHub-Actions-Workflows werden nicht zwingend exakt zum
-> konfigurierten Zeitpunkt ausgeführt. Der tatsächliche Start kann sich
-> verzögern. Bei der Einrichtung und beim Test des Dashboards wurden
-> teilweise deutliche Verzögerungen beobachtet. Für die tägliche
-> Aktualisierung des Dashboards ist dies unkritisch.
-
-Die Action führt `scripts/update_dashboard.py` aus und schreibt
-Änderungen an `dashboard.json` zurück in das Repository.
+**Manuell, jederzeit.** Über **Actions → Update dashboard → Run workflow**
+lässt sich das Dashboard sofort aktualisieren, zum Beispiel nach
+wichtigen Änderungen an Issues oder zur Kontrolle nach Anpassungen am
+Skript. Manuelle Läufe werden vom Watchdog nie übersprungen. Sie
+beeinflussen die automatische Aktualisierung der folgenden Nacht nicht.
 
 ## 4. GitHub Pages
 
