@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:50:00.612463+00:00",
+  "generated_at": "2026-09-22T14:28:05.401173+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -40,22 +40,6 @@
           "status": "In Arbeit",
           "issue_state": "open",
           "updated_at": "2026-09-15T07:41:56Z"
-        },
-        {
-          "number": 51,
-          "title": "Hochladen von Bild-Dateien im Feedbackformular (jpg/jpeg)",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/51",
-          "description": "Momentanes Verhalten: Fehler beim Hochladen von .jpeg Dateien. Es ist nur .jpg zugelassen. Erwartetes Verhalten: Auch .jpeg Dateien sollten hochgeladen werden können. Wenn ein Foto aus Whatsapp Web heruntergeladen wird erscheint das in den Downloads als .jpeg. Ausserdem würde ich gerne zwei Fotos markieren können und direkt gemeinsam in das hochladen Fenster ziehen hier im Feedbackformular. Das geht nicht. Ich muss aktuell erst eine Datei ins Formular ziehen, dann auf ein weiteres Dokument hinzufügen klicken, dann eine weitere Datei ins Formular ziehen. Diesesmal ist es wirklich nur ein nice to have :-) Einstellungen sodass .jpeg zugelassen wird? Oder Info, dass die Dateiendung geändert werden muss vor dem hochladen. Auch wenn eine Warnmeldung vom Explorer erscheint. Upload mehrerer Dateien gleichzeitig zulassen wenn es geht?",
-          "current_behavior": "Fehler beim Hochladen von .jpeg Dateien. Es ist nur .jpg zugelassen.",
-          "expected_behavior": "Auch .jpeg Dateien sollten hochgeladen werden können. Wenn ein Foto aus Whatsapp Web heruntergeladen wird erscheint das in den Downloads als .jpeg. Ausserdem würde ich gerne zwei Fotos markieren können und direkt gemeinsam in das hochladen Fenster ziehen hier im Feedbackformular. Das geht nicht. Ich muss aktuell erst eine Datei ins Formular ziehen, dann auf ein weiteres Dokument hinzufügen klicken, dann eine weitere Datei ins Formular ziehen. Diesesmal ist es wirklich nur ein nice to have :-) Einstellungen sodass .jpeg zugelassen wird? Oder Info, dass die Dateiendung geändert werden muss vor dem hochladen. Auch wenn eine Warnmeldung vom Explorer erscheint. Upload mehrerer Dateien gleichzeitig zulassen wenn es geht?",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "In progress",
-          "status": "In Arbeit",
-          "issue_state": "open",
-          "updated_at": "2026-09-22T13:22:21Z"
         },
         {
           "number": 16,
@@ -506,6 +490,22 @@
           "updated_at": "2026-09-22T13:47:19Z"
         },
         {
+          "number": 43,
+          "title": "Hinterlegung Projektdokumente - Einfache Projekte",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/43",
+          "description": "Momentanes Verhalten: Aktuell ist pro Feature die Hinterlegung von genau einem Dokument möglich. Erwartetes Verhalten: Ich fände es praktisch, wenn u.a. die Ergebnisse der Vollzugskontrolle IKS (Excel-/PDF-Formulare) zusätzlich hinterlegt werden können. Im Feature kann ja das Resultat der Kontrolle erfasst werden. So wären die Informationen bei einer Beurteilung eines Folgeprojekts ohne Systembruch zugänglich.",
+          "current_behavior": "Aktuell ist pro Feature die Hinterlegung von genau einem Dokument möglich.",
+          "expected_behavior": "Ich fände es praktisch, wenn u.a. die Ergebnisse der Vollzugskontrolle IKS (Excel-/PDF-Formulare) zusätzlich hinterlegt werden können. Im Feature kann ja das Resultat der Kontrolle erfasst werden. So wären die Informationen bei einer Beurteilung eines Folgeprojekts ohne Systembruch zugänglich.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Low",
+          "priority": "Niedrig",
+          "status_raw": "Rejected",
+          "status": "Wird nicht umgesetzt",
+          "issue_state": "open",
+          "updated_at": "2026-09-22T14:15:38Z"
+        },
+        {
           "number": 53,
           "title": "Transparenz Orthofoto (Hintergrundkarten)",
           "url": "https://github.com/awn-be/vertigis_admin/issues/53",
@@ -536,22 +536,6 @@
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
           "updated_at": "2026-09-22T13:47:05Z"
-        },
-        {
-          "number": 43,
-          "title": "Hinterlegung Projektdokumente - Einfache Projekte",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/43",
-          "description": "Momentanes Verhalten: Aktuell ist pro Feature die Hinterlegung von genau einem Dokument möglich. Erwartetes Verhalten: Ich fände es praktisch, wenn u.a. die Ergebnisse der Vollzugskontrolle IKS (Excel-/PDF-Formulare) zusätzlich hinterlegt werden können. Im Feature kann ja das Resultat der Kontrolle erfasst werden. So wären die Informationen bei einer Beurteilung eines Folgeprojekts ohne Systembruch zugänglich.",
-          "current_behavior": "Aktuell ist pro Feature die Hinterlegung von genau einem Dokument möglich.",
-          "expected_behavior": "Ich fände es praktisch, wenn u.a. die Ergebnisse der Vollzugskontrolle IKS (Excel-/PDF-Formulare) zusätzlich hinterlegt werden können. Im Feature kann ja das Resultat der Kontrolle erfasst werden. So wären die Informationen bei einer Beurteilung eines Folgeprojekts ohne Systembruch zugänglich.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
-          "status_raw": "Rejected",
-          "status": "Wird nicht umgesetzt",
-          "issue_state": "open",
-          "updated_at": "2026-09-22T07:42:48Z"
         },
         {
           "number": 1,
@@ -712,6 +696,22 @@
           "status": "Erledigt",
           "issue_state": "closed",
           "updated_at": "2026-09-15T07:52:55Z"
+        },
+        {
+          "number": 51,
+          "title": "Hochladen von Bild-Dateien im Feedbackformular (jpg/jpeg)",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/51",
+          "description": "Momentanes Verhalten: Fehler beim Hochladen von .jpeg Dateien. Es ist nur .jpg zugelassen. Erwartetes Verhalten: Auch .jpeg Dateien sollten hochgeladen werden können. Wenn ein Foto aus Whatsapp Web heruntergeladen wird erscheint das in den Downloads als .jpeg. Ausserdem würde ich gerne zwei Fotos markieren können und direkt gemeinsam in das hochladen Fenster ziehen hier im Feedbackformular. Das geht nicht. Ich muss aktuell erst eine Datei ins Formular ziehen, dann auf ein weiteres Dokument hinzufügen klicken, dann eine weitere Datei ins Formular ziehen. Diesesmal ist es wirklich nur ein nice to have :-) Einstellungen sodass .jpeg zugelassen wird? Oder Info, dass die Dateiendung geändert werden muss vor dem hochladen. Auch wenn eine Warnmeldung vom Explorer erscheint. Upload mehrerer Dateien gleichzeitig zulassen wenn es geht?",
+          "current_behavior": "Fehler beim Hochladen von .jpeg Dateien. Es ist nur .jpg zugelassen.",
+          "expected_behavior": "Auch .jpeg Dateien sollten hochgeladen werden können. Wenn ein Foto aus Whatsapp Web heruntergeladen wird erscheint das in den Downloads als .jpeg. Ausserdem würde ich gerne zwei Fotos markieren können und direkt gemeinsam in das hochladen Fenster ziehen hier im Feedbackformular. Das geht nicht. Ich muss aktuell erst eine Datei ins Formular ziehen, dann auf ein weiteres Dokument hinzufügen klicken, dann eine weitere Datei ins Formular ziehen. Diesesmal ist es wirklich nur ein nice to have :-) Einstellungen sodass .jpeg zugelassen wird? Oder Info, dass die Dateiendung geändert werden muss vor dem hochladen. Auch wenn eine Warnmeldung vom Explorer erscheint. Upload mehrerer Dateien gleichzeitig zulassen wenn es geht?",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-09-22T14:26:50Z"
         },
         {
           "number": 11,
