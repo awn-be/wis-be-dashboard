@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:02:52.873594+00:00",
+  "generated_at": "2026-09-22T13:26:50.403148+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -55,7 +55,7 @@
           "status_raw": "In progress",
           "status": "In Arbeit",
           "issue_state": "open",
-          "updated_at": "2026-09-22T12:36:42Z"
+          "updated_at": "2026-09-22T13:22:21Z"
         },
         {
           "number": 16,
@@ -200,22 +200,6 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-22T07:32:54Z"
-        },
-        {
-          "number": 36,
-          "title": "Waldbesitzerabfrage: alle Eigentümerinnen/Eigentümer pro Grundstück",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/36",
-          "description": "Momentanes Verhalten: Es wird nur eine Eigentümerin/ein Eigentümer pro Grundstück angzeigt. Erwartetes Verhalten: Es sollen alle Eigentümerinnen/Eigentümer pro Grundstück abgefragt werden können.",
-          "current_behavior": "Es wird nur eine Eigentümerin/ein Eigentümer pro Grundstück angzeigt.",
-          "expected_behavior": "Es sollen alle Eigentümerinnen/Eigentümer pro Grundstück abgefragt werden können.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-22T08:08:19Z"
         },
         {
           "number": 39,
@@ -664,6 +648,22 @@
           "status": "Erledigt",
           "issue_state": "closed",
           "updated_at": "2026-09-15T07:51:44Z"
+        },
+        {
+          "number": 36,
+          "title": "Waldbesitzerabfrage: alle Eigentümerinnen/Eigentümer pro Grundstück",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/36",
+          "description": "Momentanes Verhalten: Es wird nur eine Eigentümerin/ein Eigentümer pro Grundstück angzeigt. Erwartetes Verhalten: Es sollen alle Eigentümerinnen/Eigentümer pro Grundstück abgefragt werden können.",
+          "current_behavior": "Es wird nur eine Eigentümerin/ein Eigentümer pro Grundstück angzeigt.",
+          "expected_behavior": "Es sollen alle Eigentümerinnen/Eigentümer pro Grundstück abgefragt werden können.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-09-22T13:26:01Z"
         },
         {
           "number": 4,
