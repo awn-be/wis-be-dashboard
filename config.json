@@ -28,9 +28,11 @@
     },
     "status": {
       "Todo": "Geplant",
+      "Needs clarification": "Weitere Abklärungen nötig",
       "In progress": "In Arbeit",
       "Ready to test": "Bereit zum Testen",
-      "Done": "Erledigt"
+      "Done": "Erledigt",
+      "Rejected": "Wird nicht umgesetzt"
     }
   }
 }
