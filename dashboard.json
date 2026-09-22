@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T11:37:06.096718+00:00",
+  "generated_at": "2026-09-22T13:02:52.873594+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -42,6 +42,22 @@
           "updated_at": "2026-09-15T07:41:56Z"
         },
         {
+          "number": 51,
+          "title": "Hochladen von Bild-Dateien im Feedbackformular (jpg/jpeg)",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/51",
+          "description": "Momentanes Verhalten: Fehler beim Hochladen von .jpeg Dateien. Es ist nur .jpg zugelassen. Erwartetes Verhalten: Auch .jpeg Dateien sollten hochgeladen werden können. Wenn ein Foto aus Whatsapp Web heruntergeladen wird erscheint das in den Downloads als .jpeg. Ausserdem würde ich gerne zwei Fotos markieren können und direkt gemeinsam in das hochladen Fenster ziehen hier im Feedbackformular. Das geht nicht. Ich muss aktuell erst eine Datei ins Formular ziehen, dann auf ein weiteres Dokument hinzufügen klicken, dann eine weitere Datei ins Formular ziehen. Diesesmal ist es wirklich nur ein nice to have :-) Einstellungen sodass .jpeg zugelassen wird? Oder Info, dass die Dateiendung geändert werden muss vor dem hochladen. Auch wenn eine Warnmeldung vom Explorer erscheint. Upload mehrerer Dateien gleichzeitig zulassen wenn es geht?",
+          "current_behavior": "Fehler beim Hochladen von .jpeg Dateien. Es ist nur .jpg zugelassen.",
+          "expected_behavior": "Auch .jpeg Dateien sollten hochgeladen werden können. Wenn ein Foto aus Whatsapp Web heruntergeladen wird erscheint das in den Downloads als .jpeg. Ausserdem würde ich gerne zwei Fotos markieren können und direkt gemeinsam in das hochladen Fenster ziehen hier im Feedbackformular. Das geht nicht. Ich muss aktuell erst eine Datei ins Formular ziehen, dann auf ein weiteres Dokument hinzufügen klicken, dann eine weitere Datei ins Formular ziehen. Diesesmal ist es wirklich nur ein nice to have :-) Einstellungen sodass .jpeg zugelassen wird? Oder Info, dass die Dateiendung geändert werden muss vor dem hochladen. Auch wenn eine Warnmeldung vom Explorer erscheint. Upload mehrerer Dateien gleichzeitig zulassen wenn es geht?",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "In progress",
+          "status": "In Arbeit",
+          "issue_state": "open",
+          "updated_at": "2026-09-22T12:36:42Z"
+        },
+        {
           "number": 16,
           "title": "vg_loadable",
           "url": "https://github.com/awn-be/vertigis_admin/issues/16",
@@ -56,6 +72,22 @@
           "status": "In Arbeit",
           "issue_state": "open",
           "updated_at": "2026-09-15T08:11:31Z"
+        },
+        {
+          "number": 52,
+          "title": "wf_admin_set_field_values: Parameter emptyFields",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/52",
+          "description": "Der Parameter emptyFields:true (wf admin set field values) funktioniert nicht konsistent. Bei DropDown-Formularelementen bleiben die Werte der vorherigen Erfassung im Formular, bei anderen Formular-Elementen werden die Werte geleert. Ich hatte ein ähnliches Problem und konnte es lösen, indem ich bei DropDowns 2x Set Form Element Property ausgeführt habe (einmal mit Property Name current und einmal mit Property Name value; der Property Value ist bei beiden leer).",
+          "current_behavior": "",
+          "expected_behavior": "",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "In progress",
+          "status": "In Arbeit",
+          "issue_state": "open",
+          "updated_at": "2026-09-22T12:30:50Z"
         },
         {
           "number": 31,
@@ -104,22 +136,6 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-15T07:41:05Z"
-        },
-        {
-          "number": 51,
-          "title": "Hochladen von Bild-Dateien im Feedbackformular (jpg/jpeg)",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/51",
-          "description": "Momentanes Verhalten: Fehler beim Hochladen von .jpeg Dateien. Es ist nur .jpg zugelassen. Erwartetes Verhalten: Auch .jpeg Dateien sollten hochgeladen werden können. Wenn ein Foto aus Whatsapp Web heruntergeladen wird erscheint das in den Downloads als .jpeg. Ausserdem würde ich gerne zwei Fotos markieren können und direkt gemeinsam in das hochladen Fenster ziehen hier im Feedbackformular. Das geht nicht. Ich muss aktuell erst eine Datei ins Formular ziehen, dann auf ein weiteres Dokument hinzufügen klicken, dann eine weitere Datei ins Formular ziehen. Diesesmal ist es wirklich nur ein nice to have :-) Einstellungen sodass .jpeg zugelassen wird? Oder Info, dass die Dateiendung geändert werden muss vor dem hochladen. Auch wenn eine Warnmeldung vom Explorer erscheint. Upload mehrerer Dateien gleichzeitig zulassen wenn es geht?",
-          "current_behavior": "Fehler beim Hochladen von .jpeg Dateien. Es ist nur .jpg zugelassen.",
-          "expected_behavior": "Auch .jpeg Dateien sollten hochgeladen werden können. Wenn ein Foto aus Whatsapp Web heruntergeladen wird erscheint das in den Downloads als .jpeg. Ausserdem würde ich gerne zwei Fotos markieren können und direkt gemeinsam in das hochladen Fenster ziehen hier im Feedbackformular. Das geht nicht. Ich muss aktuell erst eine Datei ins Formular ziehen, dann auf ein weiteres Dokument hinzufügen klicken, dann eine weitere Datei ins Formular ziehen. Diesesmal ist es wirklich nur ein nice to have :-) Einstellungen sodass .jpeg zugelassen wird? Oder Info, dass die Dateiendung geändert werden muss vor dem hochladen. Auch wenn eine Warnmeldung vom Explorer erscheint. Upload mehrerer Dateien gleichzeitig zulassen wenn es geht?",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-22T07:23:00Z"
         },
         {
           "number": 32,
@@ -200,22 +216,6 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-22T08:08:19Z"
-        },
-        {
-          "number": 52,
-          "title": "wf_admin_set_field_values: Parameter emptyFields",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/52",
-          "description": "Der Parameter emptyFields:true (wf admin set field values) funktioniert nicht konsistent. Bei DropDown-Formularelementen bleiben die Werte der vorherigen Erfassung im Formular, bei anderen Formular-Elementen werden die Werte geleert. Ich hatte ein ähnliches Problem und konnte es lösen, indem ich bei DropDowns 2x Set Form Element Property ausgeführt habe (einmal mit Property Name current und einmal mit Property Name value; der Property Value ist bei beiden leer).",
-          "current_behavior": "",
-          "expected_behavior": "",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-15T07:37:38Z"
         },
         {
           "number": 39,
@@ -564,8 +564,8 @@
           "type": "Funktion",
           "priority_raw": "Low",
           "priority": "Niedrig",
-          "status_raw": null,
-          "status": "Nicht zugeordnet",
+          "status_raw": "Rejected",
+          "status": "Wird nicht umgesetzt",
           "issue_state": "open",
           "updated_at": "2026-09-22T07:25:41Z"
         },
@@ -1068,8 +1068,8 @@
           "type": "Funktion",
           "priority_raw": null,
           "priority": "Nicht zugeordnet",
-          "status_raw": null,
-          "status": "Nicht zugeordnet",
+          "status_raw": "Needs clarification",
+          "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
           "updated_at": "2026-09-22T07:13:52Z"
         },
