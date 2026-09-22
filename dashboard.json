@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T08:27:47.258000+00:00",
+  "generated_at": "2026-09-22T11:37:06.096718+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -1008,6 +1008,22 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-15T08:54:03Z"
+        },
+        {
+          "number": 16,
+          "title": "Projektstatus Waldschadenmeldung",
+          "url": "https://github.com/awn-be/vertigis_waldschutz/issues/16",
+          "description": "Momentanes Verhalten: Revierförster mit zusätzlichen Abteilungsaufgaben sehen sämtliche Projektstatus. Dadurch kann die Waldschadenmeldung versehentlich bereits über den Projektstatus «Freigeben» freigegeben werden, obwohl die eigentliche Freigabe durch die Waldabteilung erfolgen sollte. Erwartetes Verhalten: Den Projektstatus «Freigeben» in «Freigeben durch WA» umbenennen, um klarzustellen, dass die Freigabe durch die Waldabteilung erfolgt und versehentliche Freigaben durch Revierförster mit Abteilungsaufgaben zu vermeiden.",
+          "current_behavior": "Revierförster mit zusätzlichen Abteilungsaufgaben sehen sämtliche Projektstatus. Dadurch kann die Waldschadenmeldung versehentlich bereits über den Projektstatus «Freigeben» freigegeben werden, obwohl die eigentliche Freigabe durch die Waldabteilung erfolgen sollte.",
+          "expected_behavior": "Den Projektstatus «Freigeben» in «Freigeben durch WA» umbenennen, um klarzustellen, dass die Freigabe durch die Waldabteilung erfolgt und versehentliche Freigaben durch Revierförster mit Abteilungsaufgaben zu vermeiden.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "updated_at": "2026-09-22T11:35:37Z"
         },
         {
           "number": 10,
