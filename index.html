@@ -156,6 +156,8 @@ function statusClass(status){
   if(status==="In Arbeit") return "status-progress";
   if(status==="Bereit zum Testen") return "status-test";
   if(status==="Geplant") return "status-todo";
+  if(status==="Weitere Abklärungen nötig") return "status-clarification";
+  if(status==="Wird nicht umgesetzt") return "status-rejected";
   return "status-other";
 }
 function sortItems(list){
@@ -179,11 +181,13 @@ function sortItems(list){
   };
 
   const statusOrder = {
-    "In Arbeit": 0,
-    "Bereit zum Testen": 1,
-    "Geplant": 2,
-    "Erledigt": 3,
-    "Nicht zugeordnet": 4
+    "Geplant": 0,
+    "Weitere Abklärungen nötig": 1,
+    "In Arbeit": 2,
+    "Bereit zum Testen": 3,
+    "Erledigt": 4,
+    "Wird nicht umgesetzt": 5,
+    "Nicht zugeordnet": 6
   };
 
   return [...list].sort((a, b) => {
