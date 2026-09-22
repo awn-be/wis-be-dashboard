@@ -115,9 +115,42 @@
   </section>
 
   <nav class="filters" aria-label="Filter">
-    <button class="filter active" data-filter="all">Alle</button>
-    <button class="filter" data-filter="Fehler">Fehler</button>
-    <button class="filter" data-filter="Funktion">Funktionen</button>
+  
+    <div class="filter-group">
+      <span class="filter-label">Typ</span>
+      <div class="filter-buttons">
+        <button class="filter active" data-filter-type="all">Alle</button>
+        <button class="filter" data-filter-type="Fehler">Fehler</button>
+        <button class="filter" data-filter-type="Funktion">Funktionen</button>
+      </div>
+    </div>
+  
+    <div class="filter-group">
+      <span class="filter-label">Priorität</span>
+      <div class="filter-buttons">
+        <button class="filter active" data-filter-priority="all">Alle</button>
+        <button class="filter" data-filter-priority="Urgent">Sehr hoch</button>
+        <button class="filter" data-filter-priority="High">Hoch</button>
+        <button class="filter" data-filter-priority="Medium">Mittel</button>
+        <button class="filter" data-filter-priority="Low">Niedrig</button>
+        <button class="filter" data-filter-priority="none">Nicht zugeordnet</button>
+      </div>
+    </div>
+  
+    <div class="filter-group">
+      <span class="filter-label">Status</span>
+      <div class="filter-buttons">
+        <button class="filter active" data-filter-status="all">Alle</button>
+        <button class="filter" data-filter-status="Geplant">Geplant</button>
+        <button class="filter" data-filter-status="Weitere Abklärungen nötig">Weitere Abklärungen nötig</button>
+        <button class="filter" data-filter-status="In Arbeit">In Arbeit</button>
+        <button class="filter" data-filter-status="Bereit zum Testen">Bereit zum Testen</button>
+        <button class="filter" data-filter-status="Erledigt">Erledigt</button>
+        <button class="filter" data-filter-status="Wird nicht umgesetzt">Wird nicht umgesetzt</button>
+        <button class="filter" data-filter-status="Nicht zugeordnet">Nicht zugeordnet</button>
+      </div>
+    </div>
+  
   </nav>
 
   <div id="content"><div class="loading">Dashboard-Daten werden geladen …</div></div>
