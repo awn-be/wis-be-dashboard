@@ -427,10 +427,32 @@ async function load(){
   }
   render();
 }
-document.querySelectorAll(".filter").forEach(btn=>btn.addEventListener("click",()=>{
-  document.querySelectorAll(".filter").forEach(b=>b.classList.remove("active"));
-  btn.classList.add("active"); currentFilter=btn.dataset.filter; render();
-}));
+document.querySelectorAll("[data-filter-type]").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    document.querySelectorAll("[data-filter-type]").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    currentTypeFilter = btn.dataset.filterType;
+    render();
+  });
+});
+
+document.querySelectorAll("[data-filter-priority]").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    document.querySelectorAll("[data-filter-priority]").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    currentPriorityFilter = btn.dataset.filterPriority;
+    render();
+  });
+});
+
+document.querySelectorAll("[data-filter-status]").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    document.querySelectorAll("[data-filter-status]").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    currentStatusFilter = btn.dataset.filterStatus;
+    render();
+  });
+});
 load().catch(err=>{
   console.error(err);
   document.getElementById("content").innerHTML=`<div class="error">Die Dashboard-Daten konnten nicht geladen werden.<br><small>${escapeHtml(err.message)}</small></div>`;
