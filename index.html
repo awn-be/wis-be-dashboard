@@ -261,7 +261,23 @@ function items(){
 }
 function visible(section){
   return sortItems(
-    section.items.filter(x => currentFilter==="all" || x.type===currentFilter)
+    section.items.filter(x => {
+      const typeMatch =
+        currentTypeFilter === "all" ||
+        x.type === currentTypeFilter;
+
+      const priorityMatch =
+        currentPriorityFilter === "all" ||
+        (currentPriorityFilter === "none"
+          ? !x.priority_raw
+          : x.priority_raw === currentPriorityFilter);
+
+      const statusMatch =
+        currentStatusFilter === "all" ||
+        x.status === currentStatusFilter;
+
+      return typeMatch && priorityMatch && statusMatch;
+    })
   );
 }
 function countStatus(status){
