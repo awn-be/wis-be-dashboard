@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T14:18:57.586534+00:00",
+  "generated_at": "2026-09-23T14:22:52.890295+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -171,7 +171,7 @@
         },
         {
           "number": 48,
-          "title": "Kryptische Layer-Beschriftungen/Labels (AGI-Dienste)",
+          "title": "Kryptische Layer-Beschriftungen / Labels (AGI-Dienste)",
           "url": "https://github.com/awn-be/vertigis_admin/issues/48",
           "description": "Momentanes Verhalten: Beim Ausprobieren bzw. Durchschauen welche Layer man alles zuschalten kann ist mir aufgefallen, dass sehr viele Layer-Bezeichnungen extrem Kryptisch beschriftet sind (siehe Printscreens). Auch in der Legende wird man nicht wirklich schlauer, was man da jetzt genau anschaut. Erwartetes Verhalten: Wäre super, wenn die Layer etwas aussagekräftiger Beschriftet werden könnten. Weiter wäre es super, wenn es irgendwo eine Übersichts-Liste oder so gäbe, in der man sieht, was es überhaupt alles für Layer gibt die man anschauen kann. So muss man relativ lange auf Entdeckungsreise gehen um evtl. spannende Layer zu finden.",
           "current_behavior": "Beim Ausprobieren bzw. Durchschauen welche Layer man alles zuschalten kann ist mir aufgefallen, dass sehr viele Layer-Bezeichnungen extrem Kryptisch beschriftet sind (siehe Printscreens). Auch in der Legende wird man nicht wirklich schlauer, was man da jetzt genau anschaut.",
@@ -183,7 +183,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T09:55:16Z"
+          "updated_at": "2026-09-23T14:21:30Z"
         },
         {
           "number": 47,
@@ -475,7 +475,7 @@
         },
         {
           "number": 54,
-          "title": "Parzellensuche/Grundstücksuche",
+          "title": "Parzellensuche / Grundstücksuche",
           "url": "https://github.com/awn-be/vertigis_admin/issues/54",
           "description": "Momentanes Verhalten: 1. Wenn man eine Parzelle sucht, nicht nur «auf Ergebnis zoomen»,. Bei vielen kleinen Parzellen ist es sonst relativ mühsam für die Augen. 2. Zudem ist die Parzellesuche aktuell nicht praktisch gemacht. Erwartetes Verhalten: 1. Parzelle farblich (z.B. blau) hervorheben bzw. selektieren. 2. Zudem wäre es sehr hilfreich wenn in der Suche eine Parzellensuche möglich wäre und nicht nur die Adresse. -- Einfache Parzellensuche wie im alten WIS-BE. z.B. Eriz 4",
           "current_behavior": "1. Wenn man eine Parzelle sucht, nicht nur «auf Ergebnis zoomen»,. Bei vielen kleinen Parzellen ist es sonst relativ mühsam für die Augen. 2. Zudem ist die Parzellesuche aktuell nicht praktisch gemacht.",
@@ -487,7 +487,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T09:49:39Z"
+          "updated_at": "2026-09-23T14:21:19Z"
         },
         {
           "number": 49,
