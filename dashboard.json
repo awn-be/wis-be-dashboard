@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:29:09.665283+00:00",
+  "generated_at": "2026-09-24T11:40:51.652537+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -516,8 +516,8 @@
           "type": "Fehler",
           "priority_raw": "High",
           "priority": "Hoch",
-          "status_raw": null,
-          "status": "Nicht zugeordnet",
+          "status_raw": "Needs clarification",
+          "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
           "updated_at": "2026-09-24T11:28:10Z"
         },
