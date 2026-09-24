@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T07:33:43.144721+00:00",
+  "generated_at": "2026-09-24T10:33:18.056621+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -471,7 +471,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T09:56:54Z"
+          "updated_at": "2026-09-24T08:53:17Z"
         },
         {
           "number": 54,
@@ -960,6 +960,22 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-23T14:06:06Z"
+        },
+        {
+          "number": 17,
+          "title": "Bearbeitung von eingereichten FS-Abrechnungen",
+          "url": "https://github.com/awn-be/vertigis_waldschutz/issues/17",
+          "description": "Momentanes Verhalten: Wenn ein Fall \"zur Abrechnung eingereicht\" wurde, kann dieser nicht mehr bearbeitet werden Erwartetes Verhalten: Wäre manchmal praktisch, wenn man später auch noch Änderungen vornehmen könnte. Einerseits falls man einen Fehler bemerkt und andererseits kommen (vor allem im Moment) manchmal noch einzelne Bäume dazu. Früher konnte man Fälle bearbeiten bis diese von der Waldabteilung übernommen bzw. wirklich abgerechnet wurden. Das war manchmal gäbig.",
+          "current_behavior": "Wenn ein Fall \"zur Abrechnung eingereicht\" wurde, kann dieser nicht mehr bearbeitet werden",
+          "expected_behavior": "Wäre manchmal praktisch, wenn man später auch noch Änderungen vornehmen könnte. Einerseits falls man einen Fehler bemerkt und andererseits kommen (vor allem im Moment) manchmal noch einzelne Bäume dazu. Früher konnte man Fälle bearbeiten bis diese von der Waldabteilung übernommen bzw. wirklich abgerechnet wurden. Das war manchmal gäbig.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "updated_at": "2026-09-24T10:32:01Z"
         },
         {
           "number": 8,
