@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T00:31:16.177967+00:00",
+  "generated_at": "2026-09-24T07:33:43.144721+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -488,6 +488,22 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-23T14:21:19Z"
+        },
+        {
+          "number": 55,
+          "title": "Waldbesitzerabfrage: Kontaktperson",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/55",
+          "description": "Momentanes Verhalten: Eine Sache ist mir noch aufgefallen, dass die Kontaktperson nicht ersichtlich ist. Im Alten war dies mit Ja oder Nein bezeichnet. Könnt ihr dies noch einfliessen lassen?",
+          "current_behavior": "Eine Sache ist mir noch aufgefallen, dass die Kontaktperson nicht ersichtlich ist. Im Alten war dies mit Ja oder Nein bezeichnet. Könnt ihr dies noch einfliessen lassen?",
+          "expected_behavior": "",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "updated_at": "2026-09-24T07:32:23Z"
         },
         {
           "number": 49,
