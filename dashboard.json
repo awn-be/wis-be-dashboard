@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:33:18.056621+00:00",
+  "generated_at": "2026-09-24T11:29:09.665283+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -504,6 +504,22 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-24T07:32:23Z"
+        },
+        {
+          "number": 56,
+          "title": "Anmeldemaske öffnet sich hinter dem Browser-Hauptfenster",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/56",
+          "description": "Momentanes Verhalten: Beim Einloggen erscheint die Anmeldemaske hinter dem Hauptfenster. Erwartetes Verhalten: Die Anmeldemaske soll im Vordergrund erscheinen.",
+          "current_behavior": "Beim Einloggen erscheint die Anmeldemaske hinter dem Hauptfenster.",
+          "expected_behavior": "Die Anmeldemaske soll im Vordergrund erscheinen.",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": null,
+          "status": "Nicht zugeordnet",
+          "issue_state": "open",
+          "updated_at": "2026-09-24T11:28:10Z"
         },
         {
           "number": 49,
