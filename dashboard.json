@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T00:34:13.194358+00:00",
+  "generated_at": "2026-09-26T00:38:05.970473+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -184,22 +184,6 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-23T14:21:30Z"
-        },
-        {
-          "number": 47,
-          "title": "Layer hinzufügen: Übersichtlichkeit",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/47",
-          "description": "Momentanes Verhalten: [...] wenn ich in den verfügbaren Layer nach \"Waldbesitzer\" suche, werden aktuell 4 verschiedene Datensätze angezeigt die für mich als unkundigen vom Beschrieb her alle gleich aussehen. Erwartetes Verhalten: Wäre einfacher, wenn nur ein solcher Datensatz vorhanden wäre oder falls sie sich unterscheiden, im Beschrieb ersichtlich ist was der Unterschied ist.",
-          "current_behavior": "[...] wenn ich in den verfügbaren Layer nach \"Waldbesitzer\" suche, werden aktuell 4 verschiedene Datensätze angezeigt die für mich als unkundigen vom Beschrieb her alle gleich aussehen.",
-          "expected_behavior": "Wäre einfacher, wenn nur ein solcher Datensatz vorhanden wäre oder falls sie sich unterscheiden, im Beschrieb ersichtlich ist was der Unterschied ist.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-23T09:55:48Z"
         },
         {
           "number": 39,
@@ -490,22 +474,6 @@
           "updated_at": "2026-09-23T14:21:19Z"
         },
         {
-          "number": 55,
-          "title": "Waldbesitzerabfrage: Kontaktperson",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/55",
-          "description": "Momentanes Verhalten: Eine Sache ist mir noch aufgefallen, dass die Kontaktperson nicht ersichtlich ist. Im Alten war dies mit Ja oder Nein bezeichnet. Könnt ihr dies noch einfliessen lassen?",
-          "current_behavior": "Eine Sache ist mir noch aufgefallen, dass die Kontaktperson nicht ersichtlich ist. Im Alten war dies mit Ja oder Nein bezeichnet. Könnt ihr dies noch einfliessen lassen?",
-          "expected_behavior": "",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-24T07:32:23Z"
-        },
-        {
           "number": 56,
           "title": "Anmeldemaske öffnet sich hinter dem Browser-Hauptfenster",
           "url": "https://github.com/awn-be/vertigis_admin/issues/56",
@@ -778,6 +746,22 @@
           "updated_at": "2026-09-23T14:10:01Z"
         },
         {
+          "number": 47,
+          "title": "Layer hinzufügen: Übersichtlichkeit",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/47",
+          "description": "Momentanes Verhalten: [...] wenn ich in den verfügbaren Layer nach \"Waldbesitzer\" suche, werden aktuell 4 verschiedene Datensätze angezeigt die für mich als unkundigen vom Beschrieb her alle gleich aussehen. Erwartetes Verhalten: Wäre einfacher, wenn nur ein solcher Datensatz vorhanden wäre oder falls sie sich unterscheiden, im Beschrieb ersichtlich ist was der Unterschied ist.",
+          "current_behavior": "[...] wenn ich in den verfügbaren Layer nach \"Waldbesitzer\" suche, werden aktuell 4 verschiedene Datensätze angezeigt die für mich als unkundigen vom Beschrieb her alle gleich aussehen.",
+          "expected_behavior": "Wäre einfacher, wenn nur ein solcher Datensatz vorhanden wäre oder falls sie sich unterscheiden, im Beschrieb ersichtlich ist was der Unterschied ist.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-09-25T06:46:47Z"
+        },
+        {
           "number": 18,
           "title": "Maximale Anzahl von Ergebnissen (500) erreicht",
           "url": "https://github.com/awn-be/vertigis_admin/issues/18",
@@ -888,6 +872,22 @@
           "status": "Erledigt",
           "issue_state": "closed",
           "updated_at": "2026-09-23T14:16:25Z"
+        },
+        {
+          "number": 55,
+          "title": "Waldbesitzerabfrage: Kontaktperson",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/55",
+          "description": "Momentanes Verhalten: Eine Sache ist mir noch aufgefallen, dass die Kontaktperson nicht ersichtlich ist. Im Alten war dies mit Ja oder Nein bezeichnet. Könnt ihr dies noch einfliessen lassen?",
+          "current_behavior": "Eine Sache ist mir noch aufgefallen, dass die Kontaktperson nicht ersichtlich ist. Im Alten war dies mit Ja oder Nein bezeichnet. Könnt ihr dies noch einfliessen lassen?",
+          "expected_behavior": "",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-09-25T13:30:29Z"
         }
       ]
     },
@@ -927,7 +927,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T14:03:10Z"
+          "updated_at": "2026-09-25T08:35:50Z"
         },
         {
           "number": 6,
@@ -1058,22 +1058,6 @@
           "updated_at": "2026-09-23T13:55:48Z"
         },
         {
-          "number": 5,
-          "title": "Hochladen Einzahlungsschein als abhängiges Pflichtfeld",
-          "url": "https://github.com/awn-be/vertigis_waldschutz/issues/5",
-          "description": "Erwartetes Verhalten: Das hochladen des EZ als pdf sollte erst als Pflichtfeld aktiviert sein, wenn ich «Abrechnung einreichen» angewählt habe. Bei der Erfassung habe ich oft den EZ des einzelnen Waldbesitzers noch nicht.",
-          "current_behavior": "",
-          "expected_behavior": "Das hochladen des EZ als pdf sollte erst als Pflichtfeld aktiviert sein, wenn ich «Abrechnung einreichen» angewählt habe. Bei der Erfassung habe ich oft den EZ des einzelnen Waldbesitzers noch nicht.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-23T14:03:33Z"
-        },
-        {
           "number": 16,
           "title": "Projektstatus Waldschadenmeldung",
           "url": "https://github.com/awn-be/vertigis_waldschutz/issues/16",
@@ -1168,6 +1152,22 @@
           "status": "Erledigt",
           "issue_state": "closed",
           "updated_at": "2026-09-23T13:58:17Z"
+        },
+        {
+          "number": 5,
+          "title": "Hochladen Einzahlungsschein als abhängiges Pflichtfeld",
+          "url": "https://github.com/awn-be/vertigis_waldschutz/issues/5",
+          "description": "Erwartetes Verhalten: Das hochladen des EZ als pdf sollte erst als Pflichtfeld aktiviert sein, wenn ich «Abrechnung einreichen» angewählt habe. Bei der Erfassung habe ich oft den EZ des einzelnen Waldbesitzers noch nicht.",
+          "current_behavior": "",
+          "expected_behavior": "Das hochladen des EZ als pdf sollte erst als Pflichtfeld aktiviert sein, wenn ich «Abrechnung einreichen» angewählt habe. Bei der Erfassung habe ich oft den EZ des einzelnen Waldbesitzers noch nicht.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-09-25T07:30:04Z"
         }
       ]
     }
