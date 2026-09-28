@@ -42,9 +42,11 @@ Dadurch greift die öffentliche Anzeige **nicht direkt auf die GitHub API** zu.
 **Status**
 
 -   `Todo` → Geplant
+-   `Needs clarification` → Weitere Abklärungen nötig
 -   `In progress` → In Arbeit
 -   `Ready to test` → Bereit zum Testen
 -   `Done` → Erledigt
+-   `Rejected` → Wird nicht umgesetzt
 
 **Priority**
 
@@ -57,7 +59,7 @@ Dadurch greift die öffentliche Anzeige **nicht direkt auf die GitHub API** zu.
 
 -   `Bug` → Fehler
 -   `Feature` → Funktion
--   `Task` → Aufgabe
+-   `Task` → Aufgabe *(wird aktuell nicht verwendet)*
 
 ## Neue Repository-Sektion ergänzen
 
