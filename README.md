@@ -6,7 +6,7 @@ Saubere Trennung von **interner Issue-Pflege** (GitHub) und
 ``` text
 GitHub Issues + GitHub Projects
              │
-             │ GitHub Action (1x pro Tag, nachts)
+             │ GitHub Action (automatisch, nachts)
              ▼
         dashboard.json
              │
