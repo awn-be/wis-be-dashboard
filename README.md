@@ -74,23 +74,6 @@ sortiert werden.
 Die Filterung und Sortierung erfolgen direkt im Browser und verändern weder
 die GitHub Issues noch die Daten in `dashboard.json`.
 
-## Neue Repository-Sektion ergänzen
-
-Für eine zusätzliche Dashboard-Sektion muss lediglich `config.json` um
-das entsprechende Repository und GitHub Project erweitert werden, z. B.:
-
-``` json
-{
-  "repo": "vertigis_planungsgrundlagen",
-  "title": "Planungsgrundlagen",
-  "project_number": 8,
-  "project_title": "Sprintplanung Planungsgrundlagen"
-}
-```
-
-Beim nächsten Lauf der Action wird die neue Sektion automatisch in
-`dashboard.json` aufgenommen.
-
 ------------------------------------------------------------------------
 
 # Dokumentation der Einrichtung
@@ -176,6 +159,23 @@ Das Dashboard ist dadurch unter folgender Adresse erreichbar:
 
 Diese GitHub-Pages-Seite kann anschliessend per iFrame in ArcGIS Portal
 eingebunden werden.
+
+## 5. Neue Repository-Sektion ergänzen
+
+Für eine zusätzliche Dashboard-Sektion muss lediglich `config.json` um
+das entsprechende Repository und GitHub Project erweitert werden, z. B.:
+
+``` json
+{
+  "repo": "vertigis_planungsgrundlagen",
+  "title": "Planungsgrundlagen",
+  "project_number": 8,
+  "project_title": "Sprintplanung Planungsgrundlagen"
+}
+```
+
+Beim nächsten Lauf der Action wird die neue Sektion automatisch in
+`dashboard.json` aufgenommen.
 
 ## KI-Unterstützung
 
