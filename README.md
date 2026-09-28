@@ -61,6 +61,19 @@ Dadurch greift die öffentliche Anzeige **nicht direkt auf die GitHub API** zu.
 -   `Feature` → Funktion
 -   `Task` → Aufgabe *(wird aktuell nicht verwendet)*
 
+## Filter und Sortierung
+
+Die öffentliche Dashboard-Anzeige kann nach **Typ**, **Priorität** und
+**Status** gefiltert werden. Die Filter lassen sich miteinander kombinieren;
+es werden nur Einträge angezeigt, die alle ausgewählten Kriterien erfüllen.
+
+Die Einträge können zusätzlich über die Spaltenüberschriften nach **Thema**,
+**Beschreibung**, **Typ**, **Priorität** und **Status** auf- oder absteigend
+sortiert werden.
+
+Die Filterung und Sortierung erfolgen direkt im Browser und verändern weder
+die GitHub Issues noch die Daten in `dashboard.json`.
+
 ## Neue Repository-Sektion ergänzen
 
 Für eine zusätzliche Dashboard-Sektion muss lediglich `config.json` um
