@@ -102,7 +102,7 @@ Der Token erhielt Leserechte auf die benötigten Ressourcen,
 insbesondere:
 
 -   Organization permission: **Projects -- Read-only**
--   Repository access auf `vertigis_admin` und `vertigis_waldschutz`
+-   Repository access auf `vertigis_admin` und `vertigis_fschutz_wschad`
     (für Issues/Metadaten, soweit durch die Org-Einstellungen
     erforderlich)
 
