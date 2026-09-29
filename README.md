@@ -102,9 +102,18 @@ Der Token erhielt Leserechte auf die benötigten Ressourcen,
 insbesondere:
 
 -   Organization permission: **Projects -- Read-only**
--   Repository access auf `vertigis_admin` und `vertigis_fschutz_wschad`
-    (für Issues/Metadaten, soweit durch die Org-Einstellungen
-    erforderlich)
+-   Keine Repository-Berechtigungen erforderlich, da die verwendeten
+    GitHub Issues aus öffentlichen Repositories gelesen werden.
+
+Der Fine-grained Personal Access Token ist zeitlich begrenzt und muss
+vor Ablauf erneuert werden. Der aktuell verwendete Token läuft am
+**31. August 2027** ab.
+
+Nach der Regeneration des Tokens muss der neue Token-Wert unter
+**Settings → Secrets and variables → Actions → `DASHBOARD_TOKEN`**
+als neues Repository Secret hinterlegt werden. Anschliessend sollte
+der Workflow **Update dashboard** einmal manuell ausgeführt werden,
+um den Zugriff zu prüfen.
 
 Im Dashboard-Repository wurde der Token anschliessend als Actions Secret
 hinterlegt:
