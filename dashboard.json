@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:58:45.289033+00:00",
+  "generated_at": "2026-09-29T06:43:22.971407+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -455,7 +455,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-24T08:53:17Z"
+          "updated_at": "2026-09-29T06:13:45Z"
         },
         {
           "number": 54,
@@ -482,12 +482,12 @@
           "expected_behavior": "Die Anmeldemaske soll im Vordergrund erscheinen.",
           "type_raw": "Bug",
           "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
           "status_raw": "Needs clarification",
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
-          "updated_at": "2026-09-24T11:28:10Z"
+          "updated_at": "2026-09-29T06:41:12Z"
         },
         {
           "number": 49,
@@ -936,14 +936,14 @@
           "description": "Momentanes Verhalten: Waldschadenmeldungen können nur einzeln freigegeben werden Erwartetes Verhalten: Es können gleichzeitig mehrere Waldschadenmeldungen freigegeben werden (analog Freigabe Waldschaden)",
           "current_behavior": "Waldschadenmeldungen können nur einzeln freigegeben werden",
           "expected_behavior": "Es können gleichzeitig mehrere Waldschadenmeldungen freigegeben werden (analog Freigabe Waldschaden)",
-          "type_raw": "Nicht zugeordnet",
-          "type": "Nicht zugeordnet",
+          "type_raw": "Feature",
+          "type": "Funktion",
           "priority_raw": "Medium",
           "priority": "Mittel",
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-28T09:49:29Z"
+          "updated_at": "2026-09-29T06:31:07Z"
         },
         {
           "number": 6,
@@ -992,22 +992,6 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-23T14:06:06Z"
-        },
-        {
-          "number": 17,
-          "title": "Bearbeitung von eingereichten FS-Abrechnungen",
-          "url": "https://github.com/awn-be/vertigis_waldschutz/issues/17",
-          "description": "Momentanes Verhalten: Wenn ein Fall \"zur Abrechnung eingereicht\" wurde, kann dieser nicht mehr bearbeitet werden Erwartetes Verhalten: Wäre manchmal praktisch, wenn man später auch noch Änderungen vornehmen könnte. Einerseits falls man einen Fehler bemerkt und andererseits kommen (vor allem im Moment) manchmal noch einzelne Bäume dazu. Früher konnte man Fälle bearbeiten bis diese von der Waldabteilung übernommen bzw. wirklich abgerechnet wurden. Das war manchmal gäbig.",
-          "current_behavior": "Wenn ein Fall \"zur Abrechnung eingereicht\" wurde, kann dieser nicht mehr bearbeitet werden",
-          "expected_behavior": "Wäre manchmal praktisch, wenn man später auch noch Änderungen vornehmen könnte. Einerseits falls man einen Fehler bemerkt und andererseits kommen (vor allem im Moment) manchmal noch einzelne Bäume dazu. Früher konnte man Fälle bearbeiten bis diese von der Waldabteilung übernommen bzw. wirklich abgerechnet wurden. Das war manchmal gäbig.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-24T10:32:01Z"
         },
         {
           "number": 8,
@@ -1120,6 +1104,22 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-23T13:55:17Z"
+        },
+        {
+          "number": 17,
+          "title": "Bearbeitung von eingereichten FS-Abrechnungen",
+          "url": "https://github.com/awn-be/vertigis_waldschutz/issues/17",
+          "description": "Momentanes Verhalten: Wenn ein Fall \"zur Abrechnung eingereicht\" wurde, kann dieser nicht mehr bearbeitet werden Erwartetes Verhalten: Wäre manchmal praktisch, wenn man später auch noch Änderungen vornehmen könnte. Einerseits falls man einen Fehler bemerkt und andererseits kommen (vor allem im Moment) manchmal noch einzelne Bäume dazu. Früher konnte man Fälle bearbeiten bis diese von der Waldabteilung übernommen bzw. wirklich abgerechnet wurden. Das war manchmal gäbig.",
+          "current_behavior": "Wenn ein Fall \"zur Abrechnung eingereicht\" wurde, kann dieser nicht mehr bearbeitet werden",
+          "expected_behavior": "Wäre manchmal praktisch, wenn man später auch noch Änderungen vornehmen könnte. Einerseits falls man einen Fehler bemerkt und andererseits kommen (vor allem im Moment) manchmal noch einzelne Bäume dazu. Früher konnte man Fälle bearbeiten bis diese von der Waldabteilung übernommen bzw. wirklich abgerechnet wurden. Das war manchmal gäbig.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": "Needs clarification",
+          "status": "Weitere Abklärungen nötig",
+          "issue_state": "open",
+          "updated_at": "2026-09-24T10:32:01Z"
         },
         {
           "number": 2,
