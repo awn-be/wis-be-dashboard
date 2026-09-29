@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:47:47.066315+00:00",
+  "generated_at": "2026-09-29T01:58:45.289033+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -522,6 +522,22 @@
           "updated_at": "2026-09-23T09:58:26Z"
         },
         {
+          "number": 42,
+          "title": "Tooltip ersetzen durch Info- oder Fragezeichen-Button",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/42",
+          "description": "Momentanes Verhalten: Um bei der Eingabemaske für eine neue Geometrie zusätzliche Informationen zum Feld anzuzeigen gibt es im neuen WIS-BE die Funktionalität \"Tooltip\". Diese Infobox wird nur angezeigt, wenn man mit dem Mauszeiger über dem Eingabefeld verweilt. Das ist... ...wenig intuitiv (Hover über die Feldbezeichnung bringt nichts; es ist nicht ersichtlich, wo weitere Informationen hinterlegt sind) ...fehleranfällig (eine Bewegung zuviel und schon ist's weg) ...nicht kompatibel mit mobilen Geräten ohne Mauszeiger. Erwartetes Verhalten: Da die Eingabemasken möglichst schlank sein sollten, ist eine Funktionalität für zusätzliche Infos sehr hilfreich. Es sollte aber auf den ersten Blick ersichtlich sein, wo zusätzliche Infos hinterlegt sind. Eine Infobox sollte sich mit einem Klick/Tipp öffnen und mit einem ebensolchen (irgendwo auf dem Bildschirm) wieder schliessen lassen. Im bisherigen WIS-BE war eine ähnliche Funktionalität (i) mit einem umfangreicheren Pop-Up für Arbeitshilfen verfügbar",
+          "current_behavior": "Um bei der Eingabemaske für eine neue Geometrie zusätzliche Informationen zum Feld anzuzeigen gibt es im neuen WIS-BE die Funktionalität \"Tooltip\". Diese Infobox wird nur angezeigt, wenn man mit dem Mauszeiger über dem Eingabefeld verweilt. Das ist... ...wenig intuitiv (Hover über die Feldbezeichnung bringt nichts; es ist nicht ersichtlich, wo weitere Informationen hinterlegt sind) ...fehleranfällig (eine Bewegung zuviel und schon ist's weg) ...nicht kompatibel mit mobilen Geräten ohne Mauszeiger.",
+          "expected_behavior": "Da die Eingabemasken möglichst schlank sein sollten, ist eine Funktionalität für zusätzliche Infos sehr hilfreich. Es sollte aber auf den ersten Blick ersichtlich sein, wo zusätzliche Infos hinterlegt sind. Eine Infobox sollte sich mit einem Klick/Tipp öffnen und mit einem ebensolchen (irgendwo auf dem Bildschirm) wieder schliessen lassen. Im bisherigen WIS-BE war eine ähnliche Funktionalität (i) mit einem umfangreicheren Pop-Up für Arbeitshilfen verfügbar",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Low",
+          "priority": "Niedrig",
+          "status_raw": "Rejected",
+          "status": "Wird nicht umgesetzt",
+          "issue_state": "closed",
+          "updated_at": "2026-09-23T14:16:25Z"
+        },
+        {
           "number": 53,
           "title": "Transparenz Orthofoto (Hintergrundkarten)",
           "url": "https://github.com/awn-be/vertigis_admin/issues/53",
@@ -858,22 +874,6 @@
           "updated_at": "2026-09-23T14:17:08Z"
         },
         {
-          "number": 42,
-          "title": "Tooltip ersetzen durch Info- oder Fragezeichen-Button",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/42",
-          "description": "Momentanes Verhalten: Um bei der Eingabemaske für eine neue Geometrie zusätzliche Informationen zum Feld anzuzeigen gibt es im neuen WIS-BE die Funktionalität \"Tooltip\". Diese Infobox wird nur angezeigt, wenn man mit dem Mauszeiger über dem Eingabefeld verweilt. Das ist... ...wenig intuitiv (Hover über die Feldbezeichnung bringt nichts; es ist nicht ersichtlich, wo weitere Informationen hinterlegt sind) ...fehleranfällig (eine Bewegung zuviel und schon ist's weg) ...nicht kompatibel mit mobilen Geräten ohne Mauszeiger. Erwartetes Verhalten: Da die Eingabemasken möglichst schlank sein sollten, ist eine Funktionalität für zusätzliche Infos sehr hilfreich. Es sollte aber auf den ersten Blick ersichtlich sein, wo zusätzliche Infos hinterlegt sind. Eine Infobox sollte sich mit einem Klick/Tipp öffnen und mit einem ebensolchen (irgendwo auf dem Bildschirm) wieder schliessen lassen. Im bisherigen WIS-BE war eine ähnliche Funktionalität (i) mit einem umfangreicheren Pop-Up für Arbeitshilfen verfügbar",
-          "current_behavior": "Um bei der Eingabemaske für eine neue Geometrie zusätzliche Informationen zum Feld anzuzeigen gibt es im neuen WIS-BE die Funktionalität \"Tooltip\". Diese Infobox wird nur angezeigt, wenn man mit dem Mauszeiger über dem Eingabefeld verweilt. Das ist... ...wenig intuitiv (Hover über die Feldbezeichnung bringt nichts; es ist nicht ersichtlich, wo weitere Informationen hinterlegt sind) ...fehleranfällig (eine Bewegung zuviel und schon ist's weg) ...nicht kompatibel mit mobilen Geräten ohne Mauszeiger.",
-          "expected_behavior": "Da die Eingabemasken möglichst schlank sein sollten, ist eine Funktionalität für zusätzliche Infos sehr hilfreich. Es sollte aber auf den ersten Blick ersichtlich sein, wo zusätzliche Infos hinterlegt sind. Eine Infobox sollte sich mit einem Klick/Tipp öffnen und mit einem ebensolchen (irgendwo auf dem Bildschirm) wieder schliessen lassen. Im bisherigen WIS-BE war eine ähnliche Funktionalität (i) mit einem umfangreicheren Pop-Up für Arbeitshilfen verfügbar",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "Low",
-          "priority": "Niedrig",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:16:25Z"
-        },
-        {
           "number": 55,
           "title": "Waldbesitzerabfrage: Kontaktperson",
           "url": "https://github.com/awn-be/vertigis_admin/issues/55",
@@ -928,6 +928,22 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-25T08:35:50Z"
+        },
+        {
+          "number": 19,
+          "title": "Mehrere Waldschadenmeldungen gleichzeitig freigeben",
+          "url": "https://github.com/awn-be/vertigis_waldschutz/issues/19",
+          "description": "Momentanes Verhalten: Waldschadenmeldungen können nur einzeln freigegeben werden Erwartetes Verhalten: Es können gleichzeitig mehrere Waldschadenmeldungen freigegeben werden (analog Freigabe Waldschaden)",
+          "current_behavior": "Waldschadenmeldungen können nur einzeln freigegeben werden",
+          "expected_behavior": "Es können gleichzeitig mehrere Waldschadenmeldungen freigegeben werden (analog Freigabe Waldschaden)",
+          "type_raw": "Nicht zugeordnet",
+          "type": "Nicht zugeordnet",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "updated_at": "2026-09-28T09:49:29Z"
         },
         {
           "number": 6,
