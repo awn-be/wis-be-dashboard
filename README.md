@@ -35,7 +35,7 @@ Dadurch greift die öffentliche Anzeige **nicht direkt auf die GitHub API** zu.
 | Repository | Anzeige | GitHub Project |
 | --- | --- | --- |
 | `awn-be/vertigis_admin` | Allgemeine Verbesserungen | #6 – Sprintplanung Admin |
-| `awn-be/vertigis_waldschutz` | Waldschadenmeldung | #7 – Sprintplanung Waldschutz |
+| `awn-be/vertigis_fschutz_wschad` | Waldschadenmeldung | #7 – Sprintplanung Waldschaden |
 
 ## Übersetzungen
 
