@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:57:18.739705+00:00",
+  "generated_at": "2026-09-29T09:16:37.749699+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -930,6 +930,22 @@
           "updated_at": "2026-09-25T08:35:50Z"
         },
         {
+          "number": 19,
+          "title": "Mehrere Waldschadenmeldungen gleichzeitig freigeben",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/19",
+          "description": "Momentanes Verhalten: Waldschadenmeldungen können nur einzeln freigegeben werden Erwartetes Verhalten: Es können gleichzeitig mehrere Waldschadenmeldungen freigegeben werden (analog Freigabe Waldschaden)",
+          "current_behavior": "Waldschadenmeldungen können nur einzeln freigegeben werden",
+          "expected_behavior": "Es können gleichzeitig mehrere Waldschadenmeldungen freigegeben werden (analog Freigabe Waldschaden)",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "updated_at": "2026-09-29T06:31:07Z"
+        },
+        {
           "number": 6,
           "title": "CHF-Betrag bei der Eingabe anzeigen",
           "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/6",
@@ -1168,22 +1184,6 @@
           "status": "Erledigt",
           "issue_state": "closed",
           "updated_at": "2026-09-25T07:30:04Z"
-        },
-        {
-          "number": 19,
-          "title": "Mehrere Waldschadenmeldungen gleichzeitig freigeben",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/19",
-          "description": "Momentanes Verhalten: Waldschadenmeldungen können nur einzeln freigegeben werden Erwartetes Verhalten: Es können gleichzeitig mehrere Waldschadenmeldungen freigegeben werden (analog Freigabe Waldschaden)",
-          "current_behavior": "Waldschadenmeldungen können nur einzeln freigegeben werden",
-          "expected_behavior": "Es können gleichzeitig mehrere Waldschadenmeldungen freigegeben werden (analog Freigabe Waldschaden)",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "Medium",
-          "priority": "Mittel",
-          "status_raw": null,
-          "status": "Nicht zugeordnet",
-          "issue_state": "open",
-          "updated_at": "2026-09-29T06:31:07Z"
         }
       ]
     }
