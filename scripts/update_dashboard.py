@@ -3,7 +3,7 @@
 Erzeugt dashboard.json aus:
 - öffentlichen GitHub Issues
 - Issue-Feld "Priority"
-- GitHub Projects v2 #6 / #7 für "Status"
+- den in config.json konfigurierten GitHub Projects v2 für "Status"
 
 Nur Python-Standardbibliothek.
 """
