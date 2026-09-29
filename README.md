@@ -37,6 +37,13 @@ Dadurch greift die öffentliche Anzeige **nicht direkt auf die GitHub API** zu.
 | `awn-be/vertigis_admin` | Allgemeine Verbesserungen | #6 – Sprintplanung Admin |
 | `awn-be/vertigis_fschutz_wschad` | Waldschaden erfassen, abrechnen und melden | #7 – Sprintplanung Waldschaden |
 
+Das Repository bestimmt, in welcher Sektion ein Issue im Dashboard
+angezeigt wird. Für den Status wird ausschliesslich das für diese
+Sektion konfigurierte GitHub Project berücksichtigt.
+
+Ist ein Issue zusätzlich weiteren GitHub Projects zugeordnet, haben
+deren Statuswerte keinen Einfluss auf die Anzeige im Dashboard.
+
 ## Übersetzungen
 
 **Status**
