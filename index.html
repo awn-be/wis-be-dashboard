@@ -306,10 +306,26 @@ function countStatus(status){
   }).length;
 }
 function renderSummary(){
-  document.getElementById("count-todo").textContent=countStatus("Geplant");
-  document.getElementById("count-progress").textContent=countStatus("In Arbeit");
-  document.getElementById("count-test").textContent=countStatus("Bereit zum Testen");
-  document.getElementById("count-done").textContent=countStatus("Erledigt");
+  document.getElementById("count-todo").textContent =
+    countStatus("Geplant");
+
+  document.getElementById("count-clarification").textContent =
+    countStatus("Weitere Abklärungen nötig");
+
+  document.getElementById("count-progress").textContent =
+    countStatus("In Arbeit");
+
+  document.getElementById("count-test").textContent =
+    countStatus("Bereit zum Testen");
+
+  document.getElementById("count-done").textContent =
+    countStatus("Erledigt");
+
+  document.getElementById("count-rejected").textContent =
+    countStatus("Wird nicht umgesetzt");
+
+  document.getElementById("count-unassigned").textContent =
+    countStatus("Nicht zugeordnet");
 }
 function descriptionHtml(x){
   const parts = [];
