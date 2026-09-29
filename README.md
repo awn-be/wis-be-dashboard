@@ -109,18 +109,14 @@ Der Fine-grained Personal Access Token ist zeitlich begrenzt und muss
 vor Ablauf erneuert werden. Der aktuell verwendete Token läuft am
 **31. August 2027** ab.
 
-Nach der Regeneration des Tokens muss der neue Token-Wert unter
-**Settings → Secrets and variables → Actions → `DASHBOARD_TOKEN`**
-als neues Repository Secret hinterlegt werden. Anschliessend sollte
-der Workflow **Update dashboard** einmal manuell ausgeführt werden,
-um den Zugriff zu prüfen.
+Der Token ist im Dashboard-Repository unter
+**Settings → Secrets and variables → Actions** als Repository Secret
+`DASHBOARD_TOKEN` hinterlegt.
 
-Im Dashboard-Repository wurde der Token anschliessend als Actions Secret
-hinterlegt:
-
-**Settings → Secrets and variables → Actions**
-
-Name: `DASHBOARD_TOKEN`
+Nach der Regeneration des Tokens muss dort der neue Token-Wert
+eingetragen werden. Anschliessend sollte der Workflow
+**Update dashboard** einmal manuell ausgeführt werden, um den Zugriff
+zu prüfen.
 
 > Der Token ist weder Bestandteil von `index.html` noch von
 > `dashboard.json`. Er steht ausschliesslich der GitHub Action als
