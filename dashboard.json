@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:41:04.305603+00:00",
+  "generated_at": "2026-09-30T13:34:52.147382+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -392,22 +392,6 @@
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
           "updated_at": "2026-09-29T06:41:12Z"
-        },
-        {
-          "number": 49,
-          "title": "Drucken: Druckmassstab #2",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/49",
-          "description": "Momentanes Verhalten: Aktuell wird im neuen WIS-BE nur der Massstab als Lineal dargestellt. Im alten WIS-BE wurde zusätzlich der numerische Massstab (z. B. 1:2'000) angezeigt. Erwartetes Verhalten: Gewünscht wird, dass der Massstab auch beim Drucken zusätzlich als Zahl (z. B. 1:2'000) dargestellt wird.",
-          "current_behavior": "Aktuell wird im neuen WIS-BE nur der Massstab als Lineal dargestellt. Im alten WIS-BE wurde zusätzlich der numerische Massstab (z. B. 1:2'000) angezeigt.",
-          "expected_behavior": "Gewünscht wird, dass der Massstab auch beim Drucken zusätzlich als Zahl (z. B. 1:2'000) dargestellt wird.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "Medium",
-          "priority": "Mittel",
-          "status_raw": "Needs clarification",
-          "status": "Weitere Abklärungen nötig",
-          "issue_state": "open",
-          "updated_at": "2026-09-29T07:36:07Z"
         },
         {
           "number": 57,
@@ -808,6 +792,22 @@
           "status": "Erledigt",
           "issue_state": "closed",
           "updated_at": "2026-09-23T14:15:06Z"
+        },
+        {
+          "number": 49,
+          "title": "Drucken: Druckmassstab #2",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/49",
+          "description": "Momentanes Verhalten: Aktuell wird im neuen WIS-BE nur der Massstab als Lineal dargestellt. Im alten WIS-BE wurde zusätzlich der numerische Massstab (z. B. 1:2'000) angezeigt. Erwartetes Verhalten: Gewünscht wird, dass der Massstab auch beim Drucken zusätzlich als Zahl (z. B. 1:2'000) dargestellt wird.",
+          "current_behavior": "Aktuell wird im neuen WIS-BE nur der Massstab als Lineal dargestellt. Im alten WIS-BE wurde zusätzlich der numerische Massstab (z. B. 1:2'000) angezeigt.",
+          "expected_behavior": "Gewünscht wird, dass der Massstab auch beim Drucken zusätzlich als Zahl (z. B. 1:2'000) dargestellt wird.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-09-30T12:32:36Z"
         },
         {
           "number": 15,
