@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:20:06.488648+00:00",
+  "generated_at": "2026-09-30T09:58:07.772733+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -136,22 +136,6 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-23T13:24:18Z"
-        },
-        {
-          "number": 44,
-          "title": "3D-Messen",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/44",
-          "description": "Erwartetes Verhalten: Ist es möglich, im neuen WIS eine Ansicht zu integrieren, bei der ein «Messergebnis 3D-Linie» eingeblendet werden kann (siehe hochgeladene Datei)?",
-          "current_behavior": "",
-          "expected_behavior": "Ist es möglich, im neuen WIS eine Ansicht zu integrieren, bei der ein «Messergebnis 3D-Linie» eingeblendet werden kann (siehe hochgeladene Datei)?",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "Medium",
-          "priority": "Mittel",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-23T09:57:45Z"
         },
         {
           "number": 28,
@@ -346,6 +330,22 @@
           "updated_at": "2026-09-23T13:52:06Z"
         },
         {
+          "number": 54,
+          "title": "Parzellensuche / Grundstücksuche",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/54",
+          "description": "Momentanes Verhalten: 1. Wenn man eine Parzelle sucht, nicht nur «auf Ergebnis zoomen»,. Bei vielen kleinen Parzellen ist es sonst relativ mühsam für die Augen. 2. Zudem ist die Parzellesuche aktuell nicht praktisch gemacht. Erwartetes Verhalten: 1. Parzelle farblich (z.B. blau) hervorheben bzw. selektieren. 2. Zudem wäre es sehr hilfreich wenn in der Suche eine Parzellensuche möglich wäre und nicht nur die Adresse. -- Einfache Parzellensuche wie im alten WIS-BE. z.B. Eriz 4",
+          "current_behavior": "1. Wenn man eine Parzelle sucht, nicht nur «auf Ergebnis zoomen»,. Bei vielen kleinen Parzellen ist es sonst relativ mühsam für die Augen. 2. Zudem ist die Parzellesuche aktuell nicht praktisch gemacht.",
+          "expected_behavior": "1. Parzelle farblich (z.B. blau) hervorheben bzw. selektieren. 2. Zudem wäre es sehr hilfreich wenn in der Suche eine Parzellensuche möglich wäre und nicht nur die Adresse. -- Einfache Parzellensuche wie im alten WIS-BE. z.B. Eriz 4",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Low",
+          "priority": "Niedrig",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "updated_at": "2026-09-30T09:57:23Z"
+        },
+        {
           "number": 10,
           "title": "Shapefile-Export",
           "url": "https://github.com/awn-be/vertigis_admin/issues/10",
@@ -376,38 +376,6 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-23T13:50:23Z"
-        },
-        {
-          "number": 45,
-          "title": "Messen-Tools in Kombination mit JSON-Kartenansicht",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/45",
-          "description": "Momentanes Verhalten: Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?) Erwartetes Verhalten: Wie ohne hochgeladenes .json.",
-          "current_behavior": "Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?)",
-          "expected_behavior": "Wie ohne hochgeladenes .json.",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-29T12:27:06Z"
-        },
-        {
-          "number": 54,
-          "title": "Parzellensuche / Grundstücksuche",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/54",
-          "description": "Momentanes Verhalten: 1. Wenn man eine Parzelle sucht, nicht nur «auf Ergebnis zoomen»,. Bei vielen kleinen Parzellen ist es sonst relativ mühsam für die Augen. 2. Zudem ist die Parzellesuche aktuell nicht praktisch gemacht. Erwartetes Verhalten: 1. Parzelle farblich (z.B. blau) hervorheben bzw. selektieren. 2. Zudem wäre es sehr hilfreich wenn in der Suche eine Parzellensuche möglich wäre und nicht nur die Adresse. -- Einfache Parzellensuche wie im alten WIS-BE. z.B. Eriz 4",
-          "current_behavior": "1. Wenn man eine Parzelle sucht, nicht nur «auf Ergebnis zoomen»,. Bei vielen kleinen Parzellen ist es sonst relativ mühsam für die Augen. 2. Zudem ist die Parzellesuche aktuell nicht praktisch gemacht.",
-          "expected_behavior": "1. Parzelle farblich (z.B. blau) hervorheben bzw. selektieren. 2. Zudem wäre es sehr hilfreich wenn in der Suche eine Parzellensuche möglich wäre und nicht nur die Adresse. -- Einfache Parzellensuche wie im alten WIS-BE. z.B. Eriz 4",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-23T14:21:19Z"
         },
         {
           "number": 56,
@@ -506,6 +474,22 @@
           "updated_at": "2026-09-23T13:51:24Z"
         },
         {
+          "number": 45,
+          "title": "Messen-Tools in Kombination mit JSON-Kartenansicht",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/45",
+          "description": "Momentanes Verhalten: Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?) Erwartetes Verhalten: Wie ohne hochgeladenes .json.",
+          "current_behavior": "Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?)",
+          "expected_behavior": "Wie ohne hochgeladenes .json.",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "In progress",
+          "status": "In Arbeit",
+          "issue_state": "open",
+          "updated_at": "2026-09-30T09:56:08Z"
+        },
+        {
           "number": 16,
           "title": "vg_loadable",
           "url": "https://github.com/awn-be/vertigis_admin/issues/16",
@@ -520,6 +504,22 @@
           "status": "In Arbeit",
           "issue_state": "open",
           "updated_at": "2026-09-23T13:52:40Z"
+        },
+        {
+          "number": 44,
+          "title": "3D-Messen",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/44",
+          "description": "Erwartetes Verhalten: Ist es möglich, im neuen WIS eine Ansicht zu integrieren, bei der ein «Messergebnis 3D-Linie» eingeblendet werden kann (siehe hochgeladene Datei)?",
+          "current_behavior": "",
+          "expected_behavior": "Ist es möglich, im neuen WIS eine Ansicht zu integrieren, bei der ein «Messergebnis 3D-Linie» eingeblendet werden kann (siehe hochgeladene Datei)?",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "In progress",
+          "status": "In Arbeit",
+          "issue_state": "open",
+          "updated_at": "2026-09-23T09:57:45Z"
         },
         {
           "number": 52,
@@ -826,6 +826,22 @@
           "updated_at": "2026-09-23T14:11:40Z"
         },
         {
+          "number": 55,
+          "title": "Waldbesitzerabfrage: Kontaktperson",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/55",
+          "description": "Momentanes Verhalten: Eine Sache ist mir noch aufgefallen, dass die Kontaktperson nicht ersichtlich ist. Im Alten war dies mit Ja oder Nein bezeichnet. Könnt ihr dies noch einfliessen lassen?",
+          "current_behavior": "Eine Sache ist mir noch aufgefallen, dass die Kontaktperson nicht ersichtlich ist. Im Alten war dies mit Ja oder Nein bezeichnet. Könnt ihr dies noch einfliessen lassen?",
+          "expected_behavior": "",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-09-30T09:55:42Z"
+        },
+        {
           "number": 50,
           "title": "Filter: Zoom auf gefilterte Objekte",
           "url": "https://github.com/awn-be/vertigis_admin/issues/50",
@@ -840,22 +856,6 @@
           "status": "Erledigt",
           "issue_state": "closed",
           "updated_at": "2026-09-23T14:17:08Z"
-        },
-        {
-          "number": 55,
-          "title": "Waldbesitzerabfrage: Kontaktperson",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/55",
-          "description": "Momentanes Verhalten: Eine Sache ist mir noch aufgefallen, dass die Kontaktperson nicht ersichtlich ist. Im Alten war dies mit Ja oder Nein bezeichnet. Könnt ihr dies noch einfliessen lassen?",
-          "current_behavior": "Eine Sache ist mir noch aufgefallen, dass die Kontaktperson nicht ersichtlich ist. Im Alten war dies mit Ja oder Nein bezeichnet. Könnt ihr dies noch einfliessen lassen?",
-          "expected_behavior": "",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-25T13:30:29Z"
         },
         {
           "number": 43,
