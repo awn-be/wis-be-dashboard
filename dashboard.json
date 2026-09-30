@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:18:25.229045+00:00",
+  "generated_at": "2026-09-30T08:20:06.488648+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -440,6 +440,22 @@
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
           "updated_at": "2026-09-29T07:36:07Z"
+        },
+        {
+          "number": 57,
+          "title": "Excel-Export: Spalten \"geometry\" und \"objectid\" weglassen",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/57",
+          "description": "Momentanes Verhalten: Wenn man Daten aus Suche ins Excel kopiert, sind Geometry und object-ID die ersten Spalten. Für die Benutzer irrelevant. Erwartetes Verhalten: Können diese weggelassen oder ans Ende der Tabelle verschoben werden?",
+          "current_behavior": "Wenn man Daten aus Suche ins Excel kopiert, sind Geometry und object-ID die ersten Spalten. Für die Benutzer irrelevant.",
+          "expected_behavior": "Können diese weggelassen oder ans Ende der Tabelle verschoben werden?",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Needs clarification",
+          "status": "Weitere Abklärungen nötig",
+          "issue_state": "open",
+          "updated_at": "2026-09-30T07:40:37Z"
         },
         {
           "number": 46,
@@ -898,38 +914,6 @@
       "project_title": "Sprintplanung Waldschaden",
       "items": [
         {
-          "number": 7,
-          "title": "Abrechnung ist ohne Fm-Angabe möglich",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/7",
-          "description": "Momentanes Verhalten: Waldschaden kann abgerechnet werden, ohne dass eine Fm-Angabe erfolgt ist. Der Waldschaden kann anschliessend nicht mehr editiert werden. Erwartetes Verhalten: Abrechnung ohne FM-Angabe nicht möglich. Entweder Fm-Menge als Pflichtfeld plus ev. Möglichkeit, die auf Abrechnung gestellten Fälle nochmals editieren zu können.",
-          "current_behavior": "Waldschaden kann abgerechnet werden, ohne dass eine Fm-Angabe erfolgt ist. Der Waldschaden kann anschliessend nicht mehr editiert werden.",
-          "expected_behavior": "Abrechnung ohne FM-Angabe nicht möglich. Entweder Fm-Menge als Pflichtfeld plus ev. Möglichkeit, die auf Abrechnung gestellten Fälle nochmals editieren zu können.",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-29T11:51:54Z"
-        },
-        {
-          "number": 20,
-          "title": "Anzahl Bäume als Pflichtfeld bei Status \"Zur Abrechnung einreichen\"",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/20",
-          "description": "Momentanes Verhalten: Anzahl Bäume ist ein freiwilliges Feld Erwartetes Verhalten: Wenn Waldschaden zur Abrechnung eingereicht wird, soll das Feld \"Anzahl Bäume\" zum Pflichtfeld werden",
-          "current_behavior": "Anzahl Bäume ist ein freiwilliges Feld",
-          "expected_behavior": "Wenn Waldschaden zur Abrechnung eingereicht wird, soll das Feld \"Anzahl Bäume\" zum Pflichtfeld werden",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-29T14:48:09Z"
-        },
-        {
           "number": 13,
           "title": "Editieren in geladenem Projekt nicht möglich",
           "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/13",
@@ -944,22 +928,6 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-23T13:56:25Z"
-        },
-        {
-          "number": 16,
-          "title": "Projektstatus Waldschadenmeldung",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/16",
-          "description": "Momentanes Verhalten: Revierförster mit zusätzlichen Abteilungsaufgaben sehen sämtliche Projektstatus. Dadurch kann die Waldschadenmeldung versehentlich bereits über den Projektstatus «Freigeben» freigegeben werden, obwohl die eigentliche Freigabe durch die Waldabteilung erfolgen sollte. Erwartetes Verhalten: Den Projektstatus «Freigeben» in «Freigeben durch WA» umbenennen, um klarzustellen, dass die Freigabe durch die Waldabteilung erfolgt und versehentliche Freigaben durch Revierförster mit Abteilungsaufgaben zu vermeiden.",
-          "current_behavior": "Revierförster mit zusätzlichen Abteilungsaufgaben sehen sämtliche Projektstatus. Dadurch kann die Waldschadenmeldung versehentlich bereits über den Projektstatus «Freigeben» freigegeben werden, obwohl die eigentliche Freigabe durch die Waldabteilung erfolgen sollte.",
-          "expected_behavior": "Den Projektstatus «Freigeben» in «Freigeben durch WA» umbenennen, um klarzustellen, dass die Freigabe durch die Waldabteilung erfolgt und versehentliche Freigaben durch Revierförster mit Abteilungsaufgaben zu vermeiden.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-29T11:43:20Z"
         },
         {
           "number": 15,
@@ -1106,6 +1074,54 @@
           "updated_at": "2026-09-23T13:59:49Z"
         },
         {
+          "number": 7,
+          "title": "Abrechnung ist ohne Fm-Angabe möglich",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/7",
+          "description": "Momentanes Verhalten: Waldschaden kann abgerechnet werden, ohne dass eine Fm-Angabe erfolgt ist. Der Waldschaden kann anschliessend nicht mehr editiert werden. Erwartetes Verhalten: Abrechnung ohne FM-Angabe nicht möglich. Entweder Fm-Menge als Pflichtfeld plus ev. Möglichkeit, die auf Abrechnung gestellten Fälle nochmals editieren zu können.",
+          "current_behavior": "Waldschaden kann abgerechnet werden, ohne dass eine Fm-Angabe erfolgt ist. Der Waldschaden kann anschliessend nicht mehr editiert werden.",
+          "expected_behavior": "Abrechnung ohne FM-Angabe nicht möglich. Entweder Fm-Menge als Pflichtfeld plus ev. Möglichkeit, die auf Abrechnung gestellten Fälle nochmals editieren zu können.",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "In progress",
+          "status": "In Arbeit",
+          "issue_state": "open",
+          "updated_at": "2026-09-30T08:17:21Z"
+        },
+        {
+          "number": 20,
+          "title": "Anzahl Bäume als Pflichtfeld bei Status \"Zur Abrechnung einreichen\"",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/20",
+          "description": "Momentanes Verhalten: Anzahl Bäume ist ein freiwilliges Feld Erwartetes Verhalten: Wenn Waldschaden zur Abrechnung eingereicht wird, soll das Feld \"Anzahl Bäume\" zum Pflichtfeld werden",
+          "current_behavior": "Anzahl Bäume ist ein freiwilliges Feld",
+          "expected_behavior": "Wenn Waldschaden zur Abrechnung eingereicht wird, soll das Feld \"Anzahl Bäume\" zum Pflichtfeld werden",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "In progress",
+          "status": "In Arbeit",
+          "issue_state": "open",
+          "updated_at": "2026-09-29T14:48:09Z"
+        },
+        {
+          "number": 16,
+          "title": "Projektstatus Waldschadenmeldung",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/16",
+          "description": "Momentanes Verhalten: Revierförster mit zusätzlichen Abteilungsaufgaben sehen sämtliche Projektstatus. Dadurch kann die Waldschadenmeldung versehentlich bereits über den Projektstatus «Freigeben» freigegeben werden, obwohl die eigentliche Freigabe durch die Waldabteilung erfolgen sollte. Erwartetes Verhalten: Den Projektstatus «Freigeben» in «Freigeben durch WA» umbenennen, um klarzustellen, dass die Freigabe durch die Waldabteilung erfolgt und versehentliche Freigaben durch Revierförster mit Abteilungsaufgaben zu vermeiden.",
+          "current_behavior": "Revierförster mit zusätzlichen Abteilungsaufgaben sehen sämtliche Projektstatus. Dadurch kann die Waldschadenmeldung versehentlich bereits über den Projektstatus «Freigeben» freigegeben werden, obwohl die eigentliche Freigabe durch die Waldabteilung erfolgen sollte.",
+          "expected_behavior": "Den Projektstatus «Freigeben» in «Freigeben durch WA» umbenennen, um klarzustellen, dass die Freigabe durch die Waldabteilung erfolgt und versehentliche Freigaben durch Revierförster mit Abteilungsaufgaben zu vermeiden.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "In progress",
+          "status": "In Arbeit",
+          "issue_state": "open",
+          "updated_at": "2026-09-29T11:43:20Z"
+        },
+        {
           "number": 4,
           "title": "Übernahme Waldbesitzer in Adressfeld",
           "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/4",
@@ -1119,7 +1135,7 @@
           "status_raw": "In progress",
           "status": "In Arbeit",
           "issue_state": "open",
-          "updated_at": "2026-09-25T08:35:50Z"
+          "updated_at": "2026-09-30T08:17:32Z"
         },
         {
           "number": 9,
@@ -1154,6 +1170,22 @@
           "updated_at": "2026-09-23T13:58:17Z"
         },
         {
+          "number": 17,
+          "title": "Bearbeitung von eingereichten FS-Abrechnungen",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/17",
+          "description": "Momentanes Verhalten: Wenn ein Fall \"zur Abrechnung eingereicht\" wurde, kann dieser nicht mehr bearbeitet werden Erwartetes Verhalten: Wäre manchmal praktisch, wenn man später auch noch Änderungen vornehmen könnte. Einerseits falls man einen Fehler bemerkt und andererseits kommen (vor allem im Moment) manchmal noch einzelne Bäume dazu. Früher konnte man Fälle bearbeiten bis diese von der Waldabteilung übernommen bzw. wirklich abgerechnet wurden. Das war manchmal gäbig.",
+          "current_behavior": "Wenn ein Fall \"zur Abrechnung eingereicht\" wurde, kann dieser nicht mehr bearbeitet werden",
+          "expected_behavior": "Wäre manchmal praktisch, wenn man später auch noch Änderungen vornehmen könnte. Einerseits falls man einen Fehler bemerkt und andererseits kommen (vor allem im Moment) manchmal noch einzelne Bäume dazu. Früher konnte man Fälle bearbeiten bis diese von der Waldabteilung übernommen bzw. wirklich abgerechnet wurden. Das war manchmal gäbig.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-09-30T08:12:01Z"
+        },
+        {
           "number": 3,
           "title": "Feld \"Einzahlungsschein\" nicht als Pflichtfeld",
           "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/3",
@@ -1184,22 +1216,6 @@
           "status": "Erledigt",
           "issue_state": "closed",
           "updated_at": "2026-09-25T07:30:04Z"
-        },
-        {
-          "number": 17,
-          "title": "Bearbeitung von eingereichten FS-Abrechnungen",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/17",
-          "description": "Momentanes Verhalten: Wenn ein Fall \"zur Abrechnung eingereicht\" wurde, kann dieser nicht mehr bearbeitet werden Erwartetes Verhalten: Wäre manchmal praktisch, wenn man später auch noch Änderungen vornehmen könnte. Einerseits falls man einen Fehler bemerkt und andererseits kommen (vor allem im Moment) manchmal noch einzelne Bäume dazu. Früher konnte man Fälle bearbeiten bis diese von der Waldabteilung übernommen bzw. wirklich abgerechnet wurden. Das war manchmal gäbig.",
-          "current_behavior": "Wenn ein Fall \"zur Abrechnung eingereicht\" wurde, kann dieser nicht mehr bearbeitet werden",
-          "expected_behavior": "Wäre manchmal praktisch, wenn man später auch noch Änderungen vornehmen könnte. Einerseits falls man einen Fehler bemerkt und andererseits kommen (vor allem im Moment) manchmal noch einzelne Bäume dazu. Früher konnte man Fälle bearbeiten bis diese von der Waldabteilung übernommen bzw. wirklich abgerechnet wurden. Das war manchmal gäbig.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
-          "status_raw": "Rejected",
-          "status": "Wird nicht umgesetzt",
-          "issue_state": "open",
-          "updated_at": "2026-09-29T14:39:02Z"
         }
       ]
     }
