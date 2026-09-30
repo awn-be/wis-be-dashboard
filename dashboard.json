@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:58:07.772733+00:00",
+  "generated_at": "2026-09-30T11:41:04.305603+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -104,22 +104,6 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-23T13:23:20Z"
-        },
-        {
-          "number": 48,
-          "title": "Kryptische Layer-Beschriftungen / Labels (AGI-Dienste)",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/48",
-          "description": "Momentanes Verhalten: Beim Ausprobieren bzw. Durchschauen welche Layer man alles zuschalten kann ist mir aufgefallen, dass sehr viele Layer-Bezeichnungen extrem Kryptisch beschriftet sind (siehe Printscreens). Auch in der Legende wird man nicht wirklich schlauer, was man da jetzt genau anschaut. Erwartetes Verhalten: Wäre super, wenn die Layer etwas aussagekräftiger Beschriftet werden könnten. Weiter wäre es super, wenn es irgendwo eine Übersichts-Liste oder so gäbe, in der man sieht, was es überhaupt alles für Layer gibt die man anschauen kann. So muss man relativ lange auf Entdeckungsreise gehen um evtl. spannende Layer zu finden.",
-          "current_behavior": "Beim Ausprobieren bzw. Durchschauen welche Layer man alles zuschalten kann ist mir aufgefallen, dass sehr viele Layer-Bezeichnungen extrem Kryptisch beschriftet sind (siehe Printscreens). Auch in der Legende wird man nicht wirklich schlauer, was man da jetzt genau anschaut.",
-          "expected_behavior": "Wäre super, wenn die Layer etwas aussagekräftiger Beschriftet werden könnten. Weiter wäre es super, wenn es irgendwo eine Übersichts-Liste oder so gäbe, in der man sieht, was es überhaupt alles für Layer gibt die man anschauen kann. So muss man relativ lange auf Entdeckungsreise gehen um evtl. spannende Layer zu finden.",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-23T14:21:30Z"
         },
         {
           "number": 39,
@@ -376,6 +360,22 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-23T13:50:23Z"
+        },
+        {
+          "number": 48,
+          "title": "Kryptische Layer-Beschriftungen / Labels (AGI-Dienste)",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/48",
+          "description": "Momentanes Verhalten: Beim Ausprobieren bzw. Durchschauen welche Layer man alles zuschalten kann ist mir aufgefallen, dass sehr viele Layer-Bezeichnungen extrem Kryptisch beschriftet sind (siehe Printscreens). Auch in der Legende wird man nicht wirklich schlauer, was man da jetzt genau anschaut. Erwartetes Verhalten: Wäre super, wenn die Layer etwas aussagekräftiger Beschriftet werden könnten. Weiter wäre es super, wenn es irgendwo eine Übersichts-Liste oder so gäbe, in der man sieht, was es überhaupt alles für Layer gibt die man anschauen kann. So muss man relativ lange auf Entdeckungsreise gehen um evtl. spannende Layer zu finden.",
+          "current_behavior": "Beim Ausprobieren bzw. Durchschauen welche Layer man alles zuschalten kann ist mir aufgefallen, dass sehr viele Layer-Bezeichnungen extrem Kryptisch beschriftet sind (siehe Printscreens). Auch in der Legende wird man nicht wirklich schlauer, was man da jetzt genau anschaut.",
+          "expected_behavior": "Wäre super, wenn die Layer etwas aussagekräftiger Beschriftet werden könnten. Weiter wäre es super, wenn es irgendwo eine Übersichts-Liste oder so gäbe, in der man sieht, was es überhaupt alles für Layer gibt die man anschauen kann. So muss man relativ lange auf Entdeckungsreise gehen um evtl. spannende Layer zu finden.",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Needs clarification",
+          "status": "Weitere Abklärungen nötig",
+          "issue_state": "open",
+          "updated_at": "2026-09-23T14:21:30Z"
         },
         {
           "number": 56,
