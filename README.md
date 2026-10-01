@@ -48,8 +48,9 @@ deren Statuswerte keinen Einfluss auf die Anzeige im Dashboard.
 
 **Status**
 
--   `Todo` → Geplant
+-   `Blocked` → Blockiert
 -   `Needs clarification` → Weitere Abklärungen nötig
+-   `Todo` → Geplant
 -   `In progress` → In Arbeit
 -   `Ready to test` → Bereit zum Testen
 -   `Done` → Erledigt
@@ -68,7 +69,22 @@ deren Statuswerte keinen Einfluss auf die Anzeige im Dashboard.
 -   `Feature` → Funktion
 -   `Task` → Aufgabe *(wird aktuell nicht verwendet)*
 
-## Filter und Sortierung
+## Zusammenfassung, Filter und Sortierung
+
+Die Zusammenfassung zeigt die Anzahl der Issues nach Bearbeitungsstatus:
+
+-   Blockiert
+-   Weitere Abklärungen nötig
+-   Geplant
+-   In Arbeit
+-   Bereit zum Testen
+-   Erledigt
+-   Wird nicht umgesetzt
+-   Nicht zugeordnet
+
+Die angezeigten Zahlen berücksichtigen die aktuell gesetzten Filter.
+`Nicht zugeordnet` macht Issues sichtbar, denen im konfigurierten
+GitHub Project noch kein Status zugewiesen wurde.
 
 Die öffentliche Dashboard-Anzeige kann nach **Typ**, **Priorität** und
 **Status** gefiltert werden. Die Filter lassen sich miteinander kombinieren;
