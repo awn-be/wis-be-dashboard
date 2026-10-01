@@ -296,7 +296,7 @@ def main():
             })
 
         # Sinnvolle Reihenfolge: Status, Priorität, Titel.
-        status_order = {"Todo": 0, "Needs clarification": 1, "In progress": 2, "Ready to test": 3, "Done": 4, "Rejected": 5, None: 6}
+        status_order = {"Blocked": 0,"Needs clarification": 1,"Todo": 2,"In progress": 3,"Ready to test": 4,"Done": 5,"Rejected": 6,None: 7}
         priority_order = {"Urgent":0, "High":1, "Medium":2, "Low":3, None:4}
         rows.sort(key=lambda x: (
             status_order.get(x["status_raw"], 6),
