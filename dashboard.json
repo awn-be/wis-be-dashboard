@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:07:58.918792+00:00",
+  "generated_at": "2026-10-01T07:42:03.569507+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -24,6 +24,38 @@
           "status": "Blockiert",
           "issue_state": "open",
           "updated_at": "2026-09-23T14:21:30Z"
+        },
+        {
+          "number": 45,
+          "title": "Messen-Tools in Kombination mit JSON-Kartenansicht",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/45",
+          "description": "Momentanes Verhalten: Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?) Erwartetes Verhalten: Wie ohne hochgeladenes .json.",
+          "current_behavior": "Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?)",
+          "expected_behavior": "Wie ohne hochgeladenes .json.",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Blocked",
+          "status": "Blockiert",
+          "issue_state": "open",
+          "updated_at": "2026-09-30T09:56:08Z"
+        },
+        {
+          "number": 58,
+          "title": "Volltextsuche",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/58",
+          "description": "Momentanes Verhalten: Die \"Volltextsuche\" sucht nur nach Adressen. Eingabe von Lokalnamen wie \"Cholholz\" führend zu keinem oder keinem sinnvollen Ergebnis. Erwartetes Verhalten: Die Volltextsuche oben links in der Karte sollte nach Lokalnamen, Gemeinden, IDs, etc. suchen können. Im alten WIS-BE hat die Volltextsuche sehr gut funktioniert!",
+          "current_behavior": "Die \"Volltextsuche\" sucht nur nach Adressen. Eingabe von Lokalnamen wie \"Cholholz\" führend zu keinem oder keinem sinnvollen Ergebnis.",
+          "expected_behavior": "Die Volltextsuche oben links in der Karte sollte nach Lokalnamen, Gemeinden, IDs, etc. suchen können. Im alten WIS-BE hat die Volltextsuche sehr gut funktioniert!",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Blocked",
+          "status": "Blockiert",
+          "issue_state": "open",
+          "updated_at": "2026-10-01T07:40:56Z"
         },
         {
           "number": 56,
@@ -456,22 +488,6 @@
           "status": "In Arbeit",
           "issue_state": "open",
           "updated_at": "2026-09-23T13:51:24Z"
-        },
-        {
-          "number": 45,
-          "title": "Messen-Tools in Kombination mit JSON-Kartenansicht",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/45",
-          "description": "Momentanes Verhalten: Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?) Erwartetes Verhalten: Wie ohne hochgeladenes .json.",
-          "current_behavior": "Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?)",
-          "expected_behavior": "Wie ohne hochgeladenes .json.",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "In progress",
-          "status": "In Arbeit",
-          "issue_state": "open",
-          "updated_at": "2026-09-30T09:56:08Z"
         },
         {
           "number": 16,
