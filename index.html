@@ -311,11 +311,14 @@ function countStatus(status){
   }).length;
 }
 function renderSummary(){
-  document.getElementById("count-todo").textContent =
-    countStatus("Geplant");
+  document.getElementById("count-blocked").textContent =
+    countStatus("Blockiert");
 
   document.getElementById("count-clarification").textContent =
     countStatus("Weitere Abklärungen nötig");
+
+  document.getElementById("count-todo").textContent =
+    countStatus("Geplant");
 
   document.getElementById("count-progress").textContent =
     countStatus("In Arbeit");
