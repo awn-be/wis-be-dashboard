@@ -2,8 +2,11 @@
 """
 Erzeugt dashboard.json aus:
 - öffentlichen GitHub Issues
-- Issue-Feld "Priority"
+- den Issue-Feldern "Priority" und "Visibility"
 - den in config.json konfigurierten GitHub Projects v2 für "Status"
+
+Issues mit Visibility = "Internal" werden nicht ins öffentliche
+dashboard.json übernommen.
 
 Nur Python-Standardbibliothek.
 """
