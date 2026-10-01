@@ -172,15 +172,25 @@ def list_issues(org: str, repo: str):
     print(f"{org}/{repo}: insgesamt {len(items)} Issues")
     return items
 
-def issue_priority(org: str, repo: str, number: int):
+def issue_fields(org: str, repo: str, number: int):
     url = f"https://api.github.com/repos/{org}/{repo}/issues/{number}/issue-field-values?per_page=100"
     fields = request_json(url, auth=bool(TOKEN))
+
+    values = {}
+
     for f in fields:
-        if (f.get("issue_field_name") or "").lower() == "priority":
-            raw = ((f.get("single_select_option") or {}).get("name")
-                   or (f.get("value") if isinstance(f.get("value"), str) else None))
-            return raw
-    return None
+        name = f.get("issue_field_name")
+        if not name:
+            continue
+
+        raw = (
+            ((f.get("single_select_option") or {}).get("name"))
+            or (f.get("value") if isinstance(f.get("value"), str) else None)
+        )
+
+        values[name.lower()] = raw
+
+    return values
 
 PROJECT_QUERY = r"""
 query($org:String!, $number:Int!, $cursor:String) {
