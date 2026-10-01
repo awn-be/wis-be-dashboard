@@ -228,13 +228,14 @@ function sortItems(list){
   };
 
   const statusOrder = {
-    "Geplant": 0,
+    "Blockiert": 0,
     "Weitere Abklärungen nötig": 1,
-    "In Arbeit": 2,
-    "Bereit zum Testen": 3,
-    "Erledigt": 4,
-    "Wird nicht umgesetzt": 5,
-    "Nicht zugeordnet": 6
+    "Geplant": 2,
+    "In Arbeit": 3,
+    "Bereit zum Testen": 4,
+    "Erledigt": 5,
+    "Wird nicht umgesetzt": 6,
+    "Nicht zugeordnet": 7
   };
 
   return [...list].sort((a, b) => {
