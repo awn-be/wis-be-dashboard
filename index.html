@@ -197,11 +197,12 @@ function priorityLabel(x){
   return `${x.priority} · ${stars(x.priority_raw)}`;
 }
 function statusClass(status){
-  if(status==="Erledigt") return "status-done";
-  if(status==="In Arbeit") return "status-progress";
-  if(status==="Bereit zum Testen") return "status-test";
-  if(status==="Geplant") return "status-todo";
+  if(status==="Blockiert") return "status-blocked";
   if(status==="Weitere Abklärungen nötig") return "status-clarification";
+  if(status==="In Arbeit") return "status-progress";
+  if(status==="Geplant") return "status-todo";
+  if(status==="Bereit zum Testen") return "status-test";
+  if(status==="Erledigt") return "status-done";
   if(status==="Wird nicht umgesetzt") return "status-rejected";
   return "status-other";
 }
