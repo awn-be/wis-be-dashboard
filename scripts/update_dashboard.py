@@ -278,7 +278,16 @@ def main():
 
         for issue in issues:
             number = issue["number"]
-            raw_priority = issue_priority(org, repo, number)
+        
+            fields = issue_fields(org, repo, number)
+            raw_visibility = fields.get("visibility")
+        
+            # Interne Issues werden nicht ins öffentliche dashboard.json übernommen.
+            if raw_visibility == "Internal":
+                print(f"{org}/{repo}#{number}: übersprungen (Visibility = Internal)")
+                continue
+        
+            raw_priority = fields.get("priority")
             raw_type = issue_type(issue)
             raw_status = statuses.get((f"{org}/{repo}", number))
 
