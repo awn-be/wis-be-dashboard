@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:42:03.569507+00:00",
+  "generated_at": "2026-10-01T08:46:36.883615+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -23,7 +23,7 @@
           "status_raw": "Blocked",
           "status": "Blockiert",
           "issue_state": "open",
-          "updated_at": "2026-09-23T14:21:30Z"
+          "updated_at": "2026-10-01T08:28:33Z"
         },
         {
           "number": 45,
@@ -39,7 +39,7 @@
           "status_raw": "Blocked",
           "status": "Blockiert",
           "issue_state": "open",
-          "updated_at": "2026-09-30T09:56:08Z"
+          "updated_at": "2026-10-01T08:28:55Z"
         },
         {
           "number": 58,
@@ -55,7 +55,7 @@
           "status_raw": "Blocked",
           "status": "Blockiert",
           "issue_state": "open",
-          "updated_at": "2026-10-01T07:40:56Z"
+          "updated_at": "2026-10-01T08:26:16Z"
         },
         {
           "number": 56,
@@ -71,7 +71,7 @@
           "status_raw": "Blocked",
           "status": "Blockiert",
           "issue_state": "open",
-          "updated_at": "2026-09-29T06:41:12Z"
+          "updated_at": "2026-10-01T08:27:11Z"
         },
         {
           "number": 57,
@@ -87,7 +87,7 @@
           "status_raw": "Needs clarification",
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
-          "updated_at": "2026-09-30T07:40:37Z"
+          "updated_at": "2026-10-01T08:27:02Z"
         },
         {
           "number": 46,
@@ -103,7 +103,23 @@
           "status_raw": "Needs clarification",
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
-          "updated_at": "2026-09-23T09:56:19Z"
+          "updated_at": "2026-10-01T08:28:43Z"
+        },
+        {
+          "number": 59,
+          "title": "Beim Teilen werden Attachements nicht kopiert",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/59",
+          "description": "Momentanes Verhalten: Wenn ein Feature geteilt wird, werden zwei neue Global-IDs erstellt. Somit werden die Attachements nicht mehr gefunden. Erwartetes Verhalten: Attachements werden nach dem Teilen bei bei beiden neuen Features angezeigt.",
+          "current_behavior": "Wenn ein Feature geteilt wird, werden zwei neue Global-IDs erstellt. Somit werden die Attachements nicht mehr gefunden.",
+          "expected_behavior": "Attachements werden nach dem Teilen bei bei beiden neuen Features angezeigt.",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "updated_at": "2026-10-01T08:32:38Z"
         },
         {
           "number": 31,
@@ -119,7 +135,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:45:07Z"
+          "updated_at": "2026-10-01T08:31:20Z"
         },
         {
           "number": 41,
@@ -135,7 +151,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T09:58:53Z"
+          "updated_at": "2026-10-01T08:29:22Z"
         },
         {
           "number": 38,
@@ -151,7 +167,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-29T06:54:56Z"
+          "updated_at": "2026-10-01T08:29:53Z"
         },
         {
           "number": 13,
@@ -167,7 +183,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:52:25Z"
+          "updated_at": "2026-10-01T08:33:24Z"
         },
         {
           "number": 32,
@@ -183,7 +199,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:44:44Z"
+          "updated_at": "2026-10-01T08:31:12Z"
         },
         {
           "number": 40,
@@ -199,7 +215,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:23:20Z"
+          "updated_at": "2026-10-01T08:29:33Z"
         },
         {
           "number": 39,
@@ -215,7 +231,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:24:18Z"
+          "updated_at": "2026-10-01T08:29:42Z"
         },
         {
           "number": 28,
@@ -231,7 +247,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:47:54Z"
+          "updated_at": "2026-10-01T08:31:45Z"
         },
         {
           "number": 35,
@@ -247,7 +263,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T09:52:05Z"
+          "updated_at": "2026-10-01T08:30:23Z"
         },
         {
           "number": 34,
@@ -263,7 +279,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:43:51Z"
+          "updated_at": "2026-10-01T08:30:43Z"
         },
         {
           "number": 27,
@@ -279,7 +295,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:48:33Z"
+          "updated_at": "2026-10-01T08:31:55Z"
         },
         {
           "number": 29,
@@ -295,7 +311,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:47:45Z"
+          "updated_at": "2026-10-01T08:31:37Z"
         },
         {
           "number": 25,
@@ -311,7 +327,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:49:50Z"
+          "updated_at": "2026-10-01T08:32:25Z"
         },
         {
           "number": 33,
@@ -327,7 +343,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:44:17Z"
+          "updated_at": "2026-10-01T08:30:54Z"
         },
         {
           "number": 37,
@@ -343,7 +359,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:25:27Z"
+          "updated_at": "2026-10-01T08:30:02Z"
         },
         {
           "number": 30,
@@ -359,7 +375,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:45:35Z"
+          "updated_at": "2026-10-01T08:31:28Z"
         },
         {
           "number": 9,
@@ -375,7 +391,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:51:37Z"
+          "updated_at": "2026-10-01T08:33:55Z"
         },
         {
           "number": 26,
@@ -391,7 +407,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:49:01Z"
+          "updated_at": "2026-10-01T08:32:05Z"
         },
         {
           "number": 12,
@@ -407,7 +423,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:52:06Z"
+          "updated_at": "2026-10-01T08:33:35Z"
         },
         {
           "number": 54,
@@ -423,7 +439,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-30T09:57:23Z"
+          "updated_at": "2026-10-01T08:27:20Z"
         },
         {
           "number": 10,
@@ -439,7 +455,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:51:49Z"
+          "updated_at": "2026-10-01T08:33:45Z"
         },
         {
           "number": 23,
@@ -455,7 +471,7 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:50:23Z"
+          "updated_at": "2026-10-01T08:32:54Z"
         },
         {
           "number": 5,
@@ -471,7 +487,7 @@
           "status_raw": "In progress",
           "status": "In Arbeit",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:51:13Z"
+          "updated_at": "2026-10-01T08:34:17Z"
         },
         {
           "number": 8,
@@ -487,23 +503,7 @@
           "status_raw": "In progress",
           "status": "In Arbeit",
           "issue_state": "open",
-          "updated_at": "2026-09-23T13:51:24Z"
-        },
-        {
-          "number": 16,
-          "title": "vg_loadable",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/16",
-          "description": "Momentanes Verhalten: Trotz \"Nicht-Vergabe\" des Tags \"vg loadable\" werden Dienste zum importieren angeboten und können importiert werden. Erwartetes Verhalten: Nur Dienste mit Tag \"vg loadable\" sollen angeboten und importiert werden können.",
-          "current_behavior": "Trotz \"Nicht-Vergabe\" des Tags \"vg loadable\" werden Dienste zum importieren angeboten und können importiert werden.",
-          "expected_behavior": "Nur Dienste mit Tag \"vg loadable\" sollen angeboten und importiert werden können.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "In progress",
-          "status": "In Arbeit",
-          "issue_state": "open",
-          "updated_at": "2026-09-23T13:52:40Z"
+          "updated_at": "2026-10-01T08:34:07Z"
         },
         {
           "number": 44,
@@ -519,55 +519,7 @@
           "status_raw": "In progress",
           "status": "In Arbeit",
           "issue_state": "open",
-          "updated_at": "2026-09-23T09:57:45Z"
-        },
-        {
-          "number": 52,
-          "title": "wf_admin_set_field_values: Parameter emptyFields",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/52",
-          "description": "Der Parameter emptyFields:true (wf admin set field values) funktioniert nicht konsistent. Bei DropDown-Formularelementen bleiben die Werte der vorherigen Erfassung im Formular, bei anderen Formular-Elementen werden die Werte geleert. Ich hatte ein ähnliches Problem und konnte es lösen, indem ich bei DropDowns 2x Set Form Element Property ausgeführt habe (einmal mit Property Name current und einmal mit Property Name value; der Property Value ist bei beiden leer).",
-          "current_behavior": "",
-          "expected_behavior": "",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Ready to test",
-          "status": "Bereit zum Testen",
-          "issue_state": "open",
-          "updated_at": "2026-09-29T07:41:27Z"
-        },
-        {
-          "number": 1,
-          "title": "Alle Gruppen in create_group erfassen",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/1",
-          "description": "Momentanes Verhalten: Nur eine Gruppe (die erste) wird erfasst Erwartetes Verhalten: Alle Gruppen sollen erfasst werden",
-          "current_behavior": "Nur eine Gruppe (die erste) wird erfasst",
-          "expected_behavior": "Alle Gruppen sollen erfasst werden",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "Urgent",
-          "priority": "Sehr hoch",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:08:28Z"
-        },
-        {
-          "number": 20,
-          "title": "Speichern von Dezimalzahlen mit Punkt",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/20",
-          "description": "Momentanes Verhalten: Bei einem Number-Feld können Dezimalzahlen nur mit Komma eingegeben werden. Wird die Zahl mit Punkt erfasst, wird eine Ganzzahl daraus: 5.9 - 59 Erwartetes Verhalten: Eine Dezimalzahl soll mit Komma oder Punkt eingegeben werden können.",
-          "current_behavior": "Bei einem Number-Feld können Dezimalzahlen nur mit Komma eingegeben werden. Wird die Zahl mit Punkt erfasst, wird eine Ganzzahl daraus: 5.9 - 59",
-          "expected_behavior": "Eine Dezimalzahl soll mit Komma oder Punkt eingegeben werden können.",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "Urgent",
-          "priority": "Sehr hoch",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:14:34Z"
+          "updated_at": "2026-10-01T08:29:04Z"
         },
         {
           "number": 4,
@@ -583,7 +535,7 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-23T14:09:11Z"
+          "updated_at": "2026-10-01T08:38:45Z"
         },
         {
           "number": 3,
@@ -599,55 +551,7 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-23T14:09:01Z"
-        },
-        {
-          "number": 7,
-          "title": "Anpassungen Waldbesitzerabfrage",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/7",
-          "description": "Momentanes Verhalten: - Bei der Ergebnisliste erscheinen die technischen Attribut-Namen - Der Name im TOC hat nach dem Laden den Zusatz admin wbdb - Die Platzierung des Knopf liegt aktuell nicht am besten Ort dafür - Das Symbol des Knopf könnte eindeutiger auf Personenfragen hinweisen Erwartetes Verhalten: - Bei der Ergebnisliste sollen die Aliasse erscheinen - Der Name im TC soll nur den Layer-Namen haben (resp. Dienstnamen) - Der Knopf soll bei den anderen Selektier-Tools auf der rechten oberen Seite verschoben werden - Ändern auf Symbol: \"youth-center-search\"",
-          "current_behavior": "- Bei der Ergebnisliste erscheinen die technischen Attribut-Namen - Der Name im TOC hat nach dem Laden den Zusatz admin wbdb - Die Platzierung des Knopf liegt aktuell nicht am besten Ort dafür - Das Symbol des Knopf könnte eindeutiger auf Personenfragen hinweisen",
-          "expected_behavior": "- Bei der Ergebnisliste sollen die Aliasse erscheinen - Der Name im TC soll nur den Layer-Namen haben (resp. Dienstnamen) - Der Knopf soll bei den anderen Selektier-Tools auf der rechten oberen Seite verschoben werden - Ändern auf Symbol: \"youth-center-search\"",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:09:52Z"
-        },
-        {
-          "number": 14,
-          "title": "Druck-Template",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/14",
-          "description": "Momentanes Verhalten: Das Druck-Template enthält noch kleinere Dinge, welche für die Einführung angepasst werden können: - Kartenmitte: in den falschen Koordinaten - Massstab wird stark gestaucht - Quelleninfo zu gross für Karte - A3-Template fehlen noch Erwartetes Verhalten: - Kartenmitte in LV95 - Masstab regular darstellen (weniger vertikale Striche) - Quellenangabe komplett im Kartenbereich, ev. umstellen auf zwei Zeilen - A3-Template hinzufügen",
-          "current_behavior": "Das Druck-Template enthält noch kleinere Dinge, welche für die Einführung angepasst werden können: - Kartenmitte: in den falschen Koordinaten - Massstab wird stark gestaucht - Quelleninfo zu gross für Karte - A3-Template fehlen noch",
-          "expected_behavior": "- Kartenmitte in LV95 - Masstab regular darstellen (weniger vertikale Striche) - Quellenangabe komplett im Kartenbereich, ev. umstellen auf zwei Zeilen - A3-Template hinzufügen",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:10:17Z"
-        },
-        {
-          "number": 6,
-          "title": "Ereignistabelle: Bei Doppelklick auf Zeile, dann Zoom auf Objekt",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/6",
-          "description": "Momentanes Verhalten: Wenn ein Objekt selektiert oder gesucht wurde und in der Ergebnistabelle angezeigt wird, kann mit Doppelklick auf die Ergebniszeile nicht auf das Objekt gezoomt werden. Erwartetes Verhalten: Bei Klick auf die Ergebniszeile soll auf das Objekt gezoomt werden,",
-          "current_behavior": "Wenn ein Objekt selektiert oder gesucht wurde und in der Ergebnistabelle angezeigt wird, kann mit Doppelklick auf die Ergebniszeile nicht auf das Objekt gezoomt werden.",
-          "expected_behavior": "Bei Klick auf die Ergebniszeile soll auf das Objekt gezoomt werden,",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:09:27Z"
+          "updated_at": "2026-10-01T08:39:07Z"
         },
         {
           "number": 22,
@@ -663,39 +567,7 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-23T14:15:21Z"
-        },
-        {
-          "number": 2,
-          "title": "Falsches Dezimaltrennzeichen",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/2",
-          "description": "Momentanes Verhalten: Das Dezimaltrennzeichen wir in der Attributtabelle als Komma statt als Punkt dargestellt. Erwartetes Verhalten: Dezimaltrennzeichen mit Punkt",
-          "current_behavior": "Das Dezimaltrennzeichen wir in der Attributtabelle als Komma statt als Punkt dargestellt.",
-          "expected_behavior": "Dezimaltrennzeichen mit Punkt",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:08:47Z"
-        },
-        {
-          "number": 19,
-          "title": "Feature löschen: soll über Projektstatus gesteuert werden können",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/19",
-          "description": "Momentanes Verhalten: Beim Löschen von Features wird nur geprüft, ob man Ersteller ist oder nicht. Der Projektstatus spielt dabei keine Rolle. Es können auch freigegebene Features gelöscht werden. Erwartetes Verhalten: Bei Klick auf \"Feature löschen\", soll nebst dem Ersteller auch der Projektstatus geprüft werden, so dass z.B. nur Features gelöscht werden können, welche noch nicht freigegeben wurden. Idee: Zusätzlicher/Neuer Admin-Workflow, bei welchem pro Editierthema die Projektstatus angegeben werden können, wo das Feature noch gelöscht werden kann.",
-          "current_behavior": "Beim Löschen von Features wird nur geprüft, ob man Ersteller ist oder nicht. Der Projektstatus spielt dabei keine Rolle. Es können auch freigegebene Features gelöscht werden.",
-          "expected_behavior": "Bei Klick auf \"Feature löschen\", soll nebst dem Ersteller auch der Projektstatus geprüft werden, so dass z.B. nur Features gelöscht werden können, welche noch nicht freigegeben wurden. Idee: Zusätzlicher/Neuer Admin-Workflow, bei welchem pro Editierthema die Projektstatus angegeben werden können, wo das Feature noch gelöscht werden kann.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:14:22Z"
+          "updated_at": "2026-10-01T08:35:41Z"
         },
         {
           "number": 51,
@@ -711,23 +583,7 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-23T14:17:26Z"
-        },
-        {
-          "number": 11,
-          "title": "Home-Button",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/11",
-          "description": "Momentanes Verhalten: Alter WIS-BE Link ist hinterlegt und in der Beschreibung des Knopfes steht WISBE Erwartetes Verhalten: Abspeichern neuer Redirect und in der Beschreibung WIS-BE mit Bindestrich (deutsch, französisch & mobil)",
-          "current_behavior": "Alter WIS-BE Link ist hinterlegt und in der Beschreibung des Knopfes steht WISBE",
-          "expected_behavior": "Abspeichern neuer Redirect und in der Beschreibung WIS-BE mit Bindestrich (deutsch, französisch & mobil)",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:10:01Z"
+          "updated_at": "2026-10-01T08:34:52Z"
         },
         {
           "number": 47,
@@ -743,39 +599,7 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-25T06:46:47Z"
-        },
-        {
-          "number": 18,
-          "title": "Maximale Anzahl von Ergebnissen (500) erreicht",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/18",
-          "description": "Momentanes Verhalten: Wird bei der Suche mit der Lupe eine Bedingung definiert, welche mehr als 500 Treffer generiert, erscheint eine Fehlermeldung: Erwartetes Verhalten: Mehr als 500 Treffer sollen zugelassen werden. Muss eine Obergrenze festgelegt werden? In WebOffice haben wir 20'000 definiert",
-          "current_behavior": "Wird bei der Suche mit der Lupe eine Bedingung definiert, welche mehr als 500 Treffer generiert, erscheint eine Fehlermeldung:",
-          "expected_behavior": "Mehr als 500 Treffer sollen zugelassen werden. Muss eine Obergrenze festgelegt werden? In WebOffice haben wir 20'000 definiert",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:14:04Z"
-        },
-        {
-          "number": 17,
-          "title": "Mobile App-Template: Titel und Beschreibung bei Sprachwechsler anpassen",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/17",
-          "description": "Momentanes Verhalten: In den App-Templates bei der mobilen Ansicht ist bei der Sprachwechlser-Funktion beim Titel und Beschreibung noch die technische Bezeichnung drin: Erwartetes Verhalten: Titel = Sprache (DE/FR) Beschreibung = Sprache wechseln",
-          "current_behavior": "In den App-Templates bei der mobilen Ansicht ist bei der Sprachwechlser-Funktion beim Titel und Beschreibung noch die technische Bezeichnung drin:",
-          "expected_behavior": "Titel = Sprache (DE/FR) Beschreibung = Sprache wechseln",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:12:27Z"
+          "updated_at": "2026-10-01T08:35:19Z"
         },
         {
           "number": 36,
@@ -791,23 +615,7 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-23T14:16:01Z"
-        },
-        {
-          "number": 21,
-          "title": "Übersetzung Druckfenster Französisch",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/21",
-          "description": "Momentanes Verhalten: Bemerkung und Titel sind im Druckfenster Französisch noch nicht übersetzt. Erwartetes Verhalten: Die beiden Wörter sind übersetzt im Template und die schon erarbeiteten Apps werden korrigiert (resp. die Ersteller informiert)",
-          "current_behavior": "Bemerkung und Titel sind im Druckfenster Französisch noch nicht übersetzt.",
-          "expected_behavior": "Die beiden Wörter sind übersetzt im Template und die schon erarbeiteten Apps werden korrigiert (resp. die Ersteller informiert)",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:15:06Z"
+          "updated_at": "2026-10-01T08:35:33Z"
         },
         {
           "number": 49,
@@ -823,23 +631,7 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-30T12:32:36Z"
-        },
-        {
-          "number": 15,
-          "title": "Symbologie anpassen",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/15",
-          "description": "Momentanes Verhalten: Die Symbologie lässt sich für sehr viele Themen nicht anpassen, z. B. Grundstücke, Gemeindegrenzen, etc... Forstreviere funktioniert Erwartetes Verhalten: Die Symbologie sollte sich für alle Themen anpassen lassen",
-          "current_behavior": "Die Symbologie lässt sich für sehr viele Themen nicht anpassen, z. B. Grundstücke, Gemeindegrenzen, etc... Forstreviere funktioniert",
-          "expected_behavior": "Die Symbologie sollte sich für alle Themen anpassen lassen",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "Medium",
-          "priority": "Mittel",
-          "status_raw": "Done",
-          "status": "Erledigt",
-          "issue_state": "closed",
-          "updated_at": "2026-09-23T14:11:40Z"
+          "updated_at": "2026-10-01T08:35:13Z"
         },
         {
           "number": 55,
@@ -855,7 +647,7 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-30T09:55:42Z"
+          "updated_at": "2026-10-01T08:34:28Z"
         },
         {
           "number": 50,
@@ -871,7 +663,7 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-23T14:17:08Z"
+          "updated_at": "2026-10-01T08:34:59Z"
         },
         {
           "number": 43,
@@ -887,7 +679,7 @@
           "status_raw": "Rejected",
           "status": "Wird nicht umgesetzt",
           "issue_state": "open",
-          "updated_at": "2026-09-23T09:58:26Z"
+          "updated_at": "2026-10-01T08:29:13Z"
         },
         {
           "number": 42,
@@ -903,7 +695,7 @@
           "status_raw": "Rejected",
           "status": "Wird nicht umgesetzt",
           "issue_state": "closed",
-          "updated_at": "2026-09-23T14:16:25Z"
+          "updated_at": "2026-10-01T08:35:26Z"
         },
         {
           "number": 53,
@@ -919,7 +711,7 @@
           "status_raw": "Rejected",
           "status": "Wird nicht umgesetzt",
           "issue_state": "closed",
-          "updated_at": "2026-09-23T14:17:53Z"
+          "updated_at": "2026-10-01T08:34:45Z"
         }
       ]
     },
