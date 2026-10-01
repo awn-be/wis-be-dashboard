@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:31:54.277666+00:00",
+  "generated_at": "2026-10-01T11:36:44.981455+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -970,12 +970,12 @@
           "expected_behavior": "Wäre manchmal praktisch, wenn man später auch noch Änderungen vornehmen könnte. Einerseits falls man einen Fehler bemerkt und andererseits kommen (vor allem im Moment) manchmal noch einzelne Bäume dazu. Früher konnte man Fälle bearbeiten bis diese von der Waldabteilung übernommen bzw. wirklich abgerechnet wurden. Das war manchmal gäbig.",
           "type_raw": "Feature",
           "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
+          "priority_raw": "High",
+          "priority": "Hoch",
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-30T08:12:01Z"
+          "updated_at": "2026-10-01T11:35:22Z"
         },
         {
           "number": 12,
@@ -986,12 +986,12 @@
           "expected_behavior": "",
           "type_raw": "Feature",
           "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
+          "priority_raw": "High",
+          "priority": "Hoch",
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-10-01T11:11:13Z"
+          "updated_at": "2026-10-01T11:35:30Z"
         },
         {
           "number": 3,
@@ -1002,12 +1002,12 @@
           "expected_behavior": "Falls man das Feld \"Einzahlungsschein\" nicht obligatorisch machen könnte, wenn man sehr viele Abrechnungen für den gleichen Waldbesitzer/Unternehmer abrechnet, würde das auch etwas Zeit bei der Erfassung sparen.",
           "type_raw": "Feature",
           "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
+          "priority_raw": "High",
+          "priority": "Hoch",
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-29T14:31:14Z"
+          "updated_at": "2026-10-01T11:35:59Z"
         },
         {
           "number": 5,
@@ -1018,12 +1018,12 @@
           "expected_behavior": "Das hochladen des EZ als pdf sollte erst als Pflichtfeld aktiviert sein, wenn ich «Abrechnung einreichen» angewählt habe. Bei der Erfassung habe ich oft den EZ des einzelnen Waldbesitzers noch nicht.",
           "type_raw": "Feature",
           "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
+          "priority_raw": "High",
+          "priority": "Hoch",
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
-          "updated_at": "2026-09-25T07:30:04Z"
+          "updated_at": "2026-10-01T11:35:47Z"
         }
       ]
     }
