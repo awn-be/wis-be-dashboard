@@ -299,7 +299,7 @@ def main():
         status_order = {"Blocked": 0,"Needs clarification": 1,"Todo": 2,"In progress": 3,"Ready to test": 4,"Done": 5,"Rejected": 6,None: 7}
         priority_order = {"Urgent":0, "High":1, "Medium":2, "Low":3, None:4}
         rows.sort(key=lambda x: (
-            status_order.get(x["status_raw"], 6),
+            status_order.get(x["status_raw"], 7),
             priority_order.get(x["priority_raw"], 4),
             x["title"].lower()
         ))
