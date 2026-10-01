@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:46:36.883615+00:00",
+  "generated_at": "2026-10-01T11:31:54.277666+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -786,22 +786,6 @@
           "updated_at": "2026-09-23T14:01:11Z"
         },
         {
-          "number": 12,
-          "title": "Erfasste Punkte verschieben",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/12",
-          "description": "Momentanes Verhalten: Bereits gesetzte Punkte (Geometrie / Standort) können nicht verschoben werden.",
-          "current_behavior": "Bereits gesetzte Punkte (Geometrie / Standort) können nicht verschoben werden.",
-          "expected_behavior": "",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
-          "status_raw": "Needs clarification",
-          "status": "Weitere Abklärungen nötig",
-          "issue_state": "open",
-          "updated_at": "2026-10-01T06:21:51Z"
-        },
-        {
           "number": 13,
           "title": "Editieren in geladenem Projekt nicht möglich",
           "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/13",
@@ -992,6 +976,22 @@
           "status": "Erledigt",
           "issue_state": "closed",
           "updated_at": "2026-09-30T08:12:01Z"
+        },
+        {
+          "number": 12,
+          "title": "Erfasste Punkte verschieben",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/12",
+          "description": "Momentanes Verhalten: Bereits gesetzte Punkte (Geometrie / Standort) können nicht verschoben werden.",
+          "current_behavior": "Bereits gesetzte Punkte (Geometrie / Standort) können nicht verschoben werden.",
+          "expected_behavior": "",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": null,
+          "priority": "Nicht zugeordnet",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-10-01T11:11:13Z"
         },
         {
           "number": 3,
