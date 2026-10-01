@@ -27,8 +27,9 @@
       "Low": "Niedrig"
     },
     "status": {
-      "Todo": "Geplant",
+      "Blocked": "Blockiert",
       "Needs clarification": "Weitere Abklärungen nötig",
+      "Todo": "Geplant",
       "In progress": "In Arbeit",
       "Ready to test": "Bereit zum Testen",
       "Done": "Erledigt",
