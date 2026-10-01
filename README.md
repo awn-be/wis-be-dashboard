@@ -124,11 +124,12 @@ die GitHub Issues noch die Daten in `dashboard.json`.
 
 ------------------------------------------------------------------------
 
-# Dokumentation der Einrichtung
+# Technische Einrichtung und Betrieb
 
-Die folgenden Abschnitte dokumentieren die ursprüngliche Einrichtung des
-WIS-BE Dashboards. Sie dienen als technische Retrospektive und sind für
-den laufenden Betrieb nicht erforderlich.
+Die folgenden Abschnitte dokumentieren die technische Einrichtung und den
+laufenden Betrieb des WIS-BE Dashboards. Sie dienen insbesondere als
+Referenz für Wartung, Fehleranalyse und die Erweiterung um zusätzliche
+WIS-BE-Prozesse.
 
 ## 1. Öffentliches Repository
 
@@ -240,8 +241,8 @@ Sprintplanung einmal angelegt bzw. angepasst werden:
 `Todo` wird als **Default-Status** verwendet.
 
 Die Bezeichnungen der Statuswerte müssen mit den in `config.json`
-verwendeten Werten übereinstimmen, damit sie vom Dashboard korrekt erkannt
-und übersetzt werden können.
+definierten englischen Statusbezeichnungen übereinstimmen, damit sie vom
+Dashboard korrekt erkannt und übersetzt werden können.
 
 ### Visibility
 
