@@ -44,6 +44,31 @@ Sektion konfigurierte GitHub Project berücksichtigt.
 Ist ein Issue zusätzlich weiteren GitHub Projects zugeordnet, haben
 deren Statuswerte keinen Einfluss auf die Anzeige im Dashboard.
 
+## Sichtbarkeit von Issues
+
+Über das organisationsweite GitHub Issue Field `Visibility` wird gesteuert,
+welche Issues in das öffentliche WIS-BE Dashboard übernommen werden.
+
+Das Feld ist als Single-Select-Feld mit folgenden Werten definiert:
+
+-   `Public` → wird im öffentlichen Dashboard angezeigt
+-   `Internal` → wird nicht ins öffentliche Dashboard übernommen
+
+Issues mit `Visibility = Internal` werden bereits beim Erzeugen von
+`dashboard.json` durch `scripts/update_dashboard.py` ausgeschlossen und
+gelangen somit nicht in die öffentliche Dashboard-Datei.
+
+Für die Veröffentlichung gilt bewusst eine offene Standardlogik:
+
+-   `Internal` → nicht publizieren
+-   `Public` → publizieren
+-   kein Wert → publizieren
+
+`Visibility` ist als organisationsweites Issue Field unter `awn-be`
+definiert und an `Bug`, `Feature`, `Task` sowie Issues ohne Type angeheftet.
+Dadurch steht das Feld repositoryübergreifend auch für zukünftige
+WIS-BE-Repositories zur Verfügung.
+
 ## Übersetzungen
 
 **Status**
@@ -190,8 +215,53 @@ eingebunden werden.
 
 ## 5. Neue Repository-Sektion ergänzen
 
-Für eine zusätzliche Dashboard-Sektion muss lediglich `config.json` um
-das entsprechende Repository und GitHub Project erweitert werden, z. B.:
+Für einen zusätzlichen WIS-BE-Prozess mit eigener Dashboard-Sektion werden
+ein GitHub Repository und ein zugehöriges GitHub Project für die
+Sprintplanung benötigt.
+
+### GitHub Project vorbereiten
+
+Im zugehörigen GitHub Project müssen die für das Dashboard verwendeten
+Statuswerte eingerichtet werden.
+
+Die Statuswerte sind Project-spezifisch und müssen deshalb bei jeder neuen
+Sprintplanung einmal angelegt bzw. angepasst werden:
+
+| Status | Farbe | Beschreibung |
+| --- | --- | --- |
+| `Blocked` | Pink | This is currently blocked by a dependency |
+| `Needs clarification` | Gelb | This requires further clarification before work can continue |
+| `Todo` | Grau | This item hasn't been started |
+| `In progress` | Rot | This is actively being worked on |
+| `Ready to test` | Grün | This is ready for testing |
+| `Done` | Blau | This has been completed |
+| `Rejected` | Violett | This will not be implemented |
+
+`Todo` wird als **Default-Status** verwendet.
+
+Die Bezeichnungen der Statuswerte müssen mit den in `config.json`
+verwendeten Werten übereinstimmen, damit sie vom Dashboard korrekt erkannt
+und übersetzt werden können.
+
+### Visibility
+
+Das organisationsweite Issue Field `Visibility` muss für neue Repositories
+oder Projects **nicht separat eingerichtet werden**.
+
+Es ist zentral in der Organisation `awn-be` definiert und steht dadurch
+repositoryübergreifend auch für zukünftige WIS-BE-Prozesse zur Verfügung.
+Das Feld ist an `Bug`, `Feature`, `Task` sowie Issues ohne Type angeheftet.
+
+Für die Veröffentlichung im Dashboard gilt:
+
+-   `Internal` → nicht publizieren
+-   `Public` → publizieren
+-   kein Wert → publizieren
+
+### Dashboard-Konfiguration ergänzen
+
+Anschliessend muss `config.json` um das entsprechende Repository und
+GitHub Project erweitert werden, z. B.:
 
 ``` json
 {
@@ -202,8 +272,11 @@ das entsprechende Repository und GitHub Project erweitert werden, z. B.:
 }
 ```
 
-Beim nächsten Lauf der Action wird die neue Sektion automatisch in
-`dashboard.json` aufgenommen.
+Das Repository bestimmt die Dashboard-Sektion; das konfigurierte GitHub
+Project liefert den dazugehörigen Bearbeitungsstatus.
+
+Beim nächsten Lauf der GitHub Action wird die neue Sektion automatisch in
+`dashboard.json` aufgenommen und im öffentlichen Dashboard angezeigt.
 
 ## KI-Unterstützung
 
