@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T01:42:21.294798+00:00",
+  "generated_at": "2026-10-03T01:12:47.360894+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -802,22 +802,6 @@
           "updated_at": "2026-09-23T13:56:25Z"
         },
         {
-          "number": 15,
-          "title": "Waldschadenmeldung: Doppelte Erfassung verhindern",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/15",
-          "description": "Momentanes Verhalten: Zum selben Stichtag können mehrere Meldungen fürs gleiche Revier erfasst werden. Erwartetes Verhalten: Wenn bereits eine Meldung fürs Revier erfasst wurde, soll eine neue Erfassung verhindert werden. Eine Meldung soll darauf hinweisen.",
-          "current_behavior": "Zum selben Stichtag können mehrere Meldungen fürs gleiche Revier erfasst werden.",
-          "expected_behavior": "Wenn bereits eine Meldung fürs Revier erfasst wurde, soll eine neue Erfassung verhindert werden. Eine Meldung soll darauf hinweisen.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-09-29T11:43:56Z"
-        },
-        {
           "number": 14,
           "title": "Filter Waldabteilung",
           "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/14",
@@ -832,6 +816,22 @@
           "status": "Geplant",
           "issue_state": "open",
           "updated_at": "2026-09-29T11:44:17Z"
+        },
+        {
+          "number": 15,
+          "title": "Waldschadenmeldung: Doppelte Erfassung verhindern",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/15",
+          "description": "Momentanes Verhalten: Zum selben Stichtag können mehrere Meldungen fürs gleiche Revier erfasst werden. Erwartetes Verhalten: Wenn bereits eine Meldung fürs Revier erfasst wurde, soll eine neue Erfassung verhindert werden. Eine Meldung soll darauf hinweisen.",
+          "current_behavior": "Zum selben Stichtag können mehrere Meldungen fürs gleiche Revier erfasst werden.",
+          "expected_behavior": "Wenn bereits eine Meldung fürs Revier erfasst wurde, soll eine neue Erfassung verhindert werden. Eine Meldung soll darauf hinweisen.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "updated_at": "2026-10-02T06:19:50Z"
         },
         {
           "number": 19,
@@ -866,70 +866,6 @@
           "updated_at": "2026-09-23T14:00:20Z"
         },
         {
-          "number": 16,
-          "title": "Projektstatus Waldschadenmeldung",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/16",
-          "description": "Momentanes Verhalten: Revierförster mit zusätzlichen Abteilungsaufgaben sehen sämtliche Projektstatus. Dadurch kann die Waldschadenmeldung versehentlich bereits über den Projektstatus «Freigeben» freigegeben werden, obwohl die eigentliche Freigabe durch die Waldabteilung erfolgen sollte. Erwartetes Verhalten: Den Projektstatus «Freigeben» in «Freigeben durch WA» umbenennen, um klarzustellen, dass die Freigabe durch die Waldabteilung erfolgt und versehentliche Freigaben durch Revierförster mit Abteilungsaufgaben zu vermeiden.",
-          "current_behavior": "Revierförster mit zusätzlichen Abteilungsaufgaben sehen sämtliche Projektstatus. Dadurch kann die Waldschadenmeldung versehentlich bereits über den Projektstatus «Freigeben» freigegeben werden, obwohl die eigentliche Freigabe durch die Waldabteilung erfolgen sollte.",
-          "expected_behavior": "Den Projektstatus «Freigeben» in «Freigeben durch WA» umbenennen, um klarzustellen, dass die Freigabe durch die Waldabteilung erfolgt und versehentliche Freigaben durch Revierförster mit Abteilungsaufgaben zu vermeiden.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "In progress",
-          "status": "In Arbeit",
-          "issue_state": "open",
-          "updated_at": "2026-10-01T06:22:02Z"
-        },
-        {
-          "number": 7,
-          "title": "Abrechnung ist ohne Fm-Angabe möglich",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/7",
-          "description": "Momentanes Verhalten: Waldschaden kann abgerechnet werden, ohne dass eine Fm-Angabe erfolgt ist. Der Waldschaden kann anschliessend nicht mehr editiert werden. Erwartetes Verhalten: Abrechnung ohne FM-Angabe nicht möglich. Entweder Fm-Menge als Pflichtfeld plus ev. Möglichkeit, die auf Abrechnung gestellten Fälle nochmals editieren zu können.",
-          "current_behavior": "Waldschaden kann abgerechnet werden, ohne dass eine Fm-Angabe erfolgt ist. Der Waldschaden kann anschliessend nicht mehr editiert werden.",
-          "expected_behavior": "Abrechnung ohne FM-Angabe nicht möglich. Entweder Fm-Menge als Pflichtfeld plus ev. Möglichkeit, die auf Abrechnung gestellten Fälle nochmals editieren zu können.",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Ready to test",
-          "status": "Bereit zum Testen",
-          "issue_state": "open",
-          "updated_at": "2026-09-30T08:17:21Z"
-        },
-        {
-          "number": 20,
-          "title": "Anzahl Bäume als Pflichtfeld bei Status \"Zur Abrechnung einreichen\"",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/20",
-          "description": "Momentanes Verhalten: Anzahl Bäume ist ein freiwilliges Feld Erwartetes Verhalten: Wenn Waldschaden zur Abrechnung eingereicht wird, soll das Feld \"Anzahl Bäume\" zum Pflichtfeld werden",
-          "current_behavior": "Anzahl Bäume ist ein freiwilliges Feld",
-          "expected_behavior": "Wenn Waldschaden zur Abrechnung eingereicht wird, soll das Feld \"Anzahl Bäume\" zum Pflichtfeld werden",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Ready to test",
-          "status": "Bereit zum Testen",
-          "issue_state": "open",
-          "updated_at": "2026-10-01T06:22:08Z"
-        },
-        {
-          "number": 4,
-          "title": "Übernahme Waldbesitzer in Adressfeld",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/4",
-          "description": "Erwartetes Verhalten: Wenn ich beim Feld «Auszahlung an:» den Waldbesitzer auswähle, wäre es natürlich optimal, wenn der Waldbesitzer direkt im Adressfeld übernommen würde.",
-          "current_behavior": "",
-          "expected_behavior": "Wenn ich beim Feld «Auszahlung an:» den Waldbesitzer auswähle, wäre es natürlich optimal, wenn der Waldbesitzer direkt im Adressfeld übernommen würde.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Ready to test",
-          "status": "Bereit zum Testen",
-          "issue_state": "open",
-          "updated_at": "2026-09-30T08:17:32Z"
-        },
-        {
           "number": 9,
           "title": "Freigabe einzelner Punkte zur Auszahlung",
           "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/9",
@@ -946,6 +882,22 @@
           "updated_at": "2026-09-23T13:58:05Z"
         },
         {
+          "number": 7,
+          "title": "Abrechnung ist ohne Fm-Angabe möglich",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/7",
+          "description": "Momentanes Verhalten: Waldschaden kann abgerechnet werden, ohne dass eine Fm-Angabe erfolgt ist. Der Waldschaden kann anschliessend nicht mehr editiert werden. Erwartetes Verhalten: Abrechnung ohne FM-Angabe nicht möglich. Entweder Fm-Menge als Pflichtfeld plus ev. Möglichkeit, die auf Abrechnung gestellten Fälle nochmals editieren zu können.",
+          "current_behavior": "Waldschaden kann abgerechnet werden, ohne dass eine Fm-Angabe erfolgt ist. Der Waldschaden kann anschliessend nicht mehr editiert werden.",
+          "expected_behavior": "Abrechnung ohne FM-Angabe nicht möglich. Entweder Fm-Menge als Pflichtfeld plus ev. Möglichkeit, die auf Abrechnung gestellten Fälle nochmals editieren zu können.",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-10-02T06:17:33Z"
+        },
+        {
           "number": 1,
           "title": "Alle zur Abrechnung eingereichten Waldschäden zusammen zur Auszahlung freigeben",
           "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/1",
@@ -960,6 +912,22 @@
           "status": "Erledigt",
           "issue_state": "closed",
           "updated_at": "2026-09-23T13:58:17Z"
+        },
+        {
+          "number": 20,
+          "title": "Anzahl Bäume als Pflichtfeld bei Status \"Zur Abrechnung einreichen\"",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/20",
+          "description": "Momentanes Verhalten: Anzahl Bäume ist ein freiwilliges Feld Erwartetes Verhalten: Wenn Waldschaden zur Abrechnung eingereicht wird, soll das Feld \"Anzahl Bäume\" zum Pflichtfeld werden",
+          "current_behavior": "Anzahl Bäume ist ein freiwilliges Feld",
+          "expected_behavior": "Wenn Waldschaden zur Abrechnung eingereicht wird, soll das Feld \"Anzahl Bäume\" zum Pflichtfeld werden",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-10-02T06:16:14Z"
         },
         {
           "number": 17,
@@ -1024,6 +992,38 @@
           "status": "Erledigt",
           "issue_state": "closed",
           "updated_at": "2026-10-01T11:35:47Z"
+        },
+        {
+          "number": 16,
+          "title": "Projektstatus Waldschadenmeldung",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/16",
+          "description": "Momentanes Verhalten: Revierförster mit zusätzlichen Abteilungsaufgaben sehen sämtliche Projektstatus. Dadurch kann die Waldschadenmeldung versehentlich bereits über den Projektstatus «Freigeben» freigegeben werden, obwohl die eigentliche Freigabe durch die Waldabteilung erfolgen sollte. Erwartetes Verhalten: Den Projektstatus «Freigeben» in «Freigeben durch WA» umbenennen, um klarzustellen, dass die Freigabe durch die Waldabteilung erfolgt und versehentliche Freigaben durch Revierförster mit Abteilungsaufgaben zu vermeiden.",
+          "current_behavior": "Revierförster mit zusätzlichen Abteilungsaufgaben sehen sämtliche Projektstatus. Dadurch kann die Waldschadenmeldung versehentlich bereits über den Projektstatus «Freigeben» freigegeben werden, obwohl die eigentliche Freigabe durch die Waldabteilung erfolgen sollte.",
+          "expected_behavior": "Den Projektstatus «Freigeben» in «Freigeben durch WA» umbenennen, um klarzustellen, dass die Freigabe durch die Waldabteilung erfolgt und versehentliche Freigaben durch Revierförster mit Abteilungsaufgaben zu vermeiden.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-10-02T06:17:00Z"
+        },
+        {
+          "number": 4,
+          "title": "Übernahme Waldbesitzer in Adressfeld",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/4",
+          "description": "Erwartetes Verhalten: Wenn ich beim Feld «Auszahlung an:» den Waldbesitzer auswähle, wäre es natürlich optimal, wenn der Waldbesitzer direkt im Adressfeld übernommen würde.",
+          "current_behavior": "",
+          "expected_behavior": "Wenn ich beim Feld «Auszahlung an:» den Waldbesitzer auswähle, wäre es natürlich optimal, wenn der Waldbesitzer direkt im Adressfeld übernommen würde.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "updated_at": "2026-10-02T06:17:53Z"
         }
       ]
     }
