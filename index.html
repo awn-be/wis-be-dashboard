@@ -465,10 +465,17 @@ footer {
   font-size:12px
 }
 
-@media(max-width:1300px) {
+@media(max-width:900px) {
   .summary {
-    grid-template-columns:repeat(2,minmax(0,1fr))
+    grid-template-columns:repeat(2,minmax(0,1fr));
   }
+
+  .filters {
+    gap:18px;
+  }
+}
+
+@media(max-width:1300px) {
   .desktop-table {
     display:none
   }
