@@ -314,6 +314,8 @@ def main():
                 "status_raw": raw_status,
                 "status": status_de,
                 "issue_state": issue.get("state"),
+                "created_at": issue.get("created_at"),
+                "closed_at": issue.get("closed_at"),
                 "updated_at": issue.get("updated_at"),
             })
 
