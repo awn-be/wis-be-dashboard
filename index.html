@@ -381,6 +381,8 @@ function row(x, repo){
     <td><span class="badge ${typeClass(x.type)}">${escapeHtml(x.type || "Nicht zugeordnet")}</span></td>
     <td><span class="badge ${priorityClass(x.priority_raw)}">${escapeHtml(priorityLabel(x))}</span></td>
     <td><span class="badge ${statusClass(x.status)}">${escapeHtml(x.status || "Nicht zugeordnet")}</span></td>
+    <td class="date-cell">${formatDate(x.created_at)}</td>
+    <td class="date-cell">${formatDate(x.closed_at)}</td>
   </tr>`;
 }
 function card(x, repo){
