@@ -434,7 +434,7 @@ function render(){
             Erledigt <span class="sort-arrow">↕</span>
           </th>
         </tr></thead>
-        <tbody>${list.length ? list.map(x=>row(x,section.id)).join("") : `<tr><td colspan="5">Keine Einträge für diesen Filter.</td></tr>`}</tbody>
+        <tbody>${list.length ? list.map(x=>row(x,section.id)).join("") : `<tr><td colspan="7">Keine Einträge für diesen Filter.</td></tr>`}</tbody>
       </table></div>
       <div class="mobile-cards">${list.length ? list.map(x=>card(x,section.id)).join("") : `<div class="card">Keine Einträge für diesen Filter.</div>`}</div>
     </section>`;
