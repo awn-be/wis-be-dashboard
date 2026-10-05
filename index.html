@@ -541,6 +541,21 @@ function activateSorting(){
     });
   });
 }
+function activateSectionToggles(){
+  document.querySelectorAll("[data-section-toggle]").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      const id = btn.dataset.sectionToggle;
+
+      if(collapsedSections.has(id)){
+        collapsedSections.delete(id);
+      }else{
+        collapsedSections.add(id);
+      }
+
+      render();
+    });
+  });
+}
 async function load(){
   const r=await fetch("./dashboard.json",{cache:"no-store"});
   if(!r.ok) throw new Error(`dashboard.json: HTTP ${r.status}`);
