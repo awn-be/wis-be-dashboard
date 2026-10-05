@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T00:56:49.398771+00:00",
+  "generated_at": "2026-10-05T07:07:23.574010+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -104,22 +104,6 @@
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
           "updated_at": "2026-10-01T08:28:43Z"
-        },
-        {
-          "number": 59,
-          "title": "Beim Teilen werden Attachements nicht kopiert",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/59",
-          "description": "Momentanes Verhalten: Wenn ein Feature geteilt wird, werden zwei neue Global-IDs erstellt. Somit werden die Attachements nicht mehr gefunden. Erwartetes Verhalten: Attachements werden nach dem Teilen bei bei beiden neuen Features angezeigt.",
-          "current_behavior": "Wenn ein Feature geteilt wird, werden zwei neue Global-IDs erstellt. Somit werden die Attachements nicht mehr gefunden.",
-          "expected_behavior": "Attachements werden nach dem Teilen bei bei beiden neuen Features angezeigt.",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "updated_at": "2026-10-01T08:32:38Z"
         },
         {
           "number": 31,
