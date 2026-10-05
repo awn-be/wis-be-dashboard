@@ -3,7 +3,7 @@
 Saubere Trennung von **interner Issue-Pflege** (GitHub) und
 **öffentlicher Anzeige** (WIS-BE Homepage):
 
-``` text
+```text
 GitHub Issues + GitHub Projects
              │
              │ GitHub Action (automatisch, nachts)
@@ -24,12 +24,12 @@ API** zu.
 
 ## Dateien
 
--   `index.html` -- öffentliche, responsive Anzeige
--   `dashboard.json` -- automatisch erzeugte Dashboard-Daten
--   `config.json` -- Repository-/Project-Zuordnung und Übersetzungen
--   `scripts/update_dashboard.py` -- liest GitHub aus und erzeugt
+- `index.html` -- öffentliche, responsive Anzeige
+- `dashboard.json` -- automatisch erzeugte Dashboard-Daten
+- `config.json` -- Repository-/Project-Zuordnung und Übersetzungen
+- `scripts/update_dashboard.py` -- liest GitHub aus und erzeugt
     `dashboard.json`
--   `.github/workflows/update-dashboard.yml` -- automatische tägliche
+- `.github/workflows/update-dashboard.yml` -- automatische tägliche
     Aktualisierung
 
 ## Konfigurierte Zuordnung
@@ -59,8 +59,8 @@ werden.
 
 Das Feld ist als Single-Select-Feld mit folgenden Werten definiert:
 
--   `Public` → wird im öffentlichen Dashboard angezeigt
--   `Internal` → wird nicht ins öffentliche Dashboard übernommen
+- `Public` → wird im öffentlichen Dashboard angezeigt
+- `Internal` → wird nicht ins öffentliche Dashboard übernommen
 
 Issues mit `Visibility = Internal` werden bereits beim Erzeugen von
 `dashboard.json` durch `scripts/update_dashboard.py` ausgeschlossen und
@@ -68,9 +68,9 @@ gelangen somit nicht in die öffentliche Dashboard-Datei.
 
 Für die Veröffentlichung gilt bewusst eine offene Standardlogik:
 
--   `Internal` → nicht publizieren
--   `Public` → publizieren
--   kein Wert → publizieren
+- `Internal` → nicht publizieren
+- `Public` → publizieren
+- kein Wert → publizieren
 
 `Visibility` ist als organisationsweites Issue Field unter `awn-be`
 definiert und an `Bug`, `Feature`, `Task` sowie Issues ohne Type
@@ -81,39 +81,39 @@ zukünftige WIS-BE-Repositories zur Verfügung.
 
 **Status**
 
--   `Blocked` → Blockiert
--   `Needs clarification` → Weitere Abklärungen nötig
--   `Todo` → Geplant
--   `In progress` → In Arbeit
--   `Ready to test` → Bereit zum Testen
--   `Done` → Erledigt
--   `Rejected` → Wird nicht umgesetzt
+- `Blocked` → Blockiert
+- `Needs clarification` → Weitere Abklärungen nötig
+- `Todo` → Geplant
+- `In progress` → In Arbeit
+- `Ready to test` → Bereit zum Testen
+- `Done` → Erledigt
+- `Rejected` → Wird nicht umgesetzt
 
 **Priority**
 
--   `Urgent` → Sehr hoch
--   `High` → Hoch
--   `Medium` → Mittel
--   `Low` → Niedrig
+- `Urgent` → Sehr hoch
+- `High` → Hoch
+- `Medium` → Mittel
+- `Low` → Niedrig
 
 **Type**
 
--   `Bug` → Fehler
--   `Feature` → Funktion
--   `Task` → Aufgabe *(wird aktuell nicht verwendet)*
+- `Bug` → Fehler
+- `Feature` → Funktion
+- `Task` → Aufgabe *(wird aktuell nicht verwendet)*
 
 ## Zusammenfassung, Filter, Sortierung und Darstellung
 
 Die Zusammenfassung zeigt die Anzahl der Issues nach Bearbeitungsstatus:
 
--   Blockiert
--   Weitere Abklärungen nötig
--   Geplant
--   In Arbeit
--   Bereit zum Testen
--   Erledigt
--   Wird nicht umgesetzt
--   Nicht zugeordnet
+- Blockiert
+- Weitere Abklärungen nötig
+- Geplant
+- In Arbeit
+- Bereit zum Testen
+- Erledigt
+- Wird nicht umgesetzt
+- Nicht zugeordnet
 
 Die angezeigten Zahlen berücksichtigen die aktuell gesetzten Filter.
 `Nicht zugeordnet` macht Issues sichtbar, denen im konfigurierten GitHub
@@ -132,9 +132,9 @@ Die Einträge können zusätzlich über die Spaltenüberschriften nach
 
 Für jedes Issue werden zwei Datumsangaben aus GitHub übernommen:
 
--   **Eingang** basiert auf `created_at` und entspricht dem
+- **Eingang** basiert auf `created_at` und entspricht dem
     Erstellungsdatum des GitHub Issues.
--   **Erledigt** basiert auf `closed_at` und entspricht dem Zeitpunkt,
+- **Erledigt** basiert auf `closed_at` und entspricht dem Zeitpunkt,
     an dem das GitHub Issue geschlossen wurde. Bei offenen Issues wird
     `–` angezeigt.
 
@@ -148,10 +148,12 @@ den Spalten **Thema**, **Beschreibung**, **Typ**, **Priorität**,
 **Status**, **Eingang** und **Erledigt** angezeigt.
 
 Bei schmalerer Darstellung wechselt das Dashboard automatisch auf eine
-Card-Ansicht. Der Wechsel erfolgt derzeit bei einer Breite von `1300px`,
-damit die sieben Tabellenspalten nicht abgeschnitten oder überlagert
-werden. Die Card-Ansicht enthält ebenfalls Eingangs- und
+Card-Ansicht, damit die Tabellenspalten nicht abgeschnitten oder
+überlagert werden. Die Card-Ansicht enthält ebenfalls Eingangs- und
 Erledigungsdatum.
+
+Die konkreten Breakpoints und die dafür relevante Portal-Einbettung sind
+unter **4. GitHub Pages → Einbindung in ArcGIS Portal** dokumentiert.
 
 ### Ein- und ausklappbare Prozessbereiche
 
@@ -197,8 +199,8 @@ Statuswerte aus den GitHub Projects auslesen kann, wurde ein
 Der Token erhielt Leserechte auf die benötigten Ressourcen,
 insbesondere:
 
--   Organization permission: **Projects -- Read-only**
--   Keine Repository-Berechtigungen erforderlich, da die verwendeten
+- Organization permission: **Projects -- Read-only**
+- Keine Repository-Berechtigungen erforderlich, da die verwendeten
     GitHub Issues aus öffentlichen Repositories gelesen werden.
 
 Der Fine-grained Personal Access Token ist zeitlich begrenzt und muss
@@ -249,47 +251,48 @@ aktiviert.
 Unter **Settings → Pages → Build and deployment** wurden folgende
 Einstellungen verwendet:
 
--   Source: `Deploy from a branch`
--   Branch: `main`
--   Folder: `/ (root)`
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/ (root)`
 
 Das Dashboard ist dadurch unter folgender Adresse erreichbar:
 
 `https://awn-be.github.io/wis-be-dashboard/`
 
-Diese GitHub-Pages-Seite kann anschliessend per iFrame in ArcGIS Portal
-eingebunden werden.
+Diese GitHub-Pages-Seite wird per iFrame in ArcGIS Portal eingebunden.
 
 ### Einbindung in ArcGIS Portal
 
 Das Dashboard wird auf der WIS-BE-Seite als iFrame eingebunden.
 
-Für die Portal-Sektion wird eine breite Darstellung verwendet, damit dem
-Dashboard genügend horizontaler Platz zur Verfügung steht. Die iFrame-Card
-selbst belegt mit `width: 12` bereits die gesamte verfügbare Breite der
-Portal-Zeile.
+Die iFrame-Card belegt mit `width: 12` die gesamte verfügbare Breite der
+Portal-Zeile. Zusätzlich wird für die Portal-Sektion eine breite
+Darstellung verwendet. Diese Einstellung ist wichtig, weil eine feste
+bzw. schmalere Section den iFrame auf Desktop-Bildschirmen so stark
+begrenzen kann, dass das Dashboard unnötig früh in die Card-Ansicht
+wechselt.
 
-Die Breite ist insbesondere für die responsive Darstellung relevant:
+Für die responsive Darstellung gelten derzeit folgende Stufen:
 
-- Bei ausreichend Platz wird die vollständige Tabelle mit sieben Spalten
-  angezeigt.
+- Ab `1300px` steht genügend Platz für die vollständige Tabelle mit
+    sieben Spalten zur Verfügung.
 - Unterhalb von `1300px` wechselt das Dashboard automatisch auf die
-  Card-Ansicht.
-- Unterhalb von `900px` wird zusätzlich die Statusübersicht von vier auf
-  zwei Spalten reduziert.
+    Card-Ansicht.
+- Unterhalb von `900px` wird zusätzlich die Statusübersicht von vier
+    auf zwei Spalten reduziert.
 - Unterhalb von `560px` greift die Darstellung für sehr schmale
-  Bildschirmbreiten.
+    Bildschirmbreiten.
 
-Die breite Portal-Sektion verhindert, dass der iFrame bereits auf
-Desktop-Bildschirmen unnötig in die Card-Ansicht wechselt. Gleichzeitig
-bleibt das Dashboard für kleinere Fenster und mobile Geräte vollständig
-responsiv.
+Damit bleibt auf breiten Desktop-Ansichten die tabellarische Darstellung
+erhalten, während kleinere Fenster und mobile Geräte weiterhin responsiv
+dargestellt werden.
 
 Für den iFrame werden derzeit folgende Einstellungen verwendet:
 
 - Höhe: `800px`
 - Scrollbar: aktiviert
 - Breite der Card: `12` (volle Zeilenbreite)
+- Portal-Sektion: breite Darstellung
 
 ## 5. Neue Repository-Sektion ergänzen
 
@@ -348,16 +351,16 @@ Type angeheftet.
 
 Für die Veröffentlichung im Dashboard gilt:
 
--   `Internal` → nicht publizieren
--   `Public` → publizieren
--   kein Wert → publizieren
+- `Internal` → nicht publizieren
+- `Public` → publizieren
+- kein Wert → publizieren
 
 ### Dashboard-Konfiguration ergänzen
 
 Anschliessend muss `config.json` um das entsprechende Repository und
 GitHub Project erweitert werden, z. B.:
 
-``` json
+```json
 {
   "repo": "vertigis_planungsgrundlagen",
   "title": "Planungsgrundlagen",
