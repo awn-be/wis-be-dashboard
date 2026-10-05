@@ -468,10 +468,21 @@ function card(x, repo){
 function render(){
   renderSummary();
   document.getElementById("content").innerHTML = dashboard.sections.map(section=>{
-    const list=visible(section);
+    const list = visible(section);
+    const collapsed = collapsedSections.has(section.id);
+    
     return `<section class="section">
-      <div class="section-head"><h2>${escapeHtml(section.title)}</h2><span class="section-count">${list.length} Einträge</span></div>
-      <div class="table-shell desktop-table"><table>
+      <div class="section-head">
+        <button class="section-toggle"
+                data-section-toggle="${escapeHtml(section.id)}"
+                aria-expanded="${!collapsed}">
+          <span class="section-arrow">${collapsed ? "▸" : "▾"}</span>
+          <h2>${escapeHtml(section.title)}</h2>
+        </button>
+        <span class="section-count">${list.length} Einträge</span>
+      </div>
+    
+      <div class="section-content" ${collapsed ? 'hidden' : ''}>
         <thead><tr>
           <th style="width:19%" data-sort="title">
             Thema <span class="sort-arrow">↕</span>
