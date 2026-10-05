@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T07:07:23.574010+00:00",
+  "generated_at": "2026-10-05T11:48:05.076013+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -23,6 +23,8 @@
           "status_raw": "Blocked",
           "status": "Blockiert",
           "issue_state": "open",
+          "created_at": "2026-09-14T10:05:30Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:28:33Z"
         },
         {
@@ -39,6 +41,8 @@
           "status_raw": "Blocked",
           "status": "Blockiert",
           "issue_state": "open",
+          "created_at": "2026-09-09T07:33:05Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:28:55Z"
         },
         {
@@ -55,6 +59,8 @@
           "status_raw": "Blocked",
           "status": "Blockiert",
           "issue_state": "open",
+          "created_at": "2026-10-01T07:39:04Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:26:16Z"
         },
         {
@@ -71,6 +77,8 @@
           "status_raw": "Blocked",
           "status": "Blockiert",
           "issue_state": "open",
+          "created_at": "2026-09-24T11:26:10Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:27:11Z"
         },
         {
@@ -87,6 +95,8 @@
           "status_raw": "Needs clarification",
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
+          "created_at": "2026-09-30T07:36:48Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:27:02Z"
         },
         {
@@ -103,6 +113,8 @@
           "status_raw": "Needs clarification",
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
+          "created_at": "2026-09-14T09:57:28Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:28:43Z"
         },
         {
@@ -119,6 +131,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:27:53Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:31:20Z"
         },
         {
@@ -135,6 +149,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-08T07:19:11Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:29:22Z"
         },
         {
@@ -151,6 +167,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:39:13Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:29:53Z"
         },
         {
@@ -167,6 +185,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-07-28T12:37:34Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:33:24Z"
         },
         {
@@ -183,6 +203,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:29:22Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:31:12Z"
         },
         {
@@ -199,6 +221,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:43:36Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:29:33Z"
         },
         {
@@ -215,6 +239,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:41:34Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:29:42Z"
         },
         {
@@ -231,6 +257,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-08-31T11:39:21Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:31:45Z"
         },
         {
@@ -247,6 +275,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:34:11Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:30:23Z"
         },
         {
@@ -263,6 +293,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:32:17Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:30:43Z"
         },
         {
@@ -279,6 +311,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-08-19T14:10:53Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:31:55Z"
         },
         {
@@ -295,6 +329,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-08-31T11:43:05Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:31:37Z"
         },
         {
@@ -311,6 +347,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-08-17T13:18:25Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:32:25Z"
         },
         {
@@ -327,6 +365,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:30:33Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:30:54Z"
         },
         {
@@ -343,6 +383,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:36:49Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:30:02Z"
         },
         {
@@ -359,6 +401,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:22:40Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:31:28Z"
         },
         {
@@ -375,6 +419,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-07-28T12:27:00Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:33:55Z"
         },
         {
@@ -391,6 +437,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-08-18T06:17:01Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:32:05Z"
         },
         {
@@ -407,6 +455,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-07-28T12:34:40Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:33:35Z"
         },
         {
@@ -423,6 +473,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-23T09:49:28Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:27:20Z"
         },
         {
@@ -439,6 +491,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-07-28T12:31:44Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:33:45Z"
         },
         {
@@ -455,6 +509,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-08-12T08:53:13Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:32:54Z"
         },
         {
@@ -471,6 +527,8 @@
           "status_raw": "In progress",
           "status": "In Arbeit",
           "issue_state": "open",
+          "created_at": "2026-07-15T11:02:53Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:34:17Z"
         },
         {
@@ -487,6 +545,8 @@
           "status_raw": "In progress",
           "status": "In Arbeit",
           "issue_state": "open",
+          "created_at": "2026-07-28T12:23:14Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:34:07Z"
         },
         {
@@ -503,6 +563,8 @@
           "status_raw": "In progress",
           "status": "In Arbeit",
           "issue_state": "open",
+          "created_at": "2026-09-09T07:30:14Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:29:04Z"
         },
         {
@@ -519,6 +581,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-07-14T11:35:46Z",
+          "closed_at": "2026-08-18T11:53:48Z",
           "updated_at": "2026-10-01T08:38:45Z"
         },
         {
@@ -535,6 +599,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-07-14T11:15:57Z",
+          "closed_at": "2026-08-17T11:52:33Z",
           "updated_at": "2026-10-01T08:39:07Z"
         },
         {
@@ -551,6 +617,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-08-12T08:51:59Z",
+          "closed_at": "2026-08-19T12:28:14Z",
           "updated_at": "2026-10-01T08:35:41Z"
         },
         {
@@ -567,6 +635,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-14T11:00:40Z",
+          "closed_at": "2026-09-22T14:26:50Z",
           "updated_at": "2026-10-01T08:34:52Z"
         },
         {
@@ -583,6 +653,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-14T10:00:14Z",
+          "closed_at": "2026-09-25T06:46:47Z",
           "updated_at": "2026-10-01T08:35:19Z"
         },
         {
@@ -599,6 +671,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-08T06:35:27Z",
+          "closed_at": "2026-09-22T13:25:23Z",
           "updated_at": "2026-10-01T08:35:33Z"
         },
         {
@@ -615,6 +689,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-14T10:08:22Z",
+          "closed_at": "2026-09-30T12:30:06Z",
           "updated_at": "2026-10-01T08:35:13Z"
         },
         {
@@ -631,6 +707,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-24T07:31:09Z",
+          "closed_at": "2026-09-25T13:30:29Z",
           "updated_at": "2026-10-01T08:34:28Z"
         },
         {
@@ -647,6 +725,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-14T10:09:53Z",
+          "closed_at": "2026-09-22T13:47:33Z",
           "updated_at": "2026-10-01T08:34:59Z"
         },
         {
@@ -663,6 +743,8 @@
           "status_raw": "Rejected",
           "status": "Wird nicht umgesetzt",
           "issue_state": "open",
+          "created_at": "2026-09-08T09:23:02Z",
+          "closed_at": null,
           "updated_at": "2026-10-01T08:29:13Z"
         },
         {
@@ -679,6 +761,8 @@
           "status_raw": "Rejected",
           "status": "Wird nicht umgesetzt",
           "issue_state": "closed",
+          "created_at": "2026-09-08T09:21:54Z",
+          "closed_at": "2026-09-22T13:46:38Z",
           "updated_at": "2026-10-01T08:35:26Z"
         },
         {
@@ -695,6 +779,8 @@
           "status_raw": "Rejected",
           "status": "Wird nicht umgesetzt",
           "issue_state": "closed",
+          "created_at": "2026-09-15T08:41:35Z",
+          "closed_at": "2026-09-22T07:17:28Z",
           "updated_at": "2026-10-01T08:34:45Z"
         }
       ]
@@ -719,6 +805,8 @@
           "status_raw": "Needs clarification",
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:46:38Z",
+          "closed_at": null,
           "updated_at": "2026-09-29T14:29:08Z"
         },
         {
@@ -735,6 +823,8 @@
           "status_raw": "Needs clarification",
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
+          "created_at": "2026-09-14T10:03:22Z",
+          "closed_at": null,
           "updated_at": "2026-09-29T11:46:37Z"
         },
         {
@@ -751,6 +841,8 @@
           "status_raw": "Needs clarification",
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
+          "created_at": "2026-09-08T06:50:28Z",
+          "closed_at": null,
           "updated_at": "2026-09-23T14:01:56Z"
         },
         {
@@ -767,6 +859,8 @@
           "status_raw": "Needs clarification",
           "status": "Weitere Abklärungen nötig",
           "issue_state": "open",
+          "created_at": "2026-09-14T10:02:15Z",
+          "closed_at": null,
           "updated_at": "2026-09-23T14:01:11Z"
         },
         {
@@ -783,6 +877,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-15T08:39:22Z",
+          "closed_at": null,
           "updated_at": "2026-09-23T13:56:25Z"
         },
         {
@@ -799,6 +895,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-17T12:23:43Z",
+          "closed_at": null,
           "updated_at": "2026-09-29T11:44:17Z"
         },
         {
@@ -815,6 +913,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-22T05:30:51Z",
+          "closed_at": null,
           "updated_at": "2026-10-02T06:19:50Z"
         },
         {
@@ -831,6 +931,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-28T09:49:17Z",
+          "closed_at": null,
           "updated_at": "2026-09-29T14:36:42Z"
         },
         {
@@ -847,6 +949,8 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
+          "created_at": "2026-09-14T10:58:10Z",
+          "closed_at": null,
           "updated_at": "2026-09-23T14:00:20Z"
         },
         {
@@ -863,6 +967,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-14T10:02:51Z",
+          "closed_at": "2026-09-22T07:03:34Z",
           "updated_at": "2026-09-23T13:58:05Z"
         },
         {
@@ -879,6 +985,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-08T06:55:23Z",
+          "closed_at": "2026-10-02T06:17:33Z",
           "updated_at": "2026-10-02T06:17:33Z"
         },
         {
@@ -895,6 +1003,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-08-12T12:50:34Z",
+          "closed_at": "2026-09-22T07:14:15Z",
           "updated_at": "2026-09-23T13:58:17Z"
         },
         {
@@ -911,6 +1021,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-29T14:47:52Z",
+          "closed_at": "2026-10-02T06:16:14Z",
           "updated_at": "2026-10-02T06:16:14Z"
         },
         {
@@ -927,6 +1039,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-24T10:31:56Z",
+          "closed_at": "2026-09-30T08:12:01Z",
           "updated_at": "2026-10-01T11:35:22Z"
         },
         {
@@ -943,6 +1057,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-15T08:38:06Z",
+          "closed_at": "2026-10-01T11:09:43Z",
           "updated_at": "2026-10-01T11:35:30Z"
         },
         {
@@ -959,6 +1075,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-08T06:48:01Z",
+          "closed_at": "2026-09-29T14:31:14Z",
           "updated_at": "2026-10-01T11:35:59Z"
         },
         {
@@ -975,6 +1093,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-08T06:49:21Z",
+          "closed_at": "2026-09-25T07:30:04Z",
           "updated_at": "2026-10-01T11:35:47Z"
         },
         {
@@ -991,6 +1111,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-22T11:34:51Z",
+          "closed_at": "2026-10-02T06:17:00Z",
           "updated_at": "2026-10-02T06:17:00Z"
         },
         {
@@ -1007,6 +1129,8 @@
           "status_raw": "Done",
           "status": "Erledigt",
           "issue_state": "closed",
+          "created_at": "2026-09-08T06:48:45Z",
+          "closed_at": "2026-10-02T06:17:53Z",
           "updated_at": "2026-10-02T06:17:53Z"
         }
       ]
