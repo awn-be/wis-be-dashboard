@@ -415,6 +415,10 @@ function card(x, repo){
   return `<article class="card">
     <a href="${escapeHtml(x.url)}" target="_blank" rel="noopener">${escapeHtml(x.title)}</a>
     <span class="issue-id">${escapeHtml(repo)} · Issue #${x.number}</span>
+    <div class="card-dates">
+      <span><strong>Eingang:</strong> ${formatDate(x.created_at)}</span>
+      <span><strong>Erledigt:</strong> ${formatDate(x.closed_at)}</span>
+    </div>
     <div class="desc">${descriptionHtml(x)}</div>
     <div class="card-meta">
       <span class="badge ${typeClass(x.type)}">${escapeHtml(x.type || "Nicht zugeordnet")}</span>
