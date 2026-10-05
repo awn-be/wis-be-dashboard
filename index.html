@@ -467,52 +467,73 @@ function card(x, repo){
 }
 function render(){
   renderSummary();
+
   document.getElementById("content").innerHTML = dashboard.sections.map(section=>{
     const list = visible(section);
     const collapsed = collapsedSections.has(section.id);
-    
-    return `<section class="section">
-      <div class="section-head">
-        <button class="section-toggle"
-                data-section-toggle="${escapeHtml(section.id)}"
-                aria-expanded="${!collapsed}">
-          <span class="section-arrow">${collapsed ? "▸" : "▾"}</span>
-          <h2>${escapeHtml(section.title)}</h2>
-        </button>
-        <span class="section-count">${list.length} Einträge</span>
-      </div>
-    
-      <div class="section-content" ${collapsed ? 'hidden' : ''}>
-        <div class="table-shell desktop-table"><table>
-          <thead><tr>
-            <th style="width:19%" data-sort="title">
-              Thema <span class="sort-arrow">↕</span>
-            </th>
-            <th data-sort="description">
-              Beschreibung <span class="sort-arrow">↕</span>
-            </th>
-            <th style="width:8%" data-sort="type">
-              Typ <span class="sort-arrow">↕</span>
-            </th>
-            <th style="width:11%" data-sort="priority">
-              Priorität <span class="sort-arrow">↕</span>
-            </th>
-            <th style="width:12%" data-sort="status">
-              Status <span class="sort-arrow">↕</span>
-            </th>
-            <th style="width:8%" data-sort="created">
-              Eingang <span class="sort-arrow">↕</span>
-            </th>
-            <th style="width:8%" data-sort="closed">
-              Erledigt <span class="sort-arrow">↕</span>
-            </th>
-          </tr></thead>
-          <tbody>${list.length ? list.map(x=>row(x,section.id)).join("") : `<tr><td colspan="7">Keine Einträge für diesen Filter.</td></tr>`}</tbody>
-        </table></div>
 
-        <div class="mobile-cards">${list.length ? list.map(x=>card(x,section.id)).join("") : `<div class="card">Keine Einträge für diesen Filter.</div>`}</div>
-      </div>
-    </section>`;
+    return `
+      <section class="section">
+
+        <div class="section-head">
+          <button class="section-toggle"
+                  data-section-toggle="${escapeHtml(section.id)}"
+                  aria-expanded="${!collapsed}">
+            <span class="section-arrow">${collapsed ? "▸" : "▾"}</span>
+            <h2>${escapeHtml(section.title)}</h2>
+          </button>
+
+          <span class="section-count">${list.length} Einträge</span>
+        </div>
+
+        <div class="section-content" ${collapsed ? "hidden" : ""}>
+
+          <div class="table-shell desktop-table">
+            <table>
+              <thead>
+                <tr>
+                  <th style="width:19%" data-sort="title">
+                    Thema <span class="sort-arrow">↕</span>
+                  </th>
+                  <th data-sort="description">
+                    Beschreibung <span class="sort-arrow">↕</span>
+                  </th>
+                  <th style="width:8%" data-sort="type">
+                    Typ <span class="sort-arrow">↕</span>
+                  </th>
+                  <th style="width:11%" data-sort="priority">
+                    Priorität <span class="sort-arrow">↕</span>
+                  </th>
+                  <th style="width:12%" data-sort="status">
+                    Status <span class="sort-arrow">↕</span>
+                  </th>
+                  <th style="width:8%" data-sort="created">
+                    Eingang <span class="sort-arrow">↕</span>
+                  </th>
+                  <th style="width:8%" data-sort="closed">
+                    Erledigt <span class="sort-arrow">↕</span>
+                  </th>
+                </tr>
+              </thead>
+
+              <tbody>
+                ${list.length
+                  ? list.map(x=>row(x,section.id)).join("")
+                  : `<tr><td colspan="7">Keine Einträge für diesen Filter.</td></tr>`
+                }
+              </tbody>
+            </table>
+          </div>
+
+          <div class="mobile-cards">
+            ${list.length
+              ? list.map(x=>card(x,section.id)).join("")
+              : `<div class="card">Keine Einträge für diesen Filter.</div>`
+            }
+          </div>
+
+        </div>
+      </section>`;
   }).join("");
 
   activateSorting();
