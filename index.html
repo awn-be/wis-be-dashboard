@@ -362,6 +362,17 @@ function descriptionHtml(x){
 
   return escapeHtml(x.description || "Keine Beschreibung hinterlegt.");
 }
+function formatDate(value){
+  if(!value) return "–";
+
+  const d = new Date(value);
+
+  return new Intl.DateTimeFormat("de-CH", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric"
+  }).format(d);
+}
 function row(x, repo){
   return `<tr>
     <td class="topic"><a href="${escapeHtml(x.url)}" target="_blank" rel="noopener">${escapeHtml(x.title)}</a>
