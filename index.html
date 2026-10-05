@@ -482,33 +482,36 @@ function render(){
         <span class="section-count">${list.length} Einträge</span>
       </div>
     
-      <div class="section-content" ${collapsed ? 'hidden' : ''}>
-        <thead><tr>
-          <th style="width:19%" data-sort="title">
-            Thema <span class="sort-arrow">↕</span>
-          </th>
-          <th data-sort="description">
-            Beschreibung <span class="sort-arrow">↕</span>
-          </th>
-          <th style="width:8%" data-sort="type">
-            Typ <span class="sort-arrow">↕</span>
-          </th>
-          <th style="width:11%" data-sort="priority">
-            Priorität <span class="sort-arrow">↕</span>
-          </th>
-          <th style="width:12%" data-sort="status">
-            Status <span class="sort-arrow">↕</span>
-          </th>
-          <th style="width:8%" data-sort="created">
-            Eingang <span class="sort-arrow">↕</span>
-          </th>
-          <th style="width:8%" data-sort="closed">
-            Erledigt <span class="sort-arrow">↕</span>
-          </th>
-        </tr></thead>
-        <tbody>${list.length ? list.map(x=>row(x,section.id)).join("") : `<tr><td colspan="7">Keine Einträge für diesen Filter.</td></tr>`}</tbody>
-      </table></div>
-      <div class="mobile-cards">${list.length ? list.map(x=>card(x,section.id)).join("") : `<div class="card">Keine Einträge für diesen Filter.</div>`}</div>
+            <div class="section-content" ${collapsed ? 'hidden' : ''}>
+        <div class="table-shell desktop-table"><table>
+          <thead><tr>
+            <th style="width:19%" data-sort="title">
+              Thema <span class="sort-arrow">↕</span>
+            </th>
+            <th data-sort="description">
+              Beschreibung <span class="sort-arrow">↕</span>
+            </th>
+            <th style="width:8%" data-sort="type">
+              Typ <span class="sort-arrow">↕</span>
+            </th>
+            <th style="width:11%" data-sort="priority">
+              Priorität <span class="sort-arrow">↕</span>
+            </th>
+            <th style="width:12%" data-sort="status">
+              Status <span class="sort-arrow">↕</span>
+            </th>
+            <th style="width:8%" data-sort="created">
+              Eingang <span class="sort-arrow">↕</span>
+            </th>
+            <th style="width:8%" data-sort="closed">
+              Erledigt <span class="sort-arrow">↕</span>
+            </th>
+          </tr></thead>
+          <tbody>${list.length ? list.map(x=>row(x,section.id)).join("") : `<tr><td colspan="7">Keine Einträge für diesen Filter.</td></tr>`}</tbody>
+        </table></div>
+
+        <div class="mobile-cards">${list.length ? list.map(x=>card(x,section.id)).join("") : `<div class="card">Keine Einträge für diesen Filter.</div>`}</div>
+      </div>
     </section>`;
   }).join("");
 
