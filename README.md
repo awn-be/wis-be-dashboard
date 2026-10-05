@@ -303,30 +303,15 @@ Statuswerte eingerichtet werden.
 Die Statuswerte sind Project-spezifisch und müssen deshalb bei jeder
 neuen Sprintplanung einmal angelegt bzw. angepasst werden:
 
-  -----------------------------------------------------------------------
-  Status                  Farbe                   Beschreibung
-  ----------------------- ----------------------- -----------------------
-  `Blocked`               Pink                    This is currently
-                                                  blocked by a dependency
-
-  `Needs clarification`   Gelb                    This requires further
-                                                  clarification before
-                                                  work can continue
-
-  `Todo`                  Grau                    This item hasn't been
-                                                  started
-
-  `In progress`           Rot                     This is actively being
-                                                  worked on
-
-  `Ready to test`         Grün                    This is ready for
-                                                  testing
-
-  `Done`                  Blau                    This has been completed
-
-  `Rejected`              Violett                 This will not be
-                                                  implemented
-  -----------------------------------------------------------------------
+| Status | Farbe | Beschreibung |
+| --- | --- | --- |
+| `Blocked` | Pink | This is currently blocked by a dependency |
+| `Needs clarification` | Gelb | This requires further clarification before work can continue |
+| `Todo` | Grau | This item hasn't been started |
+| `In progress` | Rot | This is actively being worked on |
+| `Ready to test` | Grün | This is ready for testing |
+| `Done` | Blau | This has been completed |
+| `Rejected` | Violett | This will not be implemented |
 
 `Todo` wird als **Default-Status** verwendet.
 
