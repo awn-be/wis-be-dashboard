@@ -260,6 +260,37 @@ Das Dashboard ist dadurch unter folgender Adresse erreichbar:
 Diese GitHub-Pages-Seite kann anschliessend per iFrame in ArcGIS Portal
 eingebunden werden.
 
+### Einbindung in ArcGIS Portal
+
+Das Dashboard wird auf der WIS-BE-Seite als iFrame eingebunden.
+
+Für die Portal-Sektion wird eine breite Darstellung verwendet, damit dem
+Dashboard genügend horizontaler Platz zur Verfügung steht. Die iFrame-Card
+selbst belegt mit `width: 12` bereits die gesamte verfügbare Breite der
+Portal-Zeile.
+
+Die Breite ist insbesondere für die responsive Darstellung relevant:
+
+- Bei ausreichend Platz wird die vollständige Tabelle mit sieben Spalten
+  angezeigt.
+- Unterhalb von `1300px` wechselt das Dashboard automatisch auf die
+  Card-Ansicht.
+- Unterhalb von `900px` wird zusätzlich die Statusübersicht von vier auf
+  zwei Spalten reduziert.
+- Unterhalb von `560px` greift die Darstellung für sehr schmale
+  Bildschirmbreiten.
+
+Die breite Portal-Sektion verhindert, dass der iFrame bereits auf
+Desktop-Bildschirmen unnötig in die Card-Ansicht wechselt. Gleichzeitig
+bleibt das Dashboard für kleinere Fenster und mobile Geräte vollständig
+responsiv.
+
+Für den iFrame werden derzeit folgende Einstellungen verwendet:
+
+- Höhe: `800px`
+- Scrollbar: aktiviert
+- Breite der Card: `12` (volle Zeilenbreite)
+
 ## 5. Neue Repository-Sektion ergänzen
 
 Für einen zusätzlichen WIS-BE-Prozess mit eigener Dashboard-Sektion
