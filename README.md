@@ -17,8 +17,10 @@ GitHub Issues + GitHub Projects
        ArcGIS Portal iFrame
 ```
 
-Die GitHub-Daten werden automatisch in `dashboard.json` aufbereitet und von der öffentlichen Seite ausschliesslich aus dieser Datei geladen.
-Dadurch greift die öffentliche Anzeige **nicht direkt auf die GitHub API** zu.
+Die GitHub-Daten werden automatisch in `dashboard.json` aufbereitet und
+von der öffentlichen Seite ausschliesslich aus dieser Datei geladen.
+Dadurch greift die öffentliche Anzeige **nicht direkt auf die GitHub
+API** zu.
 
 ## Dateien
 
@@ -32,10 +34,15 @@ Dadurch greift die öffentliche Anzeige **nicht direkt auf die GitHub API** zu.
 
 ## Konfigurierte Zuordnung
 
-| Repository | Anzeige | GitHub Project |
-| --- | --- | --- |
-| `awn-be/vertigis_admin` | Allgemeine Verbesserungen | #6 – Sprintplanung Admin |
-| `awn-be/vertigis_fschutz_wschad` | Waldschaden erfassen, abrechnen und melden | #7 – Sprintplanung Waldschaden |
+  ----------------------------------------------------------------------------------
+  Repository                         Anzeige                 GitHub Project
+  ---------------------------------- ----------------------- -----------------------
+  `awn-be/vertigis_admin`            Allgemeine              #6 -- Sprintplanung
+                                     Verbesserungen          Admin
+
+  `awn-be/vertigis_fschutz_wschad`   Waldschaden erfassen,   #7 -- Sprintplanung
+                                     abrechnen und melden    Waldschaden
+  ----------------------------------------------------------------------------------
 
 Das Repository bestimmt, in welcher Sektion ein Issue im Dashboard
 angezeigt wird. Für den Status wird ausschliesslich das für diese
@@ -46,8 +53,9 @@ deren Statuswerte keinen Einfluss auf die Anzeige im Dashboard.
 
 ## Sichtbarkeit von Issues
 
-Über das organisationsweite GitHub Issue Field `Visibility` wird gesteuert,
-welche Issues in das öffentliche WIS-BE Dashboard übernommen werden.
+Über das organisationsweite GitHub Issue Field `Visibility` wird
+gesteuert, welche Issues in das öffentliche WIS-BE Dashboard übernommen
+werden.
 
 Das Feld ist als Single-Select-Feld mit folgenden Werten definiert:
 
@@ -65,9 +73,9 @@ Für die Veröffentlichung gilt bewusst eine offene Standardlogik:
 -   kein Wert → publizieren
 
 `Visibility` ist als organisationsweites Issue Field unter `awn-be`
-definiert und an `Bug`, `Feature`, `Task` sowie Issues ohne Type angeheftet.
-Dadurch steht das Feld repositoryübergreifend auch für zukünftige
-WIS-BE-Repositories zur Verfügung.
+definiert und an `Bug`, `Feature`, `Task` sowie Issues ohne Type
+angeheftet. Dadurch steht das Feld repositoryübergreifend auch für
+zukünftige WIS-BE-Repositories zur Verfügung.
 
 ## Übersetzungen
 
@@ -94,7 +102,7 @@ WIS-BE-Repositories zur Verfügung.
 -   `Feature` → Funktion
 -   `Task` → Aufgabe *(wird aktuell nicht verwendet)*
 
-## Zusammenfassung, Filter und Sortierung
+## Zusammenfassung, Filter, Sortierung und Darstellung
 
 Die Zusammenfassung zeigt die Anzahl der Issues nach Bearbeitungsstatus:
 
@@ -108,26 +116,65 @@ Die Zusammenfassung zeigt die Anzahl der Issues nach Bearbeitungsstatus:
 -   Nicht zugeordnet
 
 Die angezeigten Zahlen berücksichtigen die aktuell gesetzten Filter.
-`Nicht zugeordnet` macht Issues sichtbar, denen im konfigurierten
-GitHub Project noch kein Status zugewiesen wurde.
+`Nicht zugeordnet` macht Issues sichtbar, denen im konfigurierten GitHub
+Project noch kein Status zugewiesen wurde.
 
 Die öffentliche Dashboard-Anzeige kann nach **Typ**, **Priorität** und
-**Status** gefiltert werden. Die Filter lassen sich miteinander kombinieren;
-es werden nur Einträge angezeigt, die alle ausgewählten Kriterien erfüllen.
+**Status** gefiltert werden. Die Filter lassen sich miteinander
+kombinieren; es werden nur Einträge angezeigt, die alle ausgewählten
+Kriterien erfüllen.
 
-Die Einträge können zusätzlich über die Spaltenüberschriften nach **Thema**,
-**Beschreibung**, **Typ**, **Priorität** und **Status** auf- oder absteigend
-sortiert werden.
+Die Einträge können zusätzlich über die Spaltenüberschriften nach
+**Thema**, **Beschreibung**, **Typ**, **Priorität**, **Status**,
+**Eingang** und **Erledigt** auf- oder absteigend sortiert werden.
 
-Die Filterung und Sortierung erfolgen direkt im Browser und verändern weder
-die GitHub Issues noch die Daten in `dashboard.json`.
+### Eingangs- und Erledigungsdatum
+
+Für jedes Issue werden zwei Datumsangaben aus GitHub übernommen:
+
+-   **Eingang** basiert auf `created_at` und entspricht dem
+    Erstellungsdatum des GitHub Issues.
+-   **Erledigt** basiert auf `closed_at` und entspricht dem Zeitpunkt,
+    an dem das GitHub Issue geschlossen wurde. Bei offenen Issues wird
+    `–` angezeigt.
+
+Das Erledigungsdatum wird bewusst aus dem tatsächlichen GitHub-Status
+des Issues abgeleitet und nicht aus dem Project-Status `Done`.
+
+### Responsive Darstellung
+
+Bei ausreichend breiter Darstellung werden die Issues als Tabelle mit
+den Spalten **Thema**, **Beschreibung**, **Typ**, **Priorität**,
+**Status**, **Eingang** und **Erledigt** angezeigt.
+
+Bei schmalerer Darstellung wechselt das Dashboard automatisch auf eine
+Card-Ansicht. Der Wechsel erfolgt derzeit bei einer Breite von `1300px`,
+damit die sieben Tabellenspalten nicht abgeschnitten oder überlagert
+werden. Die Card-Ansicht enthält ebenfalls Eingangs- und
+Erledigungsdatum.
+
+### Ein- und ausklappbare Prozessbereiche
+
+Die einzelnen Dashboard-Sektionen sind ein- und ausklappbar und beim
+ersten Laden standardmässig **eingeklappt**. Dadurch bleibt die
+Übersicht auch bei einer wachsenden Zahl von WIS-BE-Prozessen kompakt.
+
+Der Eintragszähler neben jeder Prozessüberschrift berücksichtigt die
+aktuell gesetzten Filter. Das Ein- oder Ausklappen einer Sektion
+verändert weder die Filterung noch die Zahlen in der Zusammenfassung.
+Der gewählte Klappzustand bleibt auch bei Filter- und Sortieränderungen
+erhalten.
+
+Filterung, Sortierung und Klappzustand werden ausschliesslich im Browser
+verarbeitet und verändern weder die GitHub Issues noch die Daten in
+`dashboard.json`.
 
 ------------------------------------------------------------------------
 
 # Technische Einrichtung und Betrieb
 
-Die folgenden Abschnitte dokumentieren die technische Einrichtung und den
-laufenden Betrieb des WIS-BE Dashboards. Sie dienen insbesondere als
+Die folgenden Abschnitte dokumentieren die technische Einrichtung und
+den laufenden Betrieb des WIS-BE Dashboards. Sie dienen insbesondere als
 Referenz für Wartung, Fehleranalyse und die Erweiterung um zusätzliche
 WIS-BE-Prozesse.
 
@@ -155,17 +202,16 @@ insbesondere:
     GitHub Issues aus öffentlichen Repositories gelesen werden.
 
 Der Fine-grained Personal Access Token ist zeitlich begrenzt und muss
-vor Ablauf erneuert werden. Der aktuell verwendete Token läuft am
-**31. August 2027** ab.
+vor Ablauf erneuert werden. Der aktuell verwendete Token läuft am **31.
+August 2027** ab.
 
-Der Token ist im Dashboard-Repository unter
-**Settings → Secrets and variables → Actions** als Repository Secret
-`DASHBOARD_TOKEN` hinterlegt.
+Der Token ist im Dashboard-Repository unter **Settings → Secrets and
+variables → Actions** als Repository Secret `DASHBOARD_TOKEN`
+hinterlegt.
 
 Nach der Regeneration des Tokens muss dort der neue Token-Wert
-eingetragen werden. Anschliessend sollte der Workflow
-**Update dashboard** einmal manuell ausgeführt werden, um den Zugriff
-zu prüfen.
+eingetragen werden. Anschliessend sollte der Workflow **Update
+dashboard** einmal manuell ausgeführt werden, um den Zugriff zu prüfen.
 
 > Der Token ist weder Bestandteil von `index.html` noch von
 > `dashboard.json`. Er steht ausschliesslich der GitHub Action als
@@ -189,10 +235,10 @@ stammt, und beenden sich nach wenigen Sekunden ohne Commit. Unter
 **Actions** erscheinen daher bis zu vier Läufe pro Nacht, davon drei
 sehr kurze.
 
-**Manuell, jederzeit.** Über **Actions → Update dashboard → Run workflow**
-lässt sich das Dashboard sofort aktualisieren, zum Beispiel nach
-wichtigen Änderungen an Issues oder zur Kontrolle nach Anpassungen am
-Skript. Manuelle Läufe werden vom Watchdog nie übersprungen. Sie
+**Manuell, jederzeit.** Über **Actions → Update dashboard → Run
+workflow** lässt sich das Dashboard sofort aktualisieren, zum Beispiel
+nach wichtigen Änderungen an Issues oder zur Kontrolle nach Anpassungen
+am Skript. Manuelle Läufe werden vom Watchdog nie übersprungen. Sie
 beeinflussen die automatische Aktualisierung der folgenden Nacht nicht.
 
 ## 4. GitHub Pages
@@ -216,8 +262,8 @@ eingebunden werden.
 
 ## 5. Neue Repository-Sektion ergänzen
 
-Für einen zusätzlichen WIS-BE-Prozess mit eigener Dashboard-Sektion werden
-ein GitHub Repository und ein zugehöriges GitHub Project für die
+Für einen zusätzlichen WIS-BE-Prozess mit eigener Dashboard-Sektion
+werden ein GitHub Repository und ein zugehöriges GitHub Project für die
 Sprintplanung benötigt.
 
 ### GitHub Project vorbereiten
@@ -225,18 +271,33 @@ Sprintplanung benötigt.
 Im zugehörigen GitHub Project müssen die für das Dashboard verwendeten
 Statuswerte eingerichtet werden.
 
-Die Statuswerte sind Project-spezifisch und müssen deshalb bei jeder neuen
-Sprintplanung einmal angelegt bzw. angepasst werden:
+Die Statuswerte sind Project-spezifisch und müssen deshalb bei jeder
+neuen Sprintplanung einmal angelegt bzw. angepasst werden:
 
-| Status | Farbe | Beschreibung |
-| --- | --- | --- |
-| `Blocked` | Pink | This is currently blocked by a dependency |
-| `Needs clarification` | Gelb | This requires further clarification before work can continue |
-| `Todo` | Grau | This item hasn't been started |
-| `In progress` | Rot | This is actively being worked on |
-| `Ready to test` | Grün | This is ready for testing |
-| `Done` | Blau | This has been completed |
-| `Rejected` | Violett | This will not be implemented |
+  -----------------------------------------------------------------------
+  Status                  Farbe                   Beschreibung
+  ----------------------- ----------------------- -----------------------
+  `Blocked`               Pink                    This is currently
+                                                  blocked by a dependency
+
+  `Needs clarification`   Gelb                    This requires further
+                                                  clarification before
+                                                  work can continue
+
+  `Todo`                  Grau                    This item hasn't been
+                                                  started
+
+  `In progress`           Rot                     This is actively being
+                                                  worked on
+
+  `Ready to test`         Grün                    This is ready for
+                                                  testing
+
+  `Done`                  Blau                    This has been completed
+
+  `Rejected`              Violett                 This will not be
+                                                  implemented
+  -----------------------------------------------------------------------
 
 `Todo` wird als **Default-Status** verwendet.
 
@@ -246,12 +307,13 @@ Dashboard korrekt erkannt und übersetzt werden können.
 
 ### Visibility
 
-Das organisationsweite Issue Field `Visibility` muss für neue Repositories
-oder Projects **nicht separat eingerichtet werden**.
+Das organisationsweite Issue Field `Visibility` muss für neue
+Repositories oder Projects **nicht separat eingerichtet werden**.
 
 Es ist zentral in der Organisation `awn-be` definiert und steht dadurch
-repositoryübergreifend auch für zukünftige WIS-BE-Prozesse zur Verfügung.
-Das Feld ist an `Bug`, `Feature`, `Task` sowie Issues ohne Type angeheftet.
+repositoryübergreifend auch für zukünftige WIS-BE-Prozesse zur
+Verfügung. Das Feld ist an `Bug`, `Feature`, `Task` sowie Issues ohne
+Type angeheftet.
 
 Für die Veröffentlichung im Dashboard gilt:
 
@@ -276,18 +338,20 @@ GitHub Project erweitert werden, z. B.:
 Das Repository bestimmt die Dashboard-Sektion; das konfigurierte GitHub
 Project liefert den dazugehörigen Bearbeitungsstatus.
 
-Beim nächsten Lauf der GitHub Action wird die neue Sektion automatisch in
-`dashboard.json` aufgenommen und im öffentlichen Dashboard angezeigt.
+Beim nächsten Lauf der GitHub Action wird die neue Sektion automatisch
+in `dashboard.json` aufgenommen und im öffentlichen Dashboard angezeigt.
+Neue Sektionen sind in der öffentlichen Anzeige beim ersten Laden
+automatisch eingeklappt.
 
 ## KI-Unterstützung
 
 Dieses Repository und das WIS-BE Dashboard wurden mit Unterstützung von
-**ChatGPT (OpenAI; bei der aktuellen Umsetzung: GPT-5.6 Sol)** konzipiert
-und umgesetzt.
+**ChatGPT (OpenAI; bei der aktuellen Umsetzung: GPT-5.6 Sol)**
+konzipiert und umgesetzt.
 
-Die KI-Unterstützung wurde insbesondere bei der Konzeption der Architektur,
-der Entwicklung und Überarbeitung von Python-, HTML-, CSS- und
-JavaScript-Code sowie bei der technischen Dokumentation eingesetzt.
+Die KI-Unterstützung wurde insbesondere bei der Konzeption der
+Architektur, der Entwicklung und Überarbeitung von Python-, HTML-, CSS-
+und JavaScript-Code sowie bei der technischen Dokumentation eingesetzt.
 
 Die fachlichen Anforderungen, Entscheidungen, Tests und die Freigabe der
 Umsetzung erfolgten durch die Projektverantwortlichen.
