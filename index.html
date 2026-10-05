@@ -197,6 +197,7 @@ let currentPriorityFilter = "all";
 let currentStatusFilter = "all";
 let sortColumn = null;
 let sortDirection = "asc";
+const collapsedSections = new Set();
 
 function escapeHtml(s){
   return String(s ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;")
