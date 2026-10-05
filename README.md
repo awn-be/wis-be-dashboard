@@ -34,15 +34,10 @@ API** zu.
 
 ## Konfigurierte Zuordnung
 
-  ----------------------------------------------------------------------------------
-  Repository                         Anzeige                 GitHub Project
-  ---------------------------------- ----------------------- -----------------------
-  `awn-be/vertigis_admin`            Allgemeine              #6 -- Sprintplanung
-                                     Verbesserungen          Admin
-
-  `awn-be/vertigis_fschutz_wschad`   Waldschaden erfassen,   #7 -- Sprintplanung
-                                     abrechnen und melden    Waldschaden
-  ----------------------------------------------------------------------------------
+| Repository | Anzeige | GitHub Project |
+| --- | --- | --- |
+| `awn-be/vertigis_admin` | Allgemeine Verbesserungen | #6 – Sprintplanung Admin |
+| `awn-be/vertigis_fschutz_wschad` | Waldschaden erfassen, abrechnen und melden | #7 – Sprintplanung Waldschaden |
 
 Das Repository bestimmt, in welcher Sektion ein Issue im Dashboard
 angezeigt wird. Für den Status wird ausschliesslich das für diese
