@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T02:18:31.345240+00:00",
+  "generated_at": "2026-10-06T09:05:41.766163+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -550,6 +550,24 @@
           "updated_at": "2026-10-01T08:34:07Z"
         },
         {
+          "number": 60,
+          "title": "Editieren in geladenem Projekt nicht möglich",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/60",
+          "description": "Momentanes Verhalten: Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
+          "current_behavior": "Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
+          "expected_behavior": "",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "In progress",
+          "status": "In Arbeit",
+          "issue_state": "open",
+          "created_at": "2026-09-15T08:39:22Z",
+          "closed_at": null,
+          "updated_at": "2026-10-06T07:04:07Z"
+        },
+        {
           "number": 44,
           "title": "3D-Messen",
           "url": "https://github.com/awn-be/vertigis_admin/issues/44",
@@ -862,24 +880,6 @@
           "created_at": "2026-09-14T10:02:15Z",
           "closed_at": null,
           "updated_at": "2026-09-23T14:01:11Z"
-        },
-        {
-          "number": 13,
-          "title": "Editieren in geladenem Projekt nicht möglich",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/13",
-          "description": "Momentanes Verhalten: Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
-          "current_behavior": "Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
-          "expected_behavior": "",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "created_at": "2026-09-15T08:39:22Z",
-          "closed_at": null,
-          "updated_at": "2026-09-23T13:56:25Z"
         },
         {
           "number": 14,
