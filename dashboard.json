@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T09:05:41.766163+00:00",
+  "generated_at": "2026-10-06T11:00:32.840466+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -190,42 +190,6 @@
           "updated_at": "2026-10-01T08:33:24Z"
         },
         {
-          "number": 32,
-          "title": "Koordinatensuche: Direkter Zoom / Vereinfachung",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/32",
-          "description": "Momentanes Verhalten: Bei der Koordinaten-Suche fehlt aktuell noch eine Möglichkeit, direkt auf die eingegebene Koordinate zu zoomen. Erwartetes Verhalten: Gewünscht wird die Möglichkeit, direkt auf die gesuchte Koordinate zu zoomen.",
-          "current_behavior": "Bei der Koordinaten-Suche fehlt aktuell noch eine Möglichkeit, direkt auf die eingegebene Koordinate zu zoomen.",
-          "expected_behavior": "Gewünscht wird die Möglichkeit, direkt auf die gesuchte Koordinate zu zoomen.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "created_at": "2026-09-08T06:29:22Z",
-          "closed_at": null,
-          "updated_at": "2026-10-01T08:31:12Z"
-        },
-        {
-          "number": 40,
-          "title": "Koordinatensuche: Nachkommastellen",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/40",
-          "description": "Momentanes Verhalten: Koordinatenabfrage mit 10 Kommastellen ist unübersichtlich/nicht nötig Erwartetes Verhalten: Koordinatenabfrage ohne Kommastellen.",
-          "current_behavior": "Koordinatenabfrage mit 10 Kommastellen ist unübersichtlich/nicht nötig",
-          "expected_behavior": "Koordinatenabfrage ohne Kommastellen.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "created_at": "2026-09-08T06:43:36Z",
-          "closed_at": null,
-          "updated_at": "2026-10-01T08:29:33Z"
-        },
-        {
           "number": 39,
           "title": "Zeichnen",
           "url": "https://github.com/awn-be/vertigis_admin/issues/39",
@@ -280,12 +244,12 @@
           "updated_at": "2026-10-01T08:30:23Z"
         },
         {
-          "number": 34,
-          "title": "Drucken: Sperren",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/34",
-          "description": "Momentanes Verhalten: Schaltfläche 'sperren' ist standardmässig deaktiviert. Erwartetes Verhalten: Schaltfläche 'sperren' ist automatisch aktiviert (oder wird gar nicht mehr benötigt).",
-          "current_behavior": "Schaltfläche 'sperren' ist standardmässig deaktiviert.",
-          "expected_behavior": "Schaltfläche 'sperren' ist automatisch aktiviert (oder wird gar nicht mehr benötigt).",
+          "number": 32,
+          "title": "Koordinatensuche: Direkter Zoom / Vereinfachung",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/32",
+          "description": "Momentanes Verhalten: Bei der Koordinaten-Suche fehlt aktuell noch eine Möglichkeit, direkt auf die eingegebene Koordinate zu zoomen. Erwartetes Verhalten: Gewünscht wird die Möglichkeit, direkt auf die gesuchte Koordinate zu zoomen.",
+          "current_behavior": "Bei der Koordinaten-Suche fehlt aktuell noch eine Möglichkeit, direkt auf die eingegebene Koordinate zu zoomen.",
+          "expected_behavior": "Gewünscht wird die Möglichkeit, direkt auf die gesuchte Koordinate zu zoomen.",
           "type_raw": "Feature",
           "type": "Funktion",
           "priority_raw": "Medium",
@@ -293,9 +257,9 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "created_at": "2026-09-08T06:32:17Z",
+          "created_at": "2026-09-08T06:29:22Z",
           "closed_at": null,
-          "updated_at": "2026-10-01T08:30:43Z"
+          "updated_at": "2026-10-06T10:58:59Z"
         },
         {
           "number": 27,
@@ -442,6 +406,24 @@
           "updated_at": "2026-10-01T08:32:05Z"
         },
         {
+          "number": 34,
+          "title": "Drucken: Sperren",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/34",
+          "description": "Momentanes Verhalten: Schaltfläche 'sperren' ist standardmässig deaktiviert. Erwartetes Verhalten: Schaltfläche 'sperren' ist automatisch aktiviert (oder wird gar nicht mehr benötigt).",
+          "current_behavior": "Schaltfläche 'sperren' ist standardmässig deaktiviert.",
+          "expected_behavior": "Schaltfläche 'sperren' ist automatisch aktiviert (oder wird gar nicht mehr benötigt).",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Low",
+          "priority": "Niedrig",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "created_at": "2026-09-08T06:32:17Z",
+          "closed_at": null,
+          "updated_at": "2026-10-06T10:58:21Z"
+        },
+        {
           "number": 12,
           "title": "Excel-Export",
           "url": "https://github.com/awn-be/vertigis_admin/issues/12",
@@ -458,6 +440,24 @@
           "created_at": "2026-07-28T12:34:40Z",
           "closed_at": null,
           "updated_at": "2026-10-01T08:33:35Z"
+        },
+        {
+          "number": 40,
+          "title": "Koordinatensuche: Nachkommastellen",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/40",
+          "description": "Momentanes Verhalten: Koordinatenabfrage mit 10 Kommastellen ist unübersichtlich/nicht nötig Erwartetes Verhalten: Koordinatenabfrage ohne Kommastellen.",
+          "current_behavior": "Koordinatenabfrage mit 10 Kommastellen ist unübersichtlich/nicht nötig",
+          "expected_behavior": "Koordinatenabfrage ohne Kommastellen.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Low",
+          "priority": "Niedrig",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "created_at": "2026-09-08T06:43:36Z",
+          "closed_at": null,
+          "updated_at": "2026-10-06T10:57:48Z"
         },
         {
           "number": 54,
