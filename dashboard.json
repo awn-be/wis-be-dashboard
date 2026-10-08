@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T01:33:28.783589+00:00",
+  "generated_at": "2026-10-08T01:56:56.446970+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -26,24 +26,6 @@
           "created_at": "2026-09-14T10:05:30Z",
           "closed_at": null,
           "updated_at": "2026-10-01T08:28:33Z"
-        },
-        {
-          "number": 45,
-          "title": "Messen-Tools in Kombination mit JSON-Kartenansicht",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/45",
-          "description": "Momentanes Verhalten: Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?) Erwartetes Verhalten: Wie ohne hochgeladenes .json.",
-          "current_behavior": "Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?)",
-          "expected_behavior": "Wie ohne hochgeladenes .json.",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Blocked",
-          "status": "Blockiert",
-          "issue_state": "open",
-          "created_at": "2026-09-09T07:33:05Z",
-          "closed_at": null,
-          "updated_at": "2026-10-01T08:28:55Z"
         },
         {
           "number": 58,
@@ -550,24 +532,6 @@
           "updated_at": "2026-10-01T08:34:07Z"
         },
         {
-          "number": 60,
-          "title": "Editieren in geladenem Projekt nicht möglich",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/60",
-          "description": "Momentanes Verhalten: Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
-          "current_behavior": "Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
-          "expected_behavior": "",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "In progress",
-          "status": "In Arbeit",
-          "issue_state": "open",
-          "created_at": "2026-09-15T08:39:22Z",
-          "closed_at": null,
-          "updated_at": "2026-10-06T07:04:07Z"
-        },
-        {
           "number": 44,
           "title": "3D-Messen",
           "url": "https://github.com/awn-be/vertigis_admin/issues/44",
@@ -584,6 +548,42 @@
           "created_at": "2026-09-09T07:30:14Z",
           "closed_at": null,
           "updated_at": "2026-10-01T08:29:04Z"
+        },
+        {
+          "number": 60,
+          "title": "Editieren in geladenem Projekt nicht möglich",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/60",
+          "description": "Momentanes Verhalten: Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
+          "current_behavior": "Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
+          "expected_behavior": "",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Ready to test",
+          "status": "Bereit zum Testen",
+          "issue_state": "open",
+          "created_at": "2026-09-15T08:39:22Z",
+          "closed_at": null,
+          "updated_at": "2026-10-07T09:08:51Z"
+        },
+        {
+          "number": 45,
+          "title": "Messen-Tools in Kombination mit JSON-Kartenansicht",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/45",
+          "description": "Momentanes Verhalten: Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?) Erwartetes Verhalten: Wie ohne hochgeladenes .json.",
+          "current_behavior": "Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?)",
+          "expected_behavior": "Wie ohne hochgeladenes .json.",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Ready to test",
+          "status": "Bereit zum Testen",
+          "issue_state": "open",
+          "created_at": "2026-09-09T07:33:05Z",
+          "closed_at": null,
+          "updated_at": "2026-10-07T09:28:03Z"
         },
         {
           "number": 4,
