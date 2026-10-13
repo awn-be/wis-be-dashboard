@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T08:52:23.340199+00:00",
+  "generated_at": "2026-10-13T12:28:19.327446+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -844,6 +844,24 @@
           "created_at": "2026-09-14T10:02:15Z",
           "closed_at": null,
           "updated_at": "2026-09-23T14:01:11Z"
+        },
+        {
+          "number": 22,
+          "title": "Angabe Abrechnungsmenge wird gelöscht, wenn Waldschaden-Punkt beim Editieren verschoben wird",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/22",
+          "description": "Momentanes Verhalten: Beim Verändern der Geometrie (bereits erfasster FS-Fall wird in seiner Position verschoben) werden die Attribute im spezifischen die Abrechnungsmenge gelöscht. Erwartetes Verhalten: Beim Verändern der Geometrie (bereits erfasster FS-Fall wird in seiner Position verschoben) sollen die Abrechnungsmengen-Angaben beibehalten werden.",
+          "current_behavior": "Beim Verändern der Geometrie (bereits erfasster FS-Fall wird in seiner Position verschoben) werden die Attribute im spezifischen die Abrechnungsmenge gelöscht.",
+          "expected_behavior": "Beim Verändern der Geometrie (bereits erfasster FS-Fall wird in seiner Position verschoben) sollen die Abrechnungsmengen-Angaben beibehalten werden.",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "created_at": "2026-10-13T12:22:54Z",
+          "closed_at": null,
+          "updated_at": "2026-10-13T12:22:54Z"
         },
         {
           "number": 14,
