@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:48:01.201065+00:00",
+  "generated_at": "2026-10-14T12:52:16.867245+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -334,6 +334,24 @@
           "updated_at": "2026-10-06T10:57:48Z"
         },
         {
+          "number": 63,
+          "title": "Labeling Grundstücke",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/63",
+          "description": "Momentanes Verhalten: Die Grundstücke mit vier Zahlen werden mit Tausendertrennzeichen dargestellt Erwartetes Verhalten: Die Grundstücke mit vier Zahlen werden ohne Tausendertrennzeichen dargestellt",
+          "current_behavior": "Die Grundstücke mit vier Zahlen werden mit Tausendertrennzeichen dargestellt",
+          "expected_behavior": "Die Grundstücke mit vier Zahlen werden ohne Tausendertrennzeichen dargestellt",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "Low",
+          "priority": "Niedrig",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "created_at": "2026-10-14T06:57:23Z",
+          "closed_at": null,
+          "updated_at": "2026-10-14T12:50:44Z"
+        },
+        {
           "number": 54,
           "title": "Parzellensuche / Grundstücksuche",
           "url": "https://github.com/awn-be/vertigis_admin/issues/54",
@@ -358,8 +376,8 @@
           "description": "Momentanes Verhalten: Die Daten des SFB (v. a. Waldeinheiten) sind im neuen WIS-BE nicht einsehbar. Erwartetes Verhalten: Die Daten des SFB (v. a. Waldeinheiten) sind im neuen WIS-BE reinladbar",
           "current_behavior": "Die Daten des SFB (v. a. Waldeinheiten) sind im neuen WIS-BE nicht einsehbar.",
           "expected_behavior": "Die Daten des SFB (v. a. Waldeinheiten) sind im neuen WIS-BE reinladbar",
-          "type_raw": "Nicht zugeordnet",
-          "type": "Nicht zugeordnet",
+          "type_raw": "Feature",
+          "type": "Funktion",
           "priority_raw": "Low",
           "priority": "Niedrig",
           "status_raw": "Todo",
@@ -367,7 +385,7 @@
           "issue_state": "open",
           "created_at": "2026-10-14T07:14:16Z",
           "closed_at": null,
-          "updated_at": "2026-10-14T07:14:16Z"
+          "updated_at": "2026-10-14T12:50:02Z"
         },
         {
           "number": 10,
@@ -406,40 +424,22 @@
           "updated_at": "2026-10-01T08:32:54Z"
         },
         {
-          "number": 63,
-          "title": "Labeling Grundstücke",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/63",
-          "description": "Momentanes Verhalten: Die Grundstücke mit vier Zahlen werden mit Tausendertrennzeichen dargestellt Erwartetes Verhalten: Die Grundstücke mit vier Zahlen werden ohne Tausendertrennzeichen dargestellt",
-          "current_behavior": "Die Grundstücke mit vier Zahlen werden mit Tausendertrennzeichen dargestellt",
-          "expected_behavior": "Die Grundstücke mit vier Zahlen werden ohne Tausendertrennzeichen dargestellt",
-          "type_raw": "Nicht zugeordnet",
-          "type": "Nicht zugeordnet",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "created_at": "2026-10-14T06:57:23Z",
-          "closed_at": null,
-          "updated_at": "2026-10-14T07:04:47Z"
-        },
-        {
           "number": 65,
           "title": "Suche: Endloser Loop",
           "url": "https://github.com/awn-be/vertigis_admin/issues/65",
           "description": "Momentanes Verhalten: Bei der Suche meist beim zweiten Klick auf Abfrage erscheint ein endloses Ladezeichen, welches nicht weggeht (Suchergebnis ist aber schon da) Erwartetes Verhalten: Endloses Loading soll nicht mehr erscheinen https://github.com/user-attachments/assets/7c570d1a-2170-4b79-afe2-8a31e210542b",
           "current_behavior": "Bei der Suche meist beim zweiten Klick auf Abfrage erscheint ein endloses Ladezeichen, welches nicht weggeht (Suchergebnis ist aber schon da)",
           "expected_behavior": "Endloses Loading soll nicht mehr erscheinen https://github.com/user-attachments/assets/7c570d1a-2170-4b79-afe2-8a31e210542b",
-          "type_raw": "Nicht zugeordnet",
-          "type": "Nicht zugeordnet",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "Low",
+          "priority": "Niedrig",
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
           "created_at": "2026-10-14T07:29:51Z",
           "closed_at": null,
-          "updated_at": "2026-10-14T07:29:51Z"
+          "updated_at": "2026-10-14T12:50:56Z"
         },
         {
           "number": 44,
