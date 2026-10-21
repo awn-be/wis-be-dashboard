@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T01:06:18.393597+00:00",
+  "generated_at": "2026-10-21T00:37:59.281919+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -46,24 +46,6 @@
           "updated_at": "2026-10-13T08:01:05Z"
         },
         {
-          "number": 57,
-          "title": "Excel-Export: Spalten \"geometry\" und \"objectid\" weglassen",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/57",
-          "description": "Momentanes Verhalten: Wenn man Daten aus Suche ins Excel kopiert, sind Geometry und object-ID die ersten Spalten. Für die Benutzer irrelevant. Erwartetes Verhalten: Können diese weggelassen oder ans Ende der Tabelle verschoben werden?",
-          "current_behavior": "Wenn man Daten aus Suche ins Excel kopiert, sind Geometry und object-ID die ersten Spalten. Für die Benutzer irrelevant.",
-          "expected_behavior": "Können diese weggelassen oder ans Ende der Tabelle verschoben werden?",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "Medium",
-          "priority": "Mittel",
-          "status_raw": "Needs clarification",
-          "status": "Weitere Abklärungen nötig",
-          "issue_state": "open",
-          "created_at": "2026-09-30T07:36:48Z",
-          "closed_at": null,
-          "updated_at": "2026-10-13T08:02:06Z"
-        },
-        {
           "number": 31,
           "title": "Drucken: Legende wird abgeschnitten",
           "url": "https://github.com/awn-be/vertigis_admin/issues/31",
@@ -79,7 +61,7 @@
           "issue_state": "open",
           "created_at": "2026-09-08T06:27:53Z",
           "closed_at": null,
-          "updated_at": "2026-10-01T08:31:20Z"
+          "updated_at": "2026-10-20T07:32:59Z"
         },
         {
           "number": 41,
@@ -97,7 +79,7 @@
           "issue_state": "open",
           "created_at": "2026-09-08T07:19:11Z",
           "closed_at": null,
-          "updated_at": "2026-10-19T13:24:49Z"
+          "updated_at": "2026-10-20T06:47:45Z"
         },
         {
           "number": 38,
@@ -118,12 +100,12 @@
           "updated_at": "2026-10-01T08:29:53Z"
         },
         {
-          "number": 13,
-          "title": "Hintergrundkarten",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/13",
-          "description": "Momentanes Verhalten: - Namensgebung Französisch ist nicht einheitlich und z. T. noch auf Deutsch Erwartetes Verhalten: - Namengebung Französisch die Sprache immer in Klammer (gris) und ohne Komma. Ausserdem überall auf Orthophoto wechseln und AV auf MO (Mensuration officielle)",
-          "current_behavior": "- Namensgebung Französisch ist nicht einheitlich und z. T. noch auf Deutsch",
-          "expected_behavior": "- Namengebung Französisch die Sprache immer in Klammer (gris) und ohne Komma. Ausserdem überall auf Orthophoto wechseln und AV auf MO (Mensuration officielle)",
+          "number": 32,
+          "title": "Koordinatensuche: Direkter Zoom / Vereinfachung",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/32",
+          "description": "Momentanes Verhalten: Bei der Koordinaten-Suche fehlt aktuell noch eine Möglichkeit, direkt auf die eingegebene Koordinate zu zoomen. Erwartetes Verhalten: Gewünscht wird die Möglichkeit, direkt auf die gesuchte Koordinate zu zoomen.",
+          "current_behavior": "Bei der Koordinaten-Suche fehlt aktuell noch eine Möglichkeit, direkt auf die eingegebene Koordinate zu zoomen.",
+          "expected_behavior": "Gewünscht wird die Möglichkeit, direkt auf die gesuchte Koordinate zu zoomen.",
           "type_raw": "Feature",
           "type": "Funktion",
           "priority_raw": "High",
@@ -131,9 +113,9 @@
           "status_raw": "Todo",
           "status": "Geplant",
           "issue_state": "open",
-          "created_at": "2026-07-28T12:37:34Z",
+          "created_at": "2026-09-08T06:29:22Z",
           "closed_at": null,
-          "updated_at": "2026-10-01T08:33:24Z"
+          "updated_at": "2026-10-20T07:22:03Z"
         },
         {
           "number": 48,
@@ -154,24 +136,6 @@
           "updated_at": "2026-10-14T15:29:52Z"
         },
         {
-          "number": 39,
-          "title": "Zeichnen",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/39",
-          "description": "Momentanes Verhalten: Die Funktion Zeichnen fehlt. Erwartetes Verhalten: Das Hinzufügen von \"Zeichnungen\" (Punkte, Linien, Flächen und Texten) soll in Zukunft wieder möglich sein, um selbst erstelle Pläne besser kennzeichnen zu können.",
-          "current_behavior": "Die Funktion Zeichnen fehlt.",
-          "expected_behavior": "Das Hinzufügen von \"Zeichnungen\" (Punkte, Linien, Flächen und Texten) soll in Zukunft wieder möglich sein, um selbst erstelle Pläne besser kennzeichnen zu können.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "created_at": "2026-09-08T06:41:34Z",
-          "closed_at": null,
-          "updated_at": "2026-10-19T12:16:50Z"
-        },
-        {
           "number": 28,
           "title": "Aktuelle Koordinate (Mauszeiger) soll sichtbar sein",
           "url": "https://github.com/awn-be/vertigis_admin/issues/28",
@@ -187,7 +151,7 @@
           "issue_state": "open",
           "created_at": "2026-08-31T11:39:21Z",
           "closed_at": null,
-          "updated_at": "2026-10-19T12:34:14Z"
+          "updated_at": "2026-10-20T08:53:42Z"
         },
         {
           "number": 35,
@@ -223,25 +187,7 @@
           "issue_state": "open",
           "created_at": "2026-10-15T13:58:03Z",
           "closed_at": null,
-          "updated_at": "2026-10-15T13:58:19Z"
-        },
-        {
-          "number": 32,
-          "title": "Koordinatensuche: Direkter Zoom / Vereinfachung",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/32",
-          "description": "Momentanes Verhalten: Bei der Koordinaten-Suche fehlt aktuell noch eine Möglichkeit, direkt auf die eingegebene Koordinate zu zoomen. Erwartetes Verhalten: Gewünscht wird die Möglichkeit, direkt auf die gesuchte Koordinate zu zoomen.",
-          "current_behavior": "Bei der Koordinaten-Suche fehlt aktuell noch eine Möglichkeit, direkt auf die eingegebene Koordinate zu zoomen.",
-          "expected_behavior": "Gewünscht wird die Möglichkeit, direkt auf die gesuchte Koordinate zu zoomen.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "Medium",
-          "priority": "Mittel",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "created_at": "2026-09-08T06:29:22Z",
-          "closed_at": null,
-          "updated_at": "2026-10-06T10:58:59Z"
+          "updated_at": "2026-10-20T07:17:00Z"
         },
         {
           "number": 29,
@@ -259,7 +205,7 @@
           "issue_state": "open",
           "created_at": "2026-08-31T11:43:05Z",
           "closed_at": null,
-          "updated_at": "2026-10-19T12:21:45Z"
+          "updated_at": "2026-10-20T08:53:17Z"
         },
         {
           "number": 33,
@@ -295,7 +241,7 @@
           "issue_state": "open",
           "created_at": "2026-09-08T06:22:40Z",
           "closed_at": null,
-          "updated_at": "2026-10-19T12:50:20Z"
+          "updated_at": "2026-10-20T06:50:31Z"
         },
         {
           "number": 26,
@@ -332,42 +278,6 @@
           "created_at": "2026-07-28T12:34:40Z",
           "closed_at": null,
           "updated_at": "2026-10-01T08:33:35Z"
-        },
-        {
-          "number": 40,
-          "title": "Koordinatensuche: Nachkommastellen",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/40",
-          "description": "Momentanes Verhalten: Koordinatenabfrage mit 10 Kommastellen ist unübersichtlich/nicht nötig Erwartetes Verhalten: Koordinatenabfrage ohne Kommastellen.",
-          "current_behavior": "Koordinatenabfrage mit 10 Kommastellen ist unübersichtlich/nicht nötig",
-          "expected_behavior": "Koordinatenabfrage ohne Kommastellen.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "Low",
-          "priority": "Niedrig",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "created_at": "2026-09-08T06:43:36Z",
-          "closed_at": null,
-          "updated_at": "2026-10-06T10:57:48Z"
-        },
-        {
-          "number": 63,
-          "title": "Labeling Grundstücke",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/63",
-          "description": "Momentanes Verhalten: Die Grundstücke mit vier Zahlen werden mit Tausendertrennzeichen dargestellt Erwartetes Verhalten: Die Grundstücke mit vier Zahlen werden ohne Tausendertrennzeichen dargestellt",
-          "current_behavior": "Die Grundstücke mit vier Zahlen werden mit Tausendertrennzeichen dargestellt",
-          "expected_behavior": "Die Grundstücke mit vier Zahlen werden ohne Tausendertrennzeichen dargestellt",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "Low",
-          "priority": "Niedrig",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "created_at": "2026-10-14T06:57:23Z",
-          "closed_at": null,
-          "updated_at": "2026-10-14T12:50:44Z"
         },
         {
           "number": 54,
@@ -514,42 +424,6 @@
           "updated_at": "2026-10-13T08:51:11Z"
         },
         {
-          "number": 60,
-          "title": "Editieren in geladenem Projekt nicht möglich",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/60",
-          "description": "Momentanes Verhalten: Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
-          "current_behavior": "Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
-          "expected_behavior": "",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Ready to test",
-          "status": "Bereit zum Testen",
-          "issue_state": "open",
-          "created_at": "2026-09-15T08:39:22Z",
-          "closed_at": null,
-          "updated_at": "2026-10-19T12:58:08Z"
-        },
-        {
-          "number": 45,
-          "title": "Messen-Tools in Kombination mit JSON-Kartenansicht",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/45",
-          "description": "Momentanes Verhalten: Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?) Erwartetes Verhalten: Wie ohne hochgeladenes .json.",
-          "current_behavior": "Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?)",
-          "expected_behavior": "Wie ohne hochgeladenes .json.",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Ready to test",
-          "status": "Bereit zum Testen",
-          "issue_state": "open",
-          "created_at": "2026-09-09T07:33:05Z",
-          "closed_at": null,
-          "updated_at": "2026-10-07T09:28:03Z"
-        },
-        {
           "number": 4,
           "title": "Abdockbares Fenster für Editieren Frei",
           "url": "https://github.com/awn-be/vertigis_admin/issues/4",
@@ -586,6 +460,24 @@
           "updated_at": "2026-10-01T08:39:07Z"
         },
         {
+          "number": 60,
+          "title": "Editieren in geladenem Projekt nicht möglich",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/60",
+          "description": "Momentanes Verhalten: Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
+          "current_behavior": "Wenn ein Projekt geladen ist und man darin arbeitet (Ebenen / Projektansicht), ist es nicht möglich, einen neuen Waldschaden hinzuzufügen.",
+          "expected_behavior": "",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "created_at": "2026-09-15T08:39:22Z",
+          "closed_at": "2026-10-20T06:48:53Z",
+          "updated_at": "2026-10-20T06:48:53Z"
+        },
+        {
           "number": 22,
           "title": "Erfassungsmaske verschwindet",
           "url": "https://github.com/awn-be/vertigis_admin/issues/22",
@@ -602,6 +494,24 @@
           "created_at": "2026-08-12T08:51:59Z",
           "closed_at": "2026-08-19T12:28:14Z",
           "updated_at": "2026-10-01T08:35:41Z"
+        },
+        {
+          "number": 13,
+          "title": "Hintergrundkarten",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/13",
+          "description": "Momentanes Verhalten: - Namensgebung Französisch ist nicht einheitlich und z. T. noch auf Deutsch Erwartetes Verhalten: - Namengebung Französisch die Sprache immer in Klammer (gris) und ohne Komma. Ausserdem überall auf Orthophoto wechseln und AV auf MO (Mensuration officielle)",
+          "current_behavior": "- Namensgebung Französisch ist nicht einheitlich und z. T. noch auf Deutsch",
+          "expected_behavior": "- Namengebung Französisch die Sprache immer in Klammer (gris) und ohne Komma. Ausserdem überall auf Orthophoto wechseln und AV auf MO (Mensuration officielle)",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "created_at": "2026-07-28T12:37:34Z",
+          "closed_at": "2026-10-20T07:31:54Z",
+          "updated_at": "2026-10-20T07:31:54Z"
         },
         {
           "number": 51,
@@ -640,6 +550,24 @@
           "updated_at": "2026-10-01T08:35:19Z"
         },
         {
+          "number": 45,
+          "title": "Messen-Tools in Kombination mit JSON-Kartenansicht",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/45",
+          "description": "Momentanes Verhalten: Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?) Erwartetes Verhalten: Wie ohne hochgeladenes .json.",
+          "current_behavior": "Die Messtools scheinen nicht zu funktionieren (Objekte werden nicht angezeigt), wenn eine eigene Kartenansicht mit hochgeladenem .json verwendet wird. (Fehler bei euch reproduzierbar?)",
+          "expected_behavior": "Wie ohne hochgeladenes .json.",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "created_at": "2026-09-09T07:33:05Z",
+          "closed_at": "2026-10-20T07:26:28Z",
+          "updated_at": "2026-10-20T07:26:28Z"
+        },
+        {
           "number": 36,
           "title": "Waldbesitzerabfrage: alle Eigentümerinnen/Eigentümer pro Grundstück",
           "url": "https://github.com/awn-be/vertigis_admin/issues/36",
@@ -658,6 +586,24 @@
           "updated_at": "2026-10-01T08:35:33Z"
         },
         {
+          "number": 39,
+          "title": "Zeichnen",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/39",
+          "description": "Momentanes Verhalten: Die Funktion Zeichnen fehlt. Erwartetes Verhalten: Das Hinzufügen von \"Zeichnungen\" (Punkte, Linien, Flächen und Texten) soll in Zukunft wieder möglich sein, um selbst erstelle Pläne besser kennzeichnen zu können.",
+          "current_behavior": "Die Funktion Zeichnen fehlt.",
+          "expected_behavior": "Das Hinzufügen von \"Zeichnungen\" (Punkte, Linien, Flächen und Texten) soll in Zukunft wieder möglich sein, um selbst erstelle Pläne besser kennzeichnen zu können.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "created_at": "2026-09-08T06:41:34Z",
+          "closed_at": "2026-10-20T14:46:08Z",
+          "updated_at": "2026-10-20T14:47:16Z"
+        },
+        {
           "number": 49,
           "title": "Drucken: Druckmassstab #2",
           "url": "https://github.com/awn-be/vertigis_admin/issues/49",
@@ -674,6 +620,24 @@
           "created_at": "2026-09-14T10:08:22Z",
           "closed_at": "2026-09-30T12:30:06Z",
           "updated_at": "2026-10-01T08:35:13Z"
+        },
+        {
+          "number": 57,
+          "title": "Excel-Export: Spalten \"geometry\" und \"objectid\" weglassen",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/57",
+          "description": "Momentanes Verhalten: Wenn man Daten aus Suche ins Excel kopiert, sind Geometry und object-ID die ersten Spalten. Für die Benutzer irrelevant. Erwartetes Verhalten: Können diese weggelassen oder ans Ende der Tabelle verschoben werden?",
+          "current_behavior": "Wenn man Daten aus Suche ins Excel kopiert, sind Geometry und object-ID die ersten Spalten. Für die Benutzer irrelevant.",
+          "expected_behavior": "Können diese weggelassen oder ans Ende der Tabelle verschoben werden?",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "created_at": "2026-09-30T07:36:48Z",
+          "closed_at": "2026-10-20T07:30:54Z",
+          "updated_at": "2026-10-20T07:42:18Z"
         },
         {
           "number": 25,
@@ -782,6 +746,42 @@
           "created_at": "2026-09-08T09:23:02Z",
           "closed_at": "2026-10-13T08:13:53Z",
           "updated_at": "2026-10-13T08:13:53Z"
+        },
+        {
+          "number": 40,
+          "title": "Koordinatensuche: Nachkommastellen",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/40",
+          "description": "Momentanes Verhalten: Koordinatenabfrage mit 10 Kommastellen ist unübersichtlich/nicht nötig Erwartetes Verhalten: Koordinatenabfrage ohne Kommastellen.",
+          "current_behavior": "Koordinatenabfrage mit 10 Kommastellen ist unübersichtlich/nicht nötig",
+          "expected_behavior": "Koordinatenabfrage ohne Kommastellen.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Low",
+          "priority": "Niedrig",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "open",
+          "created_at": "2026-09-08T06:43:36Z",
+          "closed_at": null,
+          "updated_at": "2026-10-20T07:27:49Z"
+        },
+        {
+          "number": 63,
+          "title": "Labeling Grundstücke",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/63",
+          "description": "Momentanes Verhalten: Die Grundstücke mit vier Zahlen werden mit Tausendertrennzeichen dargestellt Erwartetes Verhalten: Die Grundstücke mit vier Zahlen werden ohne Tausendertrennzeichen dargestellt",
+          "current_behavior": "Die Grundstücke mit vier Zahlen werden mit Tausendertrennzeichen dargestellt",
+          "expected_behavior": "Die Grundstücke mit vier Zahlen werden ohne Tausendertrennzeichen dargestellt",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "Low",
+          "priority": "Niedrig",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "created_at": "2026-10-14T06:57:23Z",
+          "closed_at": "2026-10-20T07:18:41Z",
+          "updated_at": "2026-10-20T07:18:41Z"
         },
         {
           "number": 46,
