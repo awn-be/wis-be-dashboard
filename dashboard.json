@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T00:41:04.415882+00:00",
+  "generated_at": "2026-10-24T00:43:47.603077+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -62,6 +62,24 @@
           "created_at": "2026-09-08T06:27:53Z",
           "closed_at": null,
           "updated_at": "2026-10-20T07:32:59Z"
+        },
+        {
+          "number": 67,
+          "title": "Erfassungsmaske verschwindet, wenn auf Karte geklickt wird",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/67",
+          "description": "Momentanes Verhalten: Erfassungsmaske verschwindet, wenn auf Karte geklickt wird Erwartetes Verhalten: Erfassungsmaske soll offen bleiben, wenn auf Karte geklickt wird",
+          "current_behavior": "Erfassungsmaske verschwindet, wenn auf Karte geklickt wird",
+          "expected_behavior": "Erfassungsmaske soll offen bleiben, wenn auf Karte geklickt wird",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "created_at": "2026-10-23T08:44:49Z",
+          "closed_at": null,
+          "updated_at": "2026-10-23T08:45:35Z"
         },
         {
           "number": 41,
@@ -479,7 +497,7 @@
         },
         {
           "number": 22,
-          "title": "Erfassungsmaske verschwindet",
+          "title": "Erfassungsmaske verschwindet, wenn auf TOC gewechselt wird",
           "url": "https://github.com/awn-be/vertigis_admin/issues/22",
           "description": "Momentanes Verhalten: Erfassungsmaske verschwindet, wenn auf den TOC gewechselt wird, um z. B. einen zusatzlichen Layer einzubinden, welcher als Fangprofil verwendet werden muss. Erwartetes Verhalten: Erfassungsmaske soll offen bleiben beim Wechsel auf den TOC.",
           "current_behavior": "Erfassungsmaske verschwindet, wenn auf den TOC gewechselt wird, um z. B. einen zusatzlichen Layer einzubinden, welcher als Fangprofil verwendet werden muss.",
@@ -493,7 +511,7 @@
           "issue_state": "closed",
           "created_at": "2026-08-12T08:51:59Z",
           "closed_at": "2026-08-19T12:28:14Z",
-          "updated_at": "2026-10-01T08:35:41Z"
+          "updated_at": "2026-10-23T08:43:27Z"
         },
         {
           "number": 13,
