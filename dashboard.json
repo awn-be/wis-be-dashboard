@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T02:05:41.428673+00:00",
+  "generated_at": "2026-10-27T07:32:16.317237+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -206,6 +206,24 @@
           "created_at": "2026-10-15T13:58:03Z",
           "closed_at": null,
           "updated_at": "2026-10-20T07:17:00Z"
+        },
+        {
+          "number": 68,
+          "title": "LiDAR-Aufnahmen als Dienst anbieten",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/68",
+          "description": "Momentanes Verhalten: Aktuell sind die LiDAR-Aufnahmen sowie sämtliche TBK-Aufnahmen (z. B. NdH-Anteil) noch nicht sichtbar. Die entsprechenden Layer können zwar über die ESRI-Plattform hinzugefügt werden, sind dort jedoch kryptisch beschriftet und die Legenden werden nicht korrekt dargestellt. Erwartetes Verhalten: LiDAR-Aufnahmen stehen als Dienst (lesbar) zum Importieren zur Verfügung. Für die Kontrolle der FS-Punkte, beispielsweise ob diese den geforderten NdH-Anteil erfüllen, sind die TBK-Dateien bzw. generell die Waldinformationen aus dem alten WIS-BE notwendig.",
+          "current_behavior": "Aktuell sind die LiDAR-Aufnahmen sowie sämtliche TBK-Aufnahmen (z. B. NdH-Anteil) noch nicht sichtbar. Die entsprechenden Layer können zwar über die ESRI-Plattform hinzugefügt werden, sind dort jedoch kryptisch beschriftet und die Legenden werden nicht korrekt dargestellt.",
+          "expected_behavior": "LiDAR-Aufnahmen stehen als Dienst (lesbar) zum Importieren zur Verfügung. Für die Kontrolle der FS-Punkte, beispielsweise ob diese den geforderten NdH-Anteil erfüllen, sind die TBK-Dateien bzw. generell die Waldinformationen aus dem alten WIS-BE notwendig.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "created_at": "2026-10-27T06:47:54Z",
+          "closed_at": null,
+          "updated_at": "2026-10-27T06:47:54Z"
         },
         {
           "number": 29,
@@ -879,7 +897,7 @@
           "issue_state": "open",
           "created_at": "2026-09-08T06:46:38Z",
           "closed_at": null,
-          "updated_at": "2026-09-29T14:29:08Z"
+          "updated_at": "2026-10-27T07:29:21Z"
         },
         {
           "number": 10,
@@ -897,7 +915,25 @@
           "issue_state": "open",
           "created_at": "2026-09-14T10:03:22Z",
           "closed_at": null,
-          "updated_at": "2026-09-29T11:46:37Z"
+          "updated_at": "2026-10-27T07:29:49Z"
+        },
+        {
+          "number": 8,
+          "title": "Berechtigungen der Kontroller",
+          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/8",
+          "description": "Erwartetes Verhalten: Ich finde, dass die Kontroller sämtliche Bearbeitungsrechte haben sollten. Teilweise ist es einfacher, einen Förster anzurufen und einen Punkt direkt zu korrigieren, anstatt den Punkt zurückzusetzen, ihn vom Förster anpassen zu lassen und anschliessend erneut zu kontrollieren (z.B. nur weil die Angabe zur Anzahl Bäume fehlt). Ausserdem können Kontroller aktuell keine Waldschaden-Punkte erfassen. Es wäre hilfreich, wenn dies möglich wäre. Wenn ein Förster bei mir im Büro ist, könnten wir bei Bedarf gemeinsam über meinen Account Punkte in seinem Revier erfassen/editieren.",
+          "current_behavior": "",
+          "expected_behavior": "Ich finde, dass die Kontroller sämtliche Bearbeitungsrechte haben sollten. Teilweise ist es einfacher, einen Förster anzurufen und einen Punkt direkt zu korrigieren, anstatt den Punkt zurückzusetzen, ihn vom Förster anpassen zu lassen und anschliessend erneut zu kontrollieren (z.B. nur weil die Angabe zur Anzahl Bäume fehlt). Ausserdem können Kontroller aktuell keine Waldschaden-Punkte erfassen. Es wäre hilfreich, wenn dies möglich wäre. Wenn ein Förster bei mir im Büro ist, könnten wir bei Bedarf gemeinsam über meinen Account Punkte in seinem Revier erfassen/editieren.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Low",
+          "priority": "Niedrig",
+          "status_raw": "Needs clarification",
+          "status": "Weitere Abklärungen nötig",
+          "issue_state": "open",
+          "created_at": "2026-09-14T10:02:15Z",
+          "closed_at": null,
+          "updated_at": "2026-10-27T07:31:07Z"
         },
         {
           "number": 6,
@@ -915,25 +951,7 @@
           "issue_state": "open",
           "created_at": "2026-09-08T06:50:28Z",
           "closed_at": null,
-          "updated_at": "2026-09-23T14:01:56Z"
-        },
-        {
-          "number": 8,
-          "title": "Berechtigungen der Kontroller",
-          "url": "https://github.com/awn-be/vertigis_fschutz_wschad/issues/8",
-          "description": "Erwartetes Verhalten: Ich finde, dass die Kontroller sämtliche Bearbeitungsrechte haben sollten. Teilweise ist es einfacher, einen Förster anzurufen und einen Punkt direkt zu korrigieren, anstatt den Punkt zurückzusetzen, ihn vom Förster anpassen zu lassen und anschliessend erneut zu kontrollieren (z.B. nur weil die Angabe zur Anzahl Bäume fehlt). Ausserdem können Kontroller aktuell keine Waldschaden-Punkte erfassen. Es wäre hilfreich, wenn dies möglich wäre. Wenn ein Förster bei mir im Büro ist, könnten wir bei Bedarf gemeinsam über meinen Account Punkte in seinem Revier erfassen/editieren.",
-          "current_behavior": "",
-          "expected_behavior": "Ich finde, dass die Kontroller sämtliche Bearbeitungsrechte haben sollten. Teilweise ist es einfacher, einen Förster anzurufen und einen Punkt direkt zu korrigieren, anstatt den Punkt zurückzusetzen, ihn vom Förster anpassen zu lassen und anschliessend erneut zu kontrollieren (z.B. nur weil die Angabe zur Anzahl Bäume fehlt). Ausserdem können Kontroller aktuell keine Waldschaden-Punkte erfassen. Es wäre hilfreich, wenn dies möglich wäre. Wenn ein Förster bei mir im Büro ist, könnten wir bei Bedarf gemeinsam über meinen Account Punkte in seinem Revier erfassen/editieren.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": null,
-          "priority": "Nicht zugeordnet",
-          "status_raw": "Needs clarification",
-          "status": "Weitere Abklärungen nötig",
-          "issue_state": "open",
-          "created_at": "2026-09-14T10:02:15Z",
-          "closed_at": null,
-          "updated_at": "2026-09-23T14:01:11Z"
+          "updated_at": "2026-10-27T07:29:31Z"
         },
         {
           "number": 14,
@@ -951,7 +969,7 @@
           "issue_state": "open",
           "created_at": "2026-09-17T12:23:43Z",
           "closed_at": null,
-          "updated_at": "2026-09-29T11:44:17Z"
+          "updated_at": "2026-10-27T07:30:15Z"
         },
         {
           "number": 15,
@@ -969,7 +987,7 @@
           "issue_state": "open",
           "created_at": "2026-09-22T05:30:51Z",
           "closed_at": null,
-          "updated_at": "2026-10-02T06:19:50Z"
+          "updated_at": "2026-10-27T07:30:29Z"
         },
         {
           "number": 19,
@@ -987,7 +1005,7 @@
           "issue_state": "open",
           "created_at": "2026-09-28T09:49:17Z",
           "closed_at": null,
-          "updated_at": "2026-09-29T14:36:42Z"
+          "updated_at": "2026-10-27T07:27:43Z"
         },
         {
           "number": 11,
@@ -1005,7 +1023,7 @@
           "issue_state": "open",
           "created_at": "2026-09-14T10:58:10Z",
           "closed_at": null,
-          "updated_at": "2026-09-23T14:00:20Z"
+          "updated_at": "2026-10-27T07:30:05Z"
         },
         {
           "number": 9,
