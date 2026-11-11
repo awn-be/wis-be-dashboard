@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T04:38:14.931279+00:00",
+  "generated_at": "2026-11-11T02:47:57.353504+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -80,24 +80,6 @@
           "created_at": "2026-09-08T06:27:53Z",
           "closed_at": null,
           "updated_at": "2026-10-20T07:32:59Z"
-        },
-        {
-          "number": 67,
-          "title": "Erfassungsmaske verschwindet, wenn auf Karte geklickt wird",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/67",
-          "description": "Momentanes Verhalten: Erfassungsmaske verschwindet, wenn auf Karte geklickt wird Erwartetes Verhalten: Erfassungsmaske soll offen bleiben, wenn auf Karte geklickt wird",
-          "current_behavior": "Erfassungsmaske verschwindet, wenn auf Karte geklickt wird",
-          "expected_behavior": "Erfassungsmaske soll offen bleiben, wenn auf Karte geklickt wird",
-          "type_raw": "Bug",
-          "type": "Fehler",
-          "priority_raw": "High",
-          "priority": "Hoch",
-          "status_raw": "Todo",
-          "status": "Geplant",
-          "issue_state": "open",
-          "created_at": "2026-10-23T08:44:49Z",
-          "closed_at": null,
-          "updated_at": "2026-10-23T08:45:35Z"
         },
         {
           "number": 41,
@@ -386,6 +368,24 @@
           "created_at": "2026-07-28T12:23:14Z",
           "closed_at": null,
           "updated_at": "2026-10-13T08:51:11Z"
+        },
+        {
+          "number": 67,
+          "title": "Erfassungsmaske verschwindet, wenn auf Karte geklickt wird",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/67",
+          "description": "Momentanes Verhalten: Erfassungsmaske verschwindet, wenn auf Karte geklickt wird Erwartetes Verhalten: Erfassungsmaske soll offen bleiben, wenn auf Karte geklickt wird",
+          "current_behavior": "Erfassungsmaske verschwindet, wenn auf Karte geklickt wird",
+          "expected_behavior": "Erfassungsmaske soll offen bleiben, wenn auf Karte geklickt wird",
+          "type_raw": "Bug",
+          "type": "Fehler",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Ready to test",
+          "status": "Bereit zum Testen",
+          "issue_state": "open",
+          "created_at": "2026-10-23T08:44:49Z",
+          "closed_at": null,
+          "updated_at": "2026-11-10T09:39:06Z"
         },
         {
           "number": 38,
