@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T13:37:38.253794+00:00",
+  "generated_at": "2026-11-19T15:53:07.502578+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -352,42 +352,6 @@
           "updated_at": "2026-10-13T08:51:11Z"
         },
         {
-          "number": 28,
-          "title": "Aktuelle Koordinate (Mauszeiger) soll sichtbar sein",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/28",
-          "description": "Momentanes Verhalten: Die Koordinaten sind nur über das Werkzeug \"Koordinaten suchen\" und nicht \"live\" einsehbar. Erwartetes Verhalten: Es sollen beim Bewegen des Mauszeigers auf der Karte \"live\" die aktuellen Koordinaten anzeigt werden, analog dem jetzigen WIS-BE oder anderern Plattformen wie map.geo.admin.ch.",
-          "current_behavior": "Die Koordinaten sind nur über das Werkzeug \"Koordinaten suchen\" und nicht \"live\" einsehbar.",
-          "expected_behavior": "Es sollen beim Bewegen des Mauszeigers auf der Karte \"live\" die aktuellen Koordinaten anzeigt werden, analog dem jetzigen WIS-BE oder anderern Plattformen wie map.geo.admin.ch.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "Medium",
-          "priority": "Mittel",
-          "status_raw": "Ready to test",
-          "status": "Bereit zum Testen",
-          "issue_state": "open",
-          "created_at": "2026-08-31T11:39:21Z",
-          "closed_at": null,
-          "updated_at": "2026-11-05T10:47:51Z"
-        },
-        {
-          "number": 29,
-          "title": "Massstab soll einsehbar sein",
-          "url": "https://github.com/awn-be/vertigis_admin/issues/29",
-          "description": "Momentanes Verhalten: In der Kartenapplikation ist kein Referenzmassstab vorhanden. Erwartetes Verhalten: Es soll der aktuelle Referenzmassstab, oder besser, eine Massstabsleiste angzeigt werden, analog dem jetzigen WIS-BE oder anderern Plattformen wie map.geo.admin.ch.",
-          "current_behavior": "In der Kartenapplikation ist kein Referenzmassstab vorhanden.",
-          "expected_behavior": "Es soll der aktuelle Referenzmassstab, oder besser, eine Massstabsleiste angzeigt werden, analog dem jetzigen WIS-BE oder anderern Plattformen wie map.geo.admin.ch.",
-          "type_raw": "Feature",
-          "type": "Funktion",
-          "priority_raw": "Medium",
-          "priority": "Mittel",
-          "status_raw": "Ready to test",
-          "status": "Bereit zum Testen",
-          "issue_state": "open",
-          "created_at": "2026-08-31T11:43:05Z",
-          "closed_at": null,
-          "updated_at": "2026-11-03T10:24:01Z"
-        },
-        {
           "number": 69,
           "title": "3D-Messen-Werkzeug: Karte während des Erfassens mit der Maus verschieben",
           "url": "https://github.com/awn-be/vertigis_admin/issues/69",
@@ -640,6 +604,24 @@
           "updated_at": "2026-11-18T07:57:14Z"
         },
         {
+          "number": 28,
+          "title": "Aktuelle Koordinate (Mauszeiger) soll sichtbar sein",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/28",
+          "description": "Momentanes Verhalten: Die Koordinaten sind nur über das Werkzeug \"Koordinaten suchen\" und nicht \"live\" einsehbar. Erwartetes Verhalten: Es sollen beim Bewegen des Mauszeigers auf der Karte \"live\" die aktuellen Koordinaten anzeigt werden, analog dem jetzigen WIS-BE oder anderern Plattformen wie map.geo.admin.ch.",
+          "current_behavior": "Die Koordinaten sind nur über das Werkzeug \"Koordinaten suchen\" und nicht \"live\" einsehbar.",
+          "expected_behavior": "Es sollen beim Bewegen des Mauszeigers auf der Karte \"live\" die aktuellen Koordinaten anzeigt werden, analog dem jetzigen WIS-BE oder anderern Plattformen wie map.geo.admin.ch.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "created_at": "2026-08-31T11:39:21Z",
+          "closed_at": "2026-11-19T15:46:34Z",
+          "updated_at": "2026-11-19T15:46:34Z"
+        },
+        {
           "number": 49,
           "title": "Drucken: Druckmassstab #2",
           "url": "https://github.com/awn-be/vertigis_admin/issues/49",
@@ -674,6 +656,24 @@
           "created_at": "2026-09-30T07:36:48Z",
           "closed_at": "2026-10-20T07:30:54Z",
           "updated_at": "2026-10-20T07:42:18Z"
+        },
+        {
+          "number": 29,
+          "title": "Massstab soll einsehbar sein",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/29",
+          "description": "Momentanes Verhalten: In der Kartenapplikation ist kein Referenzmassstab vorhanden. Erwartetes Verhalten: Es soll der aktuelle Referenzmassstab, oder besser, eine Massstabsleiste angzeigt werden, analog dem jetzigen WIS-BE oder anderern Plattformen wie map.geo.admin.ch.",
+          "current_behavior": "In der Kartenapplikation ist kein Referenzmassstab vorhanden.",
+          "expected_behavior": "Es soll der aktuelle Referenzmassstab, oder besser, eine Massstabsleiste angzeigt werden, analog dem jetzigen WIS-BE oder anderern Plattformen wie map.geo.admin.ch.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "created_at": "2026-08-31T11:43:05Z",
+          "closed_at": "2026-11-19T15:46:56Z",
+          "updated_at": "2026-11-19T15:46:56Z"
         },
         {
           "number": 25,
