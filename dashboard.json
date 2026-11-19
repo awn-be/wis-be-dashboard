@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T04:12:44.894081+00:00",
+  "generated_at": "2026-11-19T13:37:38.253794+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -169,7 +169,7 @@
           "issue_state": "open",
           "created_at": "2026-10-27T06:47:54Z",
           "closed_at": null,
-          "updated_at": "2026-10-27T07:50:49Z"
+          "updated_at": "2026-11-19T12:57:54Z"
         },
         {
           "number": 33,
@@ -386,6 +386,24 @@
           "created_at": "2026-08-31T11:43:05Z",
           "closed_at": null,
           "updated_at": "2026-11-03T10:24:01Z"
+        },
+        {
+          "number": 69,
+          "title": "3D-Messen-Werkzeug: Karte während des Erfassens mit der Maus verschieben",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/69",
+          "description": "Momentanes Verhalten: - Neu ist ein 3D-Messen-Werkzeug (Profillinie inkl. Kennwerte) verfügbar - Das Werkzeug befindet sich im unteren Bildschirmbereich in der Messen-Werkzeugleiste Erwartetes Verhalten: Wäre es möglich, dass die Karte mit der Maus verschoben werden kann, wenn das 3D-Messwerkzeug verwendet wird?",
+          "current_behavior": "- Neu ist ein 3D-Messen-Werkzeug (Profillinie inkl. Kennwerte) verfügbar - Das Werkzeug befindet sich im unteren Bildschirmbereich in der Messen-Werkzeugleiste",
+          "expected_behavior": "Wäre es möglich, dass die Karte mit der Maus verschoben werden kann, wenn das 3D-Messwerkzeug verwendet wird?",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "High",
+          "priority": "Hoch",
+          "status_raw": "Done",
+          "status": "Erledigt",
+          "issue_state": "closed",
+          "created_at": "2026-11-19T12:16:22Z",
+          "closed_at": "2026-11-19T13:35:52Z",
+          "updated_at": "2026-11-19T13:35:52Z"
         },
         {
           "number": 4,
