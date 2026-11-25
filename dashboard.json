@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T05:27:05.112235+00:00",
+  "generated_at": "2026-11-25T08:08:33.857234+00:00",
   "source": "GitHub",
   "prototype": false,
   "sections": [
@@ -136,6 +136,24 @@
           "updated_at": "2026-10-01T08:30:23Z"
         },
         {
+          "number": 71,
+          "title": "Erstellen eines Kartendrucks dauert lange",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/71",
+          "description": "Momentanes Verhalten: Zusätzlich dauert das erstellen einer Druckvorlage sehr lange (nicht nur beim ersten mal sondern eigentlich immer). Erwartetes Verhalten: Auch wäre es super, wenn man nicht so lange aufs Drucken warten müsste.",
+          "current_behavior": "Zusätzlich dauert das erstellen einer Druckvorlage sehr lange (nicht nur beim ersten mal sondern eigentlich immer).",
+          "expected_behavior": "Auch wäre es super, wenn man nicht so lange aufs Drucken warten müsste.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "created_at": "2026-11-25T08:06:46Z",
+          "closed_at": null,
+          "updated_at": "2026-11-25T08:06:58Z"
+        },
+        {
           "number": 66,
           "title": "Hangneigung als importierbarer Layer",
           "url": "https://github.com/awn-be/vertigis_admin/issues/66",
@@ -170,6 +188,24 @@
           "created_at": "2026-10-27T06:47:54Z",
           "closed_at": null,
           "updated_at": "2026-11-19T12:57:54Z"
+        },
+        {
+          "number": 70,
+          "title": "Parzellengrenzen nicht sichtbar bei grossen Waldbesitzern",
+          "url": "https://github.com/awn-be/vertigis_admin/issues/70",
+          "description": "Momentanes Verhalten: Die Parzellengrenzen werden erst angezeigt, wenn man sehr nah in die Karte heranzoomt. Bei grösseren Waldbesitzern ist es so sehr schwierig den Ausschnitt genau zu definieren, wenn man Übersichtskarten drucken möchte, da man die Grenzen nicht sieht (obwohl sie dann bis zu einem grösseren Massstab trotzdem gedruckt werden). Erwartetes Verhalten: Parzellengrenzen sollten über allen Zoomstufen angezeigt werden. Oder zumindest bis zu einer viel grösseren Ansicht. Wenn man diese Grenzen nicht braucht, kann man den Layer ja deaktivieren.",
+          "current_behavior": "Die Parzellengrenzen werden erst angezeigt, wenn man sehr nah in die Karte heranzoomt. Bei grösseren Waldbesitzern ist es so sehr schwierig den Ausschnitt genau zu definieren, wenn man Übersichtskarten drucken möchte, da man die Grenzen nicht sieht (obwohl sie dann bis zu einem grösseren Massstab trotzdem gedruckt werden).",
+          "expected_behavior": "Parzellengrenzen sollten über allen Zoomstufen angezeigt werden. Oder zumindest bis zu einer viel grösseren Ansicht. Wenn man diese Grenzen nicht braucht, kann man den Layer ja deaktivieren.",
+          "type_raw": "Feature",
+          "type": "Funktion",
+          "priority_raw": "Medium",
+          "priority": "Mittel",
+          "status_raw": "Todo",
+          "status": "Geplant",
+          "issue_state": "open",
+          "created_at": "2026-11-25T08:04:00Z",
+          "closed_at": null,
+          "updated_at": "2026-11-25T08:04:20Z"
         },
         {
           "number": 33,
